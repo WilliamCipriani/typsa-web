@@ -1,0 +1,41 @@
+
+.head_title {
+  content: "";
+  background-image: url('/imagen/consorcio/25dd93d8e12b4a37db5bfc826d95396d.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.espacio {
+  background-color: #E62C1E;
+  height: 100px;
+  color: #fff;
+}
+
+.title {
+  color: #212121;
+  font-size: 50px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  margin-bottom: 0; /* Elimina el margen inferior del título */
+  margin-top: 0; /* Elimina el margen superior del título */
+  margin-right: 10px; 
+}
+
+.barra {
+  border: none; 
+  background-color: #8E1A02; 
+  height: 8px; 
+  width: 10%; 
+  
+}
+
+   /* Cuando la pantalla tiene 576px de ancho o menos */
+   @media (max-width: 576px) {
+    .subtitle {
+      font-size: 1rem; /* Tamaño de fuente aún más pequeño para pantallas pequeñas */
+    }
+  }
+

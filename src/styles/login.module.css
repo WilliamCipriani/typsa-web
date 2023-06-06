@@ -1,0 +1,30 @@
+.passwordToggle {
+    position: absolute;
+    top: 87%;
+    right: 0;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    -webkit-transform: translateY(-75%);
+    -moz-transform: translateY(-75%);
+    -ms-transform: translateY(-75%);
+    -o-transform: translateY(-75%);
+  }
+  
+  .passwordToggle svg {
+    fill: #777;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .passwordToggle:focus svg,
+  .passwordToggle:hover svg {
+    fill: #333;
+  }
+
+  .passwordIcon {
+    font-size: 20px;
+    color: #ccc;
+  }

@@ -1,0 +1,60 @@
+.head_title {
+    background-image: url('/imagen/ab948dcdaa5a84786c2a5beb86496d42.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+  }
+  
+  .nav_menu {
+    width: 200px;
+    height: 200px;
+    top: 100%;
+    transform: translateY(-70px);
+  }
+  
+  .nav_menu_item {
+    top: 100%;
+    transform: translateY(-45px);
+    padding: 5px 30px 10px ;
+  }
+  
+  .title {
+    color: #fff;
+    font-size: 60px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+  
+  }
+  
+  .barra {
+    border: none; 
+    background-color: #8E1A02; 
+    height: 8px; 
+    width: 10%; 
+    margin: 0 auto;
+  }
+  
+  .spam {
+    color: #fff; 
+    font-size: 17px;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 1.56;
+  }
+  
+  .espacio {
+    background-color: #fdeae9;
+    height: 100px;
+  }
+  
+  .video {
+    background-color: #e62d1f;
+  }
+
+     /* Cuando la pantalla tiene 576px de ancho o menos */
+     @media (max-width: 576px) {
+      .subtitle {
+        font-size: 1rem; /* Tamaño de fuente aún más pequeño para pantallas pequeñas */
+      }
+    }

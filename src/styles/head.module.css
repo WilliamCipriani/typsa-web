@@ -1,0 +1,12 @@
+.nav_menu {
+    width: 200px;
+    height: 200px;
+    top: 100%;
+    transform: translateY(-70px);
+  }
+  
+  .nav_menu_item {
+    top: 100%;
+    transform: translateY(-45px);
+    padding: 5px 30px 10px ;
+  }
