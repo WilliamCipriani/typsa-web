@@ -19,7 +19,7 @@ export default function LoginForm() {
       console.log(username, password);
   
   
-      const response = await fetch("http://localhost:5958/auth", {
+      const response = await fetch("backend-typsa-web-production.up.railway.app/auth", {
 
         method: "POST",
         headers: {
