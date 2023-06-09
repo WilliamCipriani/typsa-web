@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Button, Collapse } from "react-bootstrap";
 import Buttons from "@/components/buttons"
 import HeadLogin from '@/components/head-login';
-import FooterPage from '@/components/footer';
+
 
 export default function Equipo() {
 
@@ -59,7 +59,7 @@ export default function Equipo() {
       </div>
 
 
-      <FooterPage />
+      
      </> 
       
     )

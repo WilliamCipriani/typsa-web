@@ -46,10 +46,7 @@ export default function Home() {
             <h3>VIDEO DESTACADO</h3>
           </div>
           <div className=' w-100 pb-5 d-flex justify-content-center'>
-            <video className="ratio ratio-16x9" controls style={{ maxwidth: '958px', height: '559px' }}>
-              <source  src='/video/CORTE-5.mp4' type="video/mp4" />
-                Tu navegador no admite la reproducción de videos.
-            </video>
+              <iframe width="958" height="559" src="https://www.youtube.com/embed/9fjxwX6O9cU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </section>
         <section className='d-flex justify-content-center mt-5 mb-5'>
@@ -73,12 +70,12 @@ export default function Home() {
         <section>
           <div className={`${styles.archivos} ${styles.propuesta} d-flex justify-content-center align-items-center text-white border border-white`} >
             <div className='d-flex justify-content-center align-items-center text-white border border-white w-50 h-50 rounded-2'>
-              <Link className={`${styles.text} text-decoration-none`} href='/'>Ofertas</Link>
+              <Link className={`${styles.text} text-decoration-none`} href='/login'>Ofertas</Link>
             </div>
           </div>
           <div className={`${styles.archivos} ${styles.ppt} d-flex justify-content-center align-items-center text-white border border-white`} >
             <div className='d-flex justify-content-center align-items-center text-white border border-danger w-50 h-50 rounded-2'>
-              <Link className={`${styles.text_1} text-decoration-none`}  target='_blank' href='chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://typsa.pe/Docs/2023%20Typsa-Peru.pdf'>Descargar PDF</Link>
+              <Link className={`${styles.text_1} text-decoration-none`}  target='_blank' href='https://drive.google.com/file/d/1didXatPn3m_8hi2PO7gZMNPUmyuFdTto/view?usp=sharing= 1bxjr0WHMOb6b3CN4B662e4XimRT2Lviu'>Descargar PDF</Link>
             </div>
           </div>
           <div className={`${styles.archivos} ${styles.propuesta} d-flex justify-content-center align-items-center text-white border border-white`} >
