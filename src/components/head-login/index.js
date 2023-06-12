@@ -19,7 +19,7 @@ export default function HeadLogin() {
         localStorage.removeItem('id');
         localStorage.removeItem('ally-supports-cache');
         // then redirect to login page
-        router.push('/index');
+        router.push('/');
     }
     
     useEffect(() => {

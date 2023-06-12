@@ -1,0 +1,8 @@
+.divisor {
+    border-right: 1px solid rgba(128, 128, 128, 0.5);;
+    padding-right: 50px; /* Añade un padding para dar algo de espacio entre el borde y el contenido */
+}
+
+.divisor + div{
+    padding-left: 50px;
+}

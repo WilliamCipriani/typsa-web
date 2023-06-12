@@ -17,16 +17,25 @@ export default function HeadPage() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-            <Nav className="me-auto ">
-              <NavDropdown title="Inicio" id="basic-nav-dropdown">
+            <Nav className="me-auto d-flex">
+              <NavDropdown title="Inicio"  id="basic-nav-dropdown" className='mx-2'>
                 <NavDropdown.Item href="/quienes-somos">Quiénes somos</NavDropdown.Item>
                 <NavDropdown.Item href="/confiar-typsa">Confiar en TYPSA</NavDropdown.Item>
                 <NavDropdown.Item href="/typsa-peru">TYPSA - PERÚ</NavDropdown.Item>
                 <NavDropdown.Item href="/typsa-mundo">TYPSA en el mundo</NavDropdown.Item>
                 <NavDropdown.Item href="/capacidad">Capacidades Digitales</NavDropdown.Item>
               </NavDropdown>
+
+              <NavDropdown title="Proyecto"  id="basic-nav-dropdown" className='mx-2'>
+                <NavDropdown.Item href="/quienes-somos">Chiclayo</NavDropdown.Item>
+              </NavDropdown>
+
               
-              <Nav.Link href="/login" className="btn border-0">
+              <Nav.Link href="/contacto" className='mx-2' >
+                Contacto
+              </Nav.Link>
+              
+              <Nav.Link href="/login" className='mx-2'>
                 Oferta
               </Nav.Link> 
               

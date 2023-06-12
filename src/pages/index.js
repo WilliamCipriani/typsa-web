@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import HeadPage from '../components/head'
 import styles from '@/styles/index.module.css'
+import { Carousel } from 'react-responsive-carousel'
 
 
 export default function Home() {
@@ -11,13 +12,40 @@ export default function Home() {
   return (
     <>
     <HeadPage />   
+    <Carousel
+      showThumbs={false}
+      showStatus={false}
+      infiniteLoop={true}
+      autoPlay={true}
+    >
+      <div className={`${styles.head_title} `}>
+        <img className={`${styles.head_img} d-block w-100`} src="/imagen/inicio/240a6dcdcaa61371fb590740c0dc3091.jpg" alt="background" />
+        <div className={styles.text_container}>
+          <h1 className={`${styles.title} mb-1`}>TYPSA - PERÚ</h1>
+          <hr className={`${styles.barra} mb-4 fw-light`}/>
+          <span className={`${styles.spam} mb-1 fs-4`}>Te damos la bienvenida al portal de TYPSA-PERÚ</span>
+        </div>
+      </div>
+      <div className={`${styles.head_title} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
+        <Image className={`${styles.head_img} d-block w-100`} src="/imagen/0e653d0cbb622a06ee097a6475413dbc.jpg" alt="background" width={450} height={550} />
+        <div className={styles.text_container}>
+          <h1 className={`${styles.title} mb-1`}>TYPSA - PERÚ</h1>
+          <hr className={`${styles.barra} mb-4 fw-light`}/>
+          <span className={`${styles.spam} mb-1 fs-4`}>Te damos la bienvenida al portal de TYPSA-PERÚ</span>
+        </div>
+      </div>
+      <div className={`${styles.head_title} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
+        <Image className={`${styles.head_img} d-block w-100`} src="/imagen/consorcio/2fa4c3162f975f01cea118c34dbea563.jpg" alt="background"  width={450} height={550}/>
+        <div className={styles.text_container}>
+          <h1 className={`${styles.title} mb-1`}>TYPSA - PERÚ</h1>
+          <hr className={`${styles.barra} mb-4 fw-light`}/>
+          <span className={`${styles.spam} mb-1 fs-4`}>Te damos la bienvenida al portal de TYPSA-PERÚ</span>
+        </div>
+      </div>
+    </Carousel>
 
-    <div className={`${styles.head_title} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-      <h1 className={`${styles.title} mb-1`}>TYPSA - PERÚ</h1>
-      <hr className={`${styles.barra} mb-4 fw-light`}/>
-      <span className={`${styles.spam} mb-1 fs-4`}>Te damos la bienvenida al portal de TYPSA-PERÚ</span>
-    </div>
-  
+
+      
     <div className='container-fluid p-0'>
         <div className={`${styles.espacio}`} ></div>
 
@@ -75,7 +103,7 @@ export default function Home() {
           </div>
           <div className={`${styles.archivos} ${styles.ppt} d-flex justify-content-center align-items-center text-white border border-white`} >
             <div className='d-flex justify-content-center align-items-center text-white border border-danger w-50 h-50 rounded-2'>
-              <Link className={`${styles.text_1} text-decoration-none`}  target='_blank' href='https://drive.google.com/file/d/1didXatPn3m_8hi2PO7gZMNPUmyuFdTto/view?usp=sharing= 1bxjr0WHMOb6b3CN4B662e4XimRT2Lviu'>Descargar PDF</Link>
+              <Link className={`${styles.text_1} text-decoration-none`}  target='_blank' href='https://drive.google.com/file/d/1didXatPn3m_8hi2PO7gZMNPUmyuFdTto/view?usp=sharing= 1bxjr0WHMOb6b3CN4B662e4XimRT2Lviu'>Descargar Presentación Typsa-Perú</Link>
             </div>
           </div>
           <div className={`${styles.archivos} ${styles.propuesta} d-flex justify-content-center align-items-center text-white border border-white`} >

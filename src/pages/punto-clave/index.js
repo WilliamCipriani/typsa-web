@@ -20,7 +20,7 @@ export default function QuienesSomos() {
           <section >
        
 
-        <div className="className='container-fluid p-0 mt-4">
+        <div className="container-fluid p-0 mt-4">
             <div className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row">
                 <div className="d-flex justify-content-center  mb-5">
                     <Image src='/imagen/punto-clave/665b698165d64e69dc990c53ef7bb9d8.jpg' className="img-fluid" width={532} height={261} alt="typsa"/>
