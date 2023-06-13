@@ -74,7 +74,7 @@ export default function Home() {
             <h3>VIDEO DESTACADO</h3>
           </div>
           <div className=' w-100 pb-5 d-flex justify-content-center'>
-              <iframe width="958" height="559" src="https://www.youtube.com/embed/9fjxwX6O9cU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe  width="958" height="559" src="https://www.youtube.com/embed/9fjxwX6O9cU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
           </div>
         </section>
         <section className='d-flex justify-content-center mt-5 mb-5'>
