@@ -31,7 +31,7 @@ export default function HeadLogin() {
         <>
             <div className='d-flex justify-content-end align-items-center'>
                 <h2 className=" fs-5 fw-bolder m-3"> Bienvenido(a), {username}</h2>
-                <Nav.Link href="/login" className="btn bg-dark fs-4  m-4 text-light mr-5" style={{minWidth: '70px'}} onClick={handleLogout}>
+                <Nav.Link href="#" className="btn bg-dark fs-4  m-4 text-light mr-5" style={{minWidth: '70px'}} onClick={handleLogout}>
                     Salir
                 </Nav.Link> 
             </div>
