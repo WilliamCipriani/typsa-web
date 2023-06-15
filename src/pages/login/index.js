@@ -19,7 +19,7 @@ export default function LoginForm() {
       console.log(username, password);
   
   
-      const response = await fetch("http://localhost:3030/auth", {
+      const response = await fetch("https://typsaapi.azurewebsites.net/auth", {
 
         method: "POST",
         headers: {
