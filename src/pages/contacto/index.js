@@ -81,7 +81,7 @@ export default function Contacto() {
 
             setFormSubmitted(true);
 
-          await axios.post('http://localhost:3030/api/contact', formData);
+          await axios.post('https://typsaapi.azurewebsites.net/api/contact', formData);
           
           setSuccessMessage('El formulario se envió correctamente');
           setTimeout(() => {

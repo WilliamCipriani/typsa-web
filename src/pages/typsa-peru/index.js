@@ -507,13 +507,9 @@ export default function TypsaPeru() {
                   <li>Tisur (Perú)​​</li>
                 </ul>
               </div>
-            </div>
-
-              
+            </div>     
           </section>
-              
-      
-        
+
       </>
     )
   }
