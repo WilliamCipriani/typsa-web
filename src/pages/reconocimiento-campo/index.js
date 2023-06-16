@@ -21,9 +21,10 @@ export default function QuienesSomos() {
 
         <div className="d-flex justify-content-center mt-4 mb-5">
             <div className=" w-100" style={{maxWidth: '1154px'}} >
-                <video className="ratio ratio-4x3" controls>
-                    <source src='/video/TYPSA-Campo.mp4' type="video/mp4" /> 
-                </video>   
+               <div className=' w-100 pb-5 d-flex justify-content-center mt-5'>
+                <iframe width="958" height="559" src="https://www.youtube.com/embed/4vb4RpqM8rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
+               </div> 
+         
             </div> 
         </div>
            
