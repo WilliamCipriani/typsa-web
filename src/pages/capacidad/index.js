@@ -19,10 +19,9 @@ export default function CapacidadDigital() {
             <h3 className='fs-1'>Servicios Digitales</h3>
           </div>
           <div className='pb-5' style={{ display: 'flex', justifyContent: 'center' }}>
-            <video controls style={{ width: '958px', height: '559px' }}>
-              <source src='/video/03-ServiciosDigitales.mp4' type="video/mp4" />
-                Tu navegador no admite la reproducción de videos.
-            </video>
+           <div className=' w-100 pb-5 d-flex justify-content-center'>
+            <iframe width="958" height="559" src="https://www.youtube.com/embed/yNdAWd2gbrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+            </div>
           </div>
         </section>
 
@@ -31,10 +30,9 @@ export default function CapacidadDigital() {
             <h3 className='fs-1'>Realidad Aumentada</h3>
           </div>
           <div className='pb-5' style={{ display: 'flex', justifyContent: 'center' }}>
-            <video controls style={{ width: '958px', height: '559px' }}>
-              <source src='/video/3-ADT-RealidadVirtual-C.mp4' type="video/mp4" />
-                Tu navegador no admite la reproducción de videos.
-            </video>
+            <div className=' w-100 pb-5 d-flex justify-content-center'>
+            <iframe width="958" height="559" src="https://www.youtube.com/embed/XRN6NOCEFvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
           </div>
         </section>
 
@@ -43,10 +41,9 @@ export default function CapacidadDigital() {
             <h3 className='fs-1'>Power BI</h3>
           </div>
           <div className='pb-5' style={{ display: 'flex', justifyContent: 'center' }}>
-            <video controls style={{ width: '958px', height: '559px' }}>
-              <source src='/video//07-POWERBI.mp4' type="video/mp4" />
-                Tu navegador no admite la reproducción de videos.
-            </video>
+           <div className=' w-100 pb-5 d-flex justify-content-center'>
+          <iframe width="958" height="559" src="https://www.youtube.com/embed/Te6SBsljmno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
+          </div>
           </div>
         </section>
 
@@ -55,10 +52,9 @@ export default function CapacidadDigital() {
             <h3 className='fs-1'>Big Data</h3>
           </div>
           <div className='pb-5' style={{ display: 'flex', justifyContent: 'center' }}>
-            <video controls style={{ width: '958px', height: '559px' }}>
-              <source src='/video/08-OficinaDelDato.mp4' type="video/mp4" />
-                Tu navegador no admite la reproducción de videos.
-            </video>
+            <div className=' w-100 pb-5 d-flex justify-content-center'>
+          <iframe width="958" height="559" src="https://www.youtube.com/embed/vu1oRMe285s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
+          </div>
           </div>
         </section>
 
