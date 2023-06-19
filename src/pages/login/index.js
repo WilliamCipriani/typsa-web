@@ -1,8 +1,11 @@
+
+import ClipLoader from "react-spinners/ClipLoader";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import styles from '@/styles/login.module.css'
+
 
 
 export default function LoginForm() {
@@ -14,8 +17,12 @@ export default function LoginForm() {
 
     const [passwordVisible, setPasswordVisible] = useState(false);
     const togglePasswordVisibility = () => setPasswordVisible(prevState => !prevState);
+    // Estado para controlar la visualización del spinner de carga
+    const [loading, setLoading] = useState(false);
+    
     const handOnSubmit = async (e) => {
         e.preventDefault();
+        setLoading(true); // Activar el spinner de carga
       console.log(username, password);
   
   
@@ -47,6 +54,7 @@ export default function LoginForm() {
         return;
       } else {
         alert("Usuario y/o Contraseña Incorrecta");
+        setLoading(false); // Desactivar el spinner si ocurre un error
         return;
       }
   
@@ -69,14 +77,14 @@ export default function LoginForm() {
                         <div className="card-body">
                             <h5 className="card-title text-center mb-5 fs-2 fw-bold">Login TYPSA</h5>
                             <form >
-                                <div className=" mb-4  ">
+                                <div className={styles.inputContainer}>
                                         <label htmlFor="text" className="form-label" >Usuario</label>
-                                        <input type="text" className="form-control" id="text"  onChange={(e) => setUsername(e.target.value)}/>
+                                        <input type="text" className={`${styles.control} form-control`} id="text"   onChange={(e) => setUsername(e.target.value)}/>
                                 </div>
-                                <div className="mb-4 position-relative">
+                                <div className={`${styles.inputContainer} mb-4 mt-4 position-relative`}>
                                         <label htmlFor="password" className="form-label">Contraseña</label>
-                                        <div>
-                                            <input type={passwordVisible ? 'text' : 'password'} className="form-control" id="password"  onChange={(e) => setPassword(e.target.value)} />
+                                        
+                                            <input type={passwordVisible ? 'text' : 'password'} className={`${styles.control} form-control`} id="password"  onChange={(e) => setPassword(e.target.value)} />
                                             <button
                                                 type="button"
                                                 className={`password-toggle ${styles.passwordToggle}`}
@@ -87,13 +95,14 @@ export default function LoginForm() {
       </i>
                                             </button>
 
-                                        </div>
+                                        
                                         
                                 </div>
-                                <div className="mb-5 d-grid gap-2 ">
-                                        <button type="submit" className="btn bg-danger text-white fw-bold" onClick={handOnSubmit} >Iniciar Sesión</button>
+                                <div className={`${styles.inputContainer} mb-4 mt-4 position-relative`}>
+                                <button type="submit" className="btn bg-danger text-white fw-bold" onClick={handOnSubmit} >Iniciar Sesión</button>
                                 </div>
-                                <p>
+                                
+                                <p className={`${styles.inputContainer}`}>
                                 Si olvidó su contraseña contacte a <span className='text-danger'>postmaster@typsa.com</span>
                                 </p>
                             </form>

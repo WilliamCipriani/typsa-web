@@ -28,3 +28,25 @@
     font-size: 20px;
     color: #ccc;
   }
+
+
+  @media only screen and (max-width: 413px) {
+    .inputContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .control {
+      
+      width: 80%;  /* reduce the height of the inputs */
+      font-size: 0.8rem;  /* reduce the font-size in the inputs */
+    }
+  
+    .btn_session {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 80%; /* reduce the height of the button */
+      font-size: 0.9rem; /* reduce the font-size in the button */
+    }
+  }

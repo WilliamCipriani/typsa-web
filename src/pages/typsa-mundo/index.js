@@ -1,6 +1,4 @@
-import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import styles from '@/styles/typsa-mundo.module.css'
 import HeadPage from '@/components/head'
 
@@ -9,11 +7,11 @@ export default function TypsaMundo() {
   return (
     <>
       <HeadPage />
-
-      <div className={`${styles.head_title} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
+      <div className={`${styles.head_title} `}>
+        <img className={`${styles.head_img} d-block w-100`} src="/imagen/presencia-mundial/ef659f3a16b88818466f95c83b2bbae7.jpg" alt="background" />
+        <div className={styles.text_container}>
           <h1 className={`${styles.title} mb-1`}>TYPSA en el mundo</h1>
-          <hr className={`${styles.barra} mb-4`}/>
-          <spam className={`${styles.spam} text-white`}>Te damos la bienvenida al portal de TYPSA-PERÚ</spam>
+        </div>
       </div>
 
       <section>

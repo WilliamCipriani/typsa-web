@@ -19,11 +19,11 @@ export default function QuienesSomos() {
         
         <div className='container-fluid p-0 mt-4'>
           <section>
-            <div className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row">
-              <div className="d-flex justify-content-center  mb-5">
+            <div className="d-flex justify-content-center text-center mt-5 mb-4 flex-column flex-lg-row">
+              <div className="d-flex justify-content-center  mb-3">
                 <Image className="img-fluid" src='/imagen/quienes-somos/c4717a095416967f741cb9cfd5afe877.jpg' width={464} height={360} alt="Fundación-Grupo-TYPSA"/>
               </div>
-              <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
+              <div className="text-start ms-5 mb-5" style={{maxWidth: '661px'}}>
                 <h3 className="text-danger fs-2 fw-bolder">Fundación Grupo TYPSA</h3>
                 <p>Desde 1966, apoyando a clientes institucionales, públicos y privados en el desarrollo de proyectos de transporte, agua, edificación, energías renovables y desarrollo rural, desde su concepción hasta su puesta en servicio y operación.</p>
                 <p>Actualmente somos la primera empresa de ingeniería civil en España y la Nº 46 en el mundo (ENR 22) por volumen de exportación.</p>
@@ -31,21 +31,21 @@ export default function QuienesSomos() {
             </div>
 
             <div className="d-flex justify-content-center flex-column flex-lg-row">
-              <div className="d-flex justify-content-center text-center mb-5 me-5">
+              <div className="d-flex justify-content-center text-center mb-3 me-5">
                 <Image className="img-fluid" src='/imagen/quienes-somos/912d548511c9138863da8388252266c5.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA"/>
               </div>
-              <div className="ms-3 mt-3 text-start" style={{maxWidth: '661px'}}>
+              <div className="ms-5 mb-3 text-start" style={{maxWidth: '661px'}}>
                 <h3 className="text-danger fs-2 fw-bolder">TYPSA en el Perú</h3>
                 <p>Typsa abrió su sucursal en Perú en 2001, apostando por la cercanía al cliente y al territorio como la mejor estrategia para comprender sus necesidades y proveer los mejores servicios de ingeniería.</p>
                 <p>Contamos con 1.950 m2 de oficinas en el distrito de Miraflores. Adicionalmente disponemos de un laboratorio de calidad de aguas con 1.000 m2, 125 clientes activos y 30.000 ensayos anuales.</p>             
               </div>
             </div>
 
-            <div className="d-flex justify-content-center flex-column flex-lg-row mb-5">
-              <div className="d-flex justify-content-center text-center mt-5">
+            <div className="d-flex justify-content-center flex-column flex-lg-row mt-4 mb-5">
+              <div className="d-flex justify-content-center text-center mt-5 mb-3">
                 <Image  src='/imagen/quienes-somos/c0d1aee73c3d1e0235a8fd78c93f842c.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA"/>
               </div>
-              <div className="ms-3 text-start ms-5" style={{maxWidth: '661px'}}>
+              <div className="text-start ms-5" style={{maxWidth: '661px'}}>
                 <h3 className="text-danger fs-2 fw-bolder">Visión</h3>
                 <p>Uno de los pilares de nuestra estrategia empresarial es estar cerca de nuestros clientes y conectados al conocimiento global. Esto nos permite aportar soluciones de ingeniería de consultoría de vanguardia y adaptarlas a las capacidades, recursos y prioridades de nuestros clientes.</p>
                 <p><spam className="text-danger fw-bolder">1. Presencia local</spam> Comprender los retos y las capacidades de nuestros clientes y orientarles sobre la mejor manera de realizar sus inversiones.</p>
@@ -58,7 +58,7 @@ export default function QuienesSomos() {
 
           <section>
             <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
-              <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Areas de Negocio</h3>
+              <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Áreas de Negocio</h3>
             </div>
 
             <div className="container mt-5 mb-5 flex-column flex-lg-row">
@@ -465,10 +465,10 @@ export default function QuienesSomos() {
             <div className="'container-fluid">
 
               <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
-                <div className="d-flex justify-content-center align-items-center mt-5 mb-5 mx-5 ms-1">
+                <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
                   <Image className="img-fluid" src='/imagen/quienes-somos/b3e06c8f77540dcf459e1ea5b2c29076.jpg' width={511} height={261} alt="gota"/>
                 </div>
-                <div className="text-start ms-5 mt-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
+                <div className="text-start ms-5 " style={{maxWidth: '450px', overflowY: 'auto'}}>
                   <h4 className="text-danger fs-2 fw-bolder">Presencia en la Sociedad</h4>
                   <spam >Universidad Lago Alberto (UNILAC)</spam>
                   <p>Visita del Presidente de la Fundación TYPSA, D. Pablo Bueno Sainz a Mahagi para inaugurar oficialmente las instalaciones de UNILAC.</p>
@@ -478,7 +478,7 @@ export default function QuienesSomos() {
               </div>
 
               <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
-                <div className="d-flex justify-content-center align-items-center mb-5 mx-5 ms-1" >
+                <div className="d-flex justify-content-center align-items-center mb-3 mx-5 ms-1" >
                   <Image className="img-fluid" src='/imagen/quienes-somos/5a498949ee48fe6ef7d4de22edd42f74.jpg' width={466} height={238} alt="gota"/>
                 </div>
                 <div className="text-start ms-5 " style={{maxWidth: '450px', overflowY: 'auto'}}>
@@ -498,10 +498,10 @@ export default function QuienesSomos() {
               </div>
 
               <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
-                <div className="d-flex justify-content-center align-items-center mb-5" >
+                <div className="d-flex justify-content-center align-items-center mb-3" >
                   <Image className="img-fluid" src='/imagen/quienes-somos/0843e69f5493c6c1ca64e277ef7e6dd5.jpg' width={612} height={261} alt="gota"/>
                 </div>
-                <div className="text-start ms-5 mt-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
+                <div className="text-start ms-5 " style={{maxWidth: '450px', overflowY: 'auto'}}>
                   <h4 className="text-danger fs-2 fw-bolder">Kenia - Diócesis de Garissa</h4>
                   <ul>
                     <li>
@@ -610,14 +610,7 @@ export default function QuienesSomos() {
                    </div>
                 </div>
 
-            
-
             </div>
-
-            
-
-            
-
             
             </div>
 
@@ -629,11 +622,11 @@ export default function QuienesSomos() {
             </div>
 
             <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
-              <div className="d-flex justify-content-center align-items-center mt-5 mb-5 mx-5 ms-1">
+              <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
                 <Image src='/imagen/quienes-somos/ca83ceb86ccb0737658c43be57fb77e9.jpg' width={481} height={270} alt="gota"/>
               </div>
-              <div className="text-center  ms-5 mt-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
-                <p className="mt-5">
+              <div className="text-center fs-4 ms-5 mt-3" style={{maxWidth: '450px', overflowY: 'auto'}}>
+                <p>
                   3.347 profesionales repartidos en 50 oficinas permanente situadas en 25 países.
                 </p>
                 <p>
@@ -650,10 +643,10 @@ export default function QuienesSomos() {
             </div>
 
             <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
-              <div className="d-flex justify-content-center align-items-center mt-5 mb-5 mx-5 ms-1">
+              <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
                 <Image src='/imagen/quienes-somos/384831295f44a88d5efe29a3738427fd.jpg' width={481} height={270} alt="gota"/>
               </div>
-              <div className="text-center  ms-5 mt-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
+              <div className="text-center fs-4  ms-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
                 <p className="mt-4">
                 TYPSA cree en sus equipos e invierte en el desarrollo de su potencial profesional y humano. Ello nos permite garantizar el máximo nivel de implicación  y compromiso con el proyecto, incluso una vez finalizado.
                 </p>
@@ -671,10 +664,10 @@ export default function QuienesSomos() {
             </div>
 
             <div className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row">
-                <div className="d-flex justify-content-center align-items-center mt-5 mb-5 mx-5 ms-1">
+                <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
                   <Image src='/imagen/quienes-somos/872dd646bb6e6c634d5e082eb7e8fc87.jpg' width={481} height={270} alt="gota"/>
                 </div>
-                <div className="text-center ms-5 mt-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
+                <div className="text-center ms-5 fs-4" style={{maxWidth: '450px', overflowY: 'auto'}}>
                   <p className="mt-4">
                     TYPSA, es consciente de la importancia de diseñar infraestructuras sostenibles, por lo que en sus diseños prioriza la incorporación, siempre que sea técnica y económicamente viable, de soluciones constructivas y prácticas sostenibles que aumentan la eficacia y el rendimiento de la infraestructura, de forma que le confieran una mayor resiliencia y adaptabilidad.
                   </p>
@@ -686,7 +679,7 @@ export default function QuienesSomos() {
             <div className="container-fluid">
               <div className="row">
                 <div className="col-lg-6 text-center">
-                  <Image src='/imagen/quienes-somos/d95c947b189d457678d08f80c53984f0.jpg' width={562} height={562} alt="gota"/>
+                  <Image src='/imagen/quienes-somos/d95c947b189d457678d08f80c53984f0.jpg' width={562} height={550} alt="gota"/>
                   <div className="ms-5" style={{width: '562px'}}>
                     <h4 className="text-danger fw-bolder">A Nivel Corporativo</h4>
                     <p className="ms-5" >Compromiso con los Objetivos de Desarrollo Sostenible de Naciones Unidas​ Memoria Anual de Sostenibilidad.​ Cálculo y Registro de la Huella de Carbono Corporativa. Sello “calcula y reduce” en los últimos años. España​ fundación TYPSA: acciones de cooperación al desarrollo en el ámbito de la enseñanza superior (África)</p>
@@ -699,7 +692,6 @@ export default function QuienesSomos() {
                     <p className="ms-5" >Incorporación de criterios para garantizar la sostenibilidad de nuestros diseños:​</p>
                     <p>TYPSA cuenta con Divisiones y Departamentos específicos para el desarrollo de soluciones sostenibles en relación con el ciclo del agua, la energía sostenible, la economía circular y la gestión del medio ambiente, entre otros.​</p>
                     <p>TYPSA cuenta con personal especializado. Más de 50 profesionales  expertos en diferentes aspectos de la sostenibilidad y más de 25 técnicos acreditados en los diferentes sistemas de calificación de la sostenibilidad (BREEAM, CEEQUAL, LEED, ENVISION, etc.)</p>
-                 
                   </div>
                 </div>
               </div>
