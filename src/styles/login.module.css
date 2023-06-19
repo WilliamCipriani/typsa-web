@@ -38,7 +38,7 @@
     }
     .control {
       
-      width: 80%;  /* reduce the height of the inputs */
+      width: 97%;  /* reduce the height of the inputs */
       font-size: 0.8rem;  /* reduce the font-size in the inputs */
     }
   
@@ -46,7 +46,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 80%; /* reduce the height of the button */
+      width: 97%; /* reduce the height of the button */
       font-size: 0.9rem; /* reduce the font-size in the button */
     }
   }
