@@ -8,7 +8,7 @@ export default function TypsaMundo() {
     <>
       <HeadPage />
       <div className={`${styles.head_title} `}>
-        <img className={`${styles.head_img} d-block w-100`} src="/imagen/presencia-mundial/ef659f3a16b88818466f95c83b2bbae7.jpg" alt="background" />
+        <img className={`${styles.head_img} d-block w-100`} src="/imagen/Presencia-mundial/ef659f3a16b88818466f95c83b2bbae7.jpg" alt="background" />
         <div className={styles.text_container}>
           <h1 className={`${styles.title} mb-1`}>TYPSA en el mundo</h1>
         </div>
@@ -48,16 +48,16 @@ export default function TypsaMundo() {
         
         <div>
           <div className='d-flex justify-content-center'>
-              <Image className='img-fluid' src='/imagen/presencia-mundial/e17447e32655efa0dab1b5bc1e45096c.jpg' width={1154} height={1154} alt="Fundación-Grupo-TYPSA"/>
+              <Image className='img-fluid' src='/imagen/Presencia-mundial/e17447e32655efa0dab1b5bc1e45096c.jpg' width={1154} height={1154} alt="Fundación-Grupo-TYPSA"/>
           </div>
           <div className='d-flex justify-content-center'>
-            <Image className='img-fluid' src='/imagen/presencia-mundial/9a9186eb850668dd9658fe1045b5b721.jpg' width={1154} height={757} alt="Fundación-Grupo-TYPSA"/>
+            <Image className='img-fluid' src='/imagen/Presencia-mundial/9a9186eb850668dd9658fe1045b5b721.jpg' width={1154} height={757} alt="Fundación-Grupo-TYPSA"/>
           </div>
           <div className='d-flex justify-content-center text-danger fs-1 fw-bolder mt-5 mb-5'>
             Evolución de la producción, contratación y cartera de trabajo del grupo
           </div>
           <div className='d-flex justify-content-center'>
-            <Image className='d-flex' src='/imagen/presencia-mundial/015d2af9418396617ed33c2d8a62e93a.jpg' width={1154} height={719} alt="Fundación-Grupo-TYPSA"/>
+            <Image className='d-flex' src='/imagen/Presencia-mundial/015d2af9418396617ed33c2d8a62e93a.jpg' width={1154} height={719} alt="Fundación-Grupo-TYPSA"/>
           </div>
           <div className='d-flex justify-content-center text-danger fs-1 fw-bolder mt-5 mb-5'>
             Evolución de la producción, contratación y cartera de trabajo del grupo
