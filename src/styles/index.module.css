@@ -49,14 +49,6 @@
 
 }
 
-.barra {
-  border: none; 
-  background-color: #8E1A02; 
-  height: 8px; 
-  width: 30%; 
-  margin: 0 auto;
-}
-
 .spam {
   color: #fff; 
   font-size: 17px;
@@ -72,6 +64,24 @@
 
 .video {
   background-color: #e62d1f;
+}
+
+.video_container {
+  position: relative;
+  overflow: hidden;
+  width: 958px;
+  width: 556;
+  padding-top: 35.55%; /* Relación de aspecto 16:9 */
+  margin: auto;
+}
+
+.video_container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
 }
 
 .archivos {
@@ -134,5 +144,8 @@
    @media (max-width: 576px) {
     .subtitle {
       font-size: 1rem; /* Tamaño de fuente aún más pequeño para pantallas pequeñas */
+    }
+    .title {
+      font-size: 3rem;
     }
   }

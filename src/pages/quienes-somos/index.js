@@ -9,10 +9,12 @@ export default function QuienesSomos() {
       <>
         <HeadPage />
         
-          <div className={`${styles.head_title} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-            <h1 className={`${styles.title} mb-1`}>Quiénes Somos</h1>
-            <hr className={`${styles.barra} mb-4`}/>
+        <div className={`${styles.head_title} `}>
+          <img className={`${styles.head_img} d-block w-100`} src="/imagen/quienes-somos/c00f08bc47ada05b21008d8de3c45345.jpg" alt="background" />
+          <div className={styles.text_container}>
+            <h1 className={`${styles.title} mb-1`}>Quiénes somos</h1>
           </div>
+        </div>
 
         
         <div className='container-fluid p-0 mt-4'>

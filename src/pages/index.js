@@ -27,20 +27,12 @@ export default function Home() {
         </div>
       </div>
       <div className={`${styles.head_title} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-        <Image className={`${styles.head_img} d-block w-100`} src="/imagen/0e653d0cbb622a06ee097a6475413dbc.jpg" alt="background" width={450} height={550} />
-        <div className={styles.text_container}>
-          <h1 className={`${styles.title} mb-1`}>TYPSA - PERÚ</h1>
-          <hr className={`${styles.barra} mb-4 fw-light`}/>
-          <span className={`${styles.spam} mb-1 fs-4`}>Te damos la bienvenida al portal de TYPSA-PERÚ</span>
-        </div>
+        <img className={`${styles.head_img} d-block w-100`} src="/imagen/inicio/fbd654a85f0a25819ab004b2fd994bbe.jpg" alt="background" width={450} height={550} />
+        
       </div>
       <div className={`${styles.head_title} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-        <Image className={`${styles.head_img} d-block w-100`} src="/imagen/consorcio/2fa4c3162f975f01cea118c34dbea563.jpg" alt="background"  width={450} height={550}/>
-        <div className={styles.text_container}>
-          <h1 className={`${styles.title} mb-1`}>TYPSA - PERÚ</h1>
-          <hr className={`${styles.barra} mb-4 fw-light`}/>
-          <span className={`${styles.spam} mb-1 fs-4`}>Te damos la bienvenida al portal de TYPSA-PERÚ</span>
-        </div>
+        <img className={`${styles.head_img} d-block w-100`} src="/imagen/inicio/313f13fc26f55358c4713a1c8a0722be.png" alt="background"  width={450} height={550}/>
+        
       </div>
     </Carousel>
 
@@ -49,7 +41,7 @@ export default function Home() {
     <div className='container-fluid p-0'>
         <div className={`${styles.espacio}`} ></div>
 
-        <section className='d-flex justify-content-center mt-5 mb-5'>
+        <section className='d-flex flex-column flex-md-row justify-content-center mt-5 mb-5'>
           <div className='text-center m-2'>
             <div  className='mb-3'>
               <Link href='/quienes-somos' className='text-danger fs-5 fw-bolder' >QUIÉNES SOMOS</Link>
@@ -68,16 +60,19 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         <div className={`${styles.espacio}`}> </div>
         <section className={`${styles.video}`}>
           <div className="d-flex justify-content-center align-items-center text-white pt-5 pb-5" >
             <h3>VIDEO DESTACADO</h3>
           </div>
-          <div className=' w-100 pb-5 d-flex justify-content-center'>
-              <iframe  width="958" height="559" src="https://www.youtube.com/embed/9fjxwX6O9cU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
+          <div className='pb-5 d-flex justify-content-center'>
+            <div className={`${styles.video_container}`}>
+              <iframe src="https://www.youtube.com/embed/9fjxwX6O9cU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
+            </div>
           </div>
         </section>
-        <section className='d-flex justify-content-center mt-5 mb-5'>
+        <section className='d-flex flex-column flex-md-row justify-content-center mt-5 mb-5'>
           <div className='text-center m-2'>
             <div className='mb-3'>
               <Link href='/typsa-peru' className='text-danger fs-5 fw-bolder'>TYPSA - PERÚ</Link>

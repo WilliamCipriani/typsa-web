@@ -7,10 +7,11 @@ export default function CapacidadDigital() {
       <>
         <HeadPage /> 
 
-        <div className={`${styles.head_title} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-          <h1 className={`${styles.title} mb-1 text-dark`}>Capacidad digital</h1>
-          <hr className={`${styles.barra} mb-4 fw-light`}/>
-          
+        <div className={`${styles.head_title} `}>
+          <img className={`${styles.head_img} d-block w-100`} src="/imagen/ab948dcdaa5a84786c2a5beb86496d42.jpg" alt="background" />
+          <div className={styles.text_container}>
+            <h1 className={`${styles.title} mb-1`}>Capacidad digital</h1>
+          </div>
         </div>
     
       

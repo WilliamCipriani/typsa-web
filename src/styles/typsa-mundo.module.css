@@ -37,4 +37,7 @@
     .subtitle {
       font-size: 1rem; /* Tamaño de fuente aún más pequeño para pantallas pequeñas */
     }
+    .title {
+      font-size: rem;
+    }
   }
