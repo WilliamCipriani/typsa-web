@@ -247,9 +247,9 @@ export default function TypsaPeru() {
               </div>
             </div>
 
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center">
               <div className="d-flex flex-column">
-              <Carousel className="container-md mt-5" style={{ maxWidth: "443px", height: "428px" }}>
+              <Carousel className="container-md" style={{ maxWidth: "443px", height: "428px" }}>
                 <Carousel.Item>
                 <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/dcfc7be5b2e5e1b4c332c146abf13ccd.jpg' width={463} height={428} alt="gota" />
                 </Carousel.Item>
@@ -303,7 +303,7 @@ export default function TypsaPeru() {
 
               <div className="d-flex justify-content-center mt-5">
               <div className="d-flex flex-column">
-              <Carousel className="container-md mt-5 img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
+              <Carousel className="container-md img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
                 
                 <Carousel.Item>
                 <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/e6663689600f3bb8c8665695c321a132.jpg' width={150} height={150} alt="gota" />
@@ -317,7 +317,7 @@ export default function TypsaPeru() {
  
               </Carousel>
               </div>
-              <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
+              <div className="text-start ms-5 " style={{maxWidth: '661px'}}>
                 <h3 className="text-danger fs-2 fw-bolder">Contratista Internacionales</h3>
                 <ul>
                   <li>Dragados (ESP)</li>
@@ -340,9 +340,9 @@ export default function TypsaPeru() {
               </div>
             </div>
 
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center">
               <div className="d-flex flex-column">
-              <Carousel className="container-md mt-5 img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
+              <Carousel className="container-md img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
                 <Carousel.Item>
                 <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/8a333d0d7055393e3cae3641aa8dce5a.jpg' width={200} height={200} alt="gota" />
                 </Carousel.Item>
@@ -356,7 +356,7 @@ export default function TypsaPeru() {
                 
               </Carousel>
               </div>
-              <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
+              <div className="text-start ms-5 mt-3" style={{maxWidth: '661px'}}>
                 <h3 className="text-danger fs-2 fw-bolder">Bancos Internacionales</h3>
                 <ul>
                   <li>Santander (ESP)​</li>
@@ -369,9 +369,9 @@ export default function TypsaPeru() {
               </div>
             </div>
 
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center ">
               <div className="d-flex flex-column">
-              <Carousel className="container-md mt-5 img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
+              <Carousel className="container-md mt-3 img-fluid" style={{ maxWidth: "200px", height: "200px" }}>
                
                 <Carousel.Item>
                 <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/bbf778dbc37f6e965b397ffca982e9da.jpg' width={200} height={200} alt="gota" />
@@ -381,7 +381,7 @@ export default function TypsaPeru() {
                 </Carousel.Item>
               </Carousel>
               </div>
-              <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
+              <div className="text-start ms-5 " style={{maxWidth: '661px'}}>
                 <h3 className="text-danger fs-2 fw-bolder">Empresas Extranjeras</h3>
                 <ul>
                   <li>Telefónica (ESP)​​</li>
@@ -397,9 +397,9 @@ export default function TypsaPeru() {
               </div>
             </div>
 
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center">
               <div className="d-flex flex-column">
-              <Carousel className="container-md mt-5 img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
+              <Carousel className="container-md img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
                 <Carousel.Item>
                 <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/53d3ecc1c4ab361026906006afa3cb92.jpg' width={200} height={200} alt="gota" />
                 </Carousel.Item>
@@ -408,7 +408,7 @@ export default function TypsaPeru() {
                 </Carousel.Item>
               </Carousel>
               </div>
-              <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
+              <div className="text-start ms-5 " style={{maxWidth: '661px'}}>
                 <h3 className="text-danger fs-2 fw-bolder">Inmobiliarias</h3>
                 <ul>
                   <li>Intervante (ESP)​​</li>
@@ -422,9 +422,9 @@ export default function TypsaPeru() {
               </div>
             </div>
 
-            <div className="d-flex justify-content-center   mt-5">
+            <div className="d-flex justify-content-center ">
               <div className="d-flex flex-column">
-              <Carousel className="container-md mt-5 img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
+              <Carousel className="container-md  img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
                 <Carousel.Item>
                 <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/4c5b55a76f8dfcc2b51825f55ba2a527.jpg' width={200} height={200} alt="gota" />
                 </Carousel.Item>
@@ -433,7 +433,7 @@ export default function TypsaPeru() {
                 </Carousel.Item>
               </Carousel>
               </div>
-              <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
+              <div className="text-start ms-5 " style={{maxWidth: '661px'}}>
                 <h3 className="text-danger fs-2 fw-bolder">Concesionarias</h3>
                 <ul>
                   <li>Abertis (ESP)​</li>
@@ -446,9 +446,9 @@ export default function TypsaPeru() {
               </div>
             </div>
 
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center ">
               <div className="d-flex flex-column">
-              <Carousel className="container-md mt-5 img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
+              <Carousel className="container-md img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
                 <Carousel.Item>
                 <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/222a2d0839234fedc6d9bb96df8b80bd.jpg' width={200} height={200} alt="gota" />
                 </Carousel.Item>
@@ -457,7 +457,7 @@ export default function TypsaPeru() {
                 </Carousel.Item>
               </Carousel>
               </div>
-              <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
+              <div className="text-start ms-5 " style={{maxWidth: '661px'}}>
                 <h3 className="text-danger fs-2 fw-bolder">Contratistas Regionales​​</h3>
                 <ul>
                   <li>Sacyr Suc. Perú (Perú)​​</li>
@@ -471,9 +471,9 @@ export default function TypsaPeru() {
               </div>
             </div>
 
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center">
               <div className="me-5">
-              <Carousel className="container-md mt-5 img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
+              <Carousel className="container-md img-fluid" style={{ maxWidth: "443px", height: "428px" }}>
                 <Carousel.Item>
                 <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/8208e533c6182b0db39ee56106f358d9.jpg' width={200} height={200} alt="gota" />
                 </Carousel.Item>
@@ -494,7 +494,7 @@ export default function TypsaPeru() {
                 </Carousel.Item>
               </Carousel>
               </div>
-              <div className="text-start ms-5 mt-5" style={{ marginLeft: "40px" }}>
+              <div className="text-start ms-5" style={{ marginLeft: "40px" }}>
                 <h3 className="text-danger fs-2 fw-bolder">Concesionarias Nacionales</h3>
                 <ul>
                   <li>Aeropuertos del Perú (Perú)​​</li>

@@ -20,69 +20,68 @@ export default function ConfiarPeru() {
           ¿Por qué confiar en Typsa?
       </div>
 
-      <div className='container-fluid p-0 mt-4 '>
+      <div className='container-fluid'>
         
 
-        <div className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row align-items-center">
-          <div className="d-flex justify-content-center  mb-3">
+        <div className="d-flex justify-content-center text-center  mb-5 flex-column flex-lg-row">
+          <div className="d-flex justify-content-center align-items-center mt-3 mb-3 mx-5 ms-1">
             <Image className='img-fluid' src='/imagen/consorcio/d95d517f045f91b97baaaec244442a4b.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA"/>
           </div>
-          <div className="text-start ms-5 " style={{maxWidth: '550px', overflowY: 'auto'}}>
-            <spam className="text-danger fs-2 fw-bolder">Fortaleza</spam>
+          <div className="text-start ms-5 " style={{maxWidth: '450px', overflowY: 'auto'}}>
+            <h4 className="text-danger fs-2 fw-bolder">Fortaleza</h4>
             <p>Por nuestra fortaleza en Perú, con unas oficinas de 1.960 m2 en Miraflores (Lima) , donde trabajan 362 personas y  un laboratorio de calidad de aguas con 1.000 m2 y más de 30.000 ensayos anuales.</p>
             <p>Porque el prestigio de nuestras actuaciones es nuestra mejor tarjeta de visita.</p>
           </div>
         </div>
 
-        <div className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row align-items-center">
-          <div className="d-flex justify-content-center  mb-3">
+        <div className="d-flex justify-content-center text-center mb-5 flex-column flex-lg-row">
+          <div className="d-flex justify-content-center align-items-center mt-2 mb-3 mx-5 ms-1">
             <Image className='img-fluid'  src='/imagen/consorcio/49ef68551dd87726985fbd51a92437fa.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA"/>
           </div>
-          <div className="text-start ms-5 " style={{maxWidth: '550px', overflowY: 'auto'}}>
-            <spam className="text-danger fs-2 fw-bolder">Conocimiento</spam>
+          <div className="text-start ms-5 " style={{maxWidth: '450px', overflowY: 'auto'}}>
+            <h4 className="text-danger fs-2 fw-bolder">Conocimiento</h4>
             <p>Por nuestro conocimiento del territorio  y el cliente, desde 2001</p>
           </div>
-
-
         </div>
-        <div className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row align-items-center">
-          <div className="d-flex justify-content-center  mb-3">
+
+        <div className="d-flex justify-content-center text-center flex-column flex-lg-row">
+          <div className="d-flex justify-content-center align-items-center mt-3 mb-3 mx-5 ms-1">
             <Image className='img-fluid' src='/imagen/consorcio/68212f7bd77b3da81490014f1c203b57.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA"/>
           </div>
-          <div className="text-start ms-5" style={{maxWidth: '550px', overflowY: 'auto'}}>
-            <spam className="text-danger fs-2 fw-bolder">Solvencia</spam>
-            <p>Por nuestra solvencia financiera y técnica</p>
+          <div className="text-start ms-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
+            <h4 className="text-danger fs-2 fw-bolder">Solvencia</h4>
+            <p>Nuestra competencia técnica es otro pilar fundamental en nuestra operación. Contamos con un equipo de expertos altamente capacitados y apasionados en su campo</p>
           </div>
         </div>
 
-        <div className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row align-items-center">
-          <div className="d-flex justify-content-center  mb-3">
+        <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
+          <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
             <Image  className='img-fluid' src='/imagen/consorcio/b227e690702eaaaf60bd728f30d1e882.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA"/>
           </div>
-          <div  className="text-start ms-5" style={{maxWidth: '550px', overflowY: 'auto'}}>
+          <div  className="text-start ms-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
             <spam className="text-danger fs-2 fw-bolder">Capacidad</spam>
-            <p>Por la capacidad de movilizar miles de ingenieros de todos los continentes y cientos de expertos internacionales referentes en su sector que apoyarán a nuestro equipo de 362 profesionales peruanos.</p>
+            <p>Nuestra estabilidad financiera nos permite invertir en el futuro, continuamente mejorando nuestros productos y servicios para beneficio de nuestros clientes.</p>
           </div>
 
 
         </div>
 
         <div  className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row align-items-center">
-          <div className="d-flex justify-content-center  mb-3">
+          <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
             <Image className='img-fluid' src='/imagen/consorcio/bbae5c584da1b762181babc4d6bf5ccb.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA" />
           </div>
-          <div className="text-start ms-5" style={{maxWidth: '550px', overflowY: 'auto'}}>
+          <div className="text-start ms-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
             <spam  className="text-danger fs-2 fw-bolder">Tecnología</spam>
             <p>Porque disponemos de las herramientas tecnológicas de ultima generación</p>
           </div>
-
-
         </div>
-        <div className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row align-items-center">
-          <div className="d-flex justify-content-center  mb-3">
+
+        
+        <div className="d-flex justify-content-center text-center flex-column flex-lg-row align-items-center">
+          <div className="d-flex justify-content-center align-items-center mt-3 mb-3 mx-5 ms-1">
             <Image  className='img-fluid' src='/imagen/consorcio/f67f4ea0ab30fef0377e16a59f2e9d56.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA"/>
           </div>
-          <div className="text-start ms-5" style={{maxWidth: '550px', overflowY: 'auto'}}>
+          <div className="text-start ms-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
             <spam  className="text-danger fs-2 fw-bolder">BIM</spam>
             <p>Porque somos lideres en desarrollos BIM, inteligencia artifical y realidad aumentada</p>
           </div>
@@ -90,12 +89,12 @@ export default function ConfiarPeru() {
 
         </div>
         <div className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row align-items-center">
-          <div className="d-flex justify-content-center  mb-3 ">
+          <div className="d-flex justify-content-center align-items-center mb-3 mx-5 ms-1">
             <Image className='img-fluid'  src='/imagen/consorcio/7092468791a508b5771ab2b617f7421f.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA"/>
           </div>
-          <div className="text-start ms-5" style={{maxWidth: '550px', overflowY: 'auto'}}>
+          <div className="text-start ms-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
             <spam  className="text-danger fs-2 fw-bolder">Sostenibilidad</spam>
-            <p>Porque somos lideres en sostenibilidad</p>
+            <p>Estamos profundamente comprometidos con la sostenibilidad y hemos emergido como líderes en este importante campo.</p>
           </div>
 
 
@@ -104,7 +103,7 @@ export default function ConfiarPeru() {
           <div className="d-flex justify-content-center  mb-3">
             <Image className='img-fluid' src='/imagen/consorcio/012c24be3e2ccbd10828221884a66d50.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA"/>
           </div>
-          <div className="text-start ms-5" style={{maxWidth: '550px', overflowY: 'auto'}}>
+          <div className="text-start ms-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
             <spam className="text-danger fs-2 fw-bolder">Certificaciones</spam>
             <p>Porque disponemos de certificaciones en calidad, gestión medioambiental, prevención de riesgos, integridad, seguridad de la información, I+D+i y BIM. Además, calificamos nuestros proyectos según criterios ENVISION ó GREENROADS en sostenibilidad</p>
           </div>
@@ -115,7 +114,7 @@ export default function ConfiarPeru() {
           <div className="d-flex justify-content-center  mb-3">
             <Image className='img-fluid'  src='/imagen/consorcio/2fa4c3162f975f01cea118c34dbea563.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA"/>
           </div>
-          <div  className="text-start ms-5" style={{maxWidth: '550px', overflowY: 'auto'}}>
+          <div  className="text-start ms-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
             <spam className="text-danger fs-2 fw-bolder">Prestigio</spam>
             <p>Porque el prestigio de nuestras actuaciones a nivel mundial es nuestra mejor carta de presentación.</p>
             <p>Porque hemos fidelizado clientes durante más de 55 años</p>

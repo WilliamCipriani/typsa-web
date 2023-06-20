@@ -28,18 +28,6 @@
   z-index: 1; /* Asegúrate de que el texto esté por encima de la imagen de fondo */
 }
 
-.nav_menu {
-  width: 200px;
-  height: 200px;
-  top: 100%;
-  transform: translateY(-70px);
-}
-
-.nav_menu_item {
-  top: 100%;
-  transform: translateY(-45px);
-  padding: 5px 30px 10px ;
-}
 
 .title {
   color: #fff;
@@ -57,10 +45,7 @@
   line-height: 1.56;
 }
 
-.espacio {
-  background-color: #fdeae9;
-  height: 100px;
-}
+
 
 .video {
   background-color: #e62d1f;

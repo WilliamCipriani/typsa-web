@@ -17,7 +17,7 @@ export default function QuienesSomos() {
         </div>
 
         
-        <div className='container-fluid p-0 mt-4'>
+        <div className='container-fluid p-0 m-0'>
           <section>
             <div className="d-flex justify-content-center text-center mt-5 mb-4 flex-column flex-lg-row">
               <div className="d-flex justify-content-center  mb-3">
@@ -538,8 +538,6 @@ export default function QuienesSomos() {
                     <p>Special Recognition para el Grupo TYPSA como autor del Proyecto del Puente Wiwilí sobre el río Coco, en Nicaragua.</p>
                    </div>
                 </div>
-
-            
 
             
                 <div  className="col-md-4">
