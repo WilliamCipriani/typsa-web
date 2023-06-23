@@ -26,7 +26,7 @@ export default function QuienesSomos() {
                     <Image src='/imagen/punto-clave/665b698165d64e69dc990c53ef7bb9d8.jpg' className="img-fluid" width={532} height={261} alt="typsa"/>
                 </div>
                 <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
-                    <spam className='text-danger fs-3 fw-bolder'>Geotécnia</spam>
+                    <spam className='text-danger fs-3 fw-bolder'>Geotecnia</spam>
                     <p>Campaña geotécnica ajustada a la necesidad real de datos de partida, teniendo en cuenta que existen tramos donde se desarrollarán diseños constructivos y tramos donde se desarrollarán anteproyectos. Con ello se busca acotar el plazo de ejecución de los diseños.</p>
                 </div>
             </div>
