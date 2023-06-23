@@ -28,9 +28,7 @@ export default function HeadPage() {
               
               </NavDropdown>
 
-              <NavDropdown title="Proyecto"  id="basic-nav-dropdown" className='mx-2'>
-                <NavDropdown.Item href="/quienes-somos">Chiclayo</NavDropdown.Item>
-              </NavDropdown>
+              
 
               
               <Nav.Link href="/contacto" className='mx-2' >

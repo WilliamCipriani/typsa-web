@@ -6,7 +6,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #ffffff;
 }
+
 
 .head_img {
   position: absolute;
@@ -16,7 +18,8 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
-  z-index: -1; 
+  z-index: 1; 
+  opacity: 0.6;
 }
 
 .text_container {
@@ -30,17 +33,31 @@
 
 
 .title {
-  color: #fff;
+  color: #111111;
   font-size: 60px;
   font-family: Roboto, sans-serif;
-  font-weight: 700;
+  font-weight: 800;
 
 }
 
+.title_1 {
+  color: #111111;
+  font-size: 60px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+}
+
+.title_2 {
+  color: #111111;
+  font-size: 60px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+}
+
 .spam {
-  color: #fff; 
-  font-size: 17px;
-  font-weight: 400;
+  color: #333333; 
+  font-size: 40px;
+  font-weight: 600;
   font-family: sans-serif;
   line-height: 1.56;
 }

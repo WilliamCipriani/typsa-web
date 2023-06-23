@@ -19,7 +19,7 @@ export default function TypsaPeru() {
           <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Organigrama</h3>
         </div>
         <div className='d-flex justify-content-center text-center mt-5'>
-          <Image className="img-fluid" src='/imagen/TYPSA-PERU/6995d7b7bcd02a1c63bb005220c8d316.jpg' width={1168} height={450} alt="gota" />
+          <img className="img-fluid" src='/imagen/TYPSA-PERU/organigrama_PERU.png' width={1168} height={450} alt="organigrama-typsa" />
         </div>
         <div className="text-center text-danger fw-bolder fs-3 mt-3 mb-5">
           96% Planilla Peruana
@@ -29,52 +29,67 @@ export default function TypsaPeru() {
 
       <section>
         <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
-          <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Equipos</h3>
+          <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Equipo: trabajo en acción</h3>
         </div>
         <div> 
           <Carousel className="container-md mt-5">
             <Carousel.Item>
-            <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/85e122df42a72f8d103fe331fc0d6ed9.jpg' width={1168} height={660} alt="gota" />
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/85e122df42a72f8d103fe331fc0d6ed9.jpg' width={1168} height={660} alt="gota" />
             </Carousel.Item>
             <Carousel.Item>
-            <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/9389107eb1267552df5d6693281b1c55.jpg' width={1168} height={660} alt="gota" />
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/9389107eb1267552df5d6693281b1c55.jpg' width={1168} height={660} alt="gota" />
             </Carousel.Item>
             <Carousel.Item>
             <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/f0152b86fb9e47fb8330140c160524c8.jpg' width={1168} height={660} alt="gota" />
             </Carousel.Item>
             <Carousel.Item>
-            <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/010276a4cc80d932bba0757a4159a69a.jpg' width={1168} height={660} alt="gota" />
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/010276a4cc80d932bba0757a4159a69a.jpg' width={1168} height={660} alt="gota" />
             </Carousel.Item>
           </Carousel>
 
+        </div>
+        <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center mt-5`}>
+          <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Equipo: trabajo por área</h3>
         </div>
 
         <div> 
           <Carousel className="container-md mt-5">
             <Carousel.Item>
-            <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/58ecd3bf52c6aad8a12f072ec7350ed9.jpg' width={1168} height={660} alt="gota" />
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/23229acbc140e9b43b6ee75e7bb0aeb4.jpg' width={1168} height={660} alt="gota" />
             </Carousel.Item>
             <Carousel.Item>
-            <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/933ee9fab2aad6c47567d16afd8ef50f.jpg' width={1168} height={660} alt="gota" />
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/89a288116456105063570f5a2bc0ec7a.jpg' width={1168} height={660} alt="gota" />
             </Carousel.Item>
             <Carousel.Item>
-            <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/f2038a74afa90377b1e8aa7f6e6f3e96.jpg' width={1168} height={660} alt="gota" />
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/3a934edfc349645a30c7d2372fd6b20b.jpg' width={1168} height={660} alt="gota" />
             </Carousel.Item>
             <Carousel.Item>
-            <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/25358ee80e1372be4f4509415aa71d6f.jpg' width={1168} height={660} alt="gota" />
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/f164540bf9ffe70dc60e4b88ffa02cf4.jpg' width={1168} height={660} alt="gota" />
             </Carousel.Item>
             <Carousel.Item>
-            <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/7c88bf10af2f4aed8b59e064c7c4d13e.jpg' width={1168} height={660} alt="gota" />
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/cdec8b4cd884994acbd828d48eb8ab4a.jpg' width={1168} height={660} alt="gota" />
             </Carousel.Item>
             <Carousel.Item>
-            <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/f164540bf9ffe70dc60e4b88ffa02cf4.jpg' width={1168} height={660} alt="gota" />
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/1e1f55e0be49c86229ca68eac118a104.jpg' width={1168} height={660} alt="gota" />
             </Carousel.Item>
 
             <Carousel.Item>
-            <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/1e1f55e0be49c86229ca68eac118a104.jpg' width={1168} height={660} alt="gota" />
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/aac003fcc019ab59142e179fb674efcf.jpg' width={1168} height={660} alt="gota" />
             </Carousel.Item>
             <Carousel.Item>
-            <Image  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/a252e9d932c2fe95fcbf8dff637486b6.jpg' width={1168} height={660} alt="gota" />
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/3d6ff6ac5ce436d40ab17218d3c80cf4.jpg' width={1168} height={660} alt="gota" />
+            </Carousel.Item>
+            <Carousel.Item>
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/d5272eec3d561e1c44da8654904b0417.jpg' width={1168} height={660} alt="gota" />
+            </Carousel.Item>
+            <Carousel.Item>
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/712d8b4dbcdc93fc89db2458295dec4b.jpg' width={1168} height={660} alt="gota" />
+            </Carousel.Item>
+            <Carousel.Item>
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/a252e9d932c2fe95fcbf8dff637486b6.jpg' width={1168} height={660} alt="gota" />
+            </Carousel.Item>
+            <Carousel.Item>
+            <img  className="d-block w-100 img-fluid" src='/imagen/TYPSA-PERU/f94f62916ee54dafe5980099a27a43c0.jpg' width={1168} height={660} alt="gota" />
             </Carousel.Item>
             
           </Carousel>

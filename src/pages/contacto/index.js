@@ -36,18 +36,7 @@ export default function Contacto() {
               [name]: onlyNums,
             }));
           }
-        } else if (name === 'email') {
-            // Validar el campo de correo electrónico con expresión regular
-            const validEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
-        
-            if (validEmail) {
-              setFormData((prevData) => ({
-                ...prevData,
-                [name]: value,
-              }));
-            } 
-
-        }else {
+        } else {
           setFormData((prevData) => ({
             ...prevData,
             [name]: value,
@@ -73,6 +62,16 @@ export default function Contacto() {
               }, 3000);
             return;
           }
+          // Validar el campo de correo electrónico con expresión regular
+            const validEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email);
+
+            if (!validEmail) {
+              setErrorMessage('Por favor, introduzca un correo electrónico válido');
+              setTimeout(() => {
+                  setErrorMessage('');
+              }, 3000);
+              return;
+            }
 
           // Evitar envío repetido del formulario
             if (formSubmitted) {

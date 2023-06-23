@@ -26,7 +26,7 @@ export default function QuienesSomos() {
                     <Image src='/imagen/punto-clave/665b698165d64e69dc990c53ef7bb9d8.jpg' className="img-fluid" width={532} height={261} alt="typsa"/>
                 </div>
                 <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
-                    <spam className='text-danger fs-3 fw-bolder'>Geotécnica</spam>
+                    <spam className='text-danger fs-3 fw-bolder'>Geotécnia</spam>
                     <p>Campaña geotécnica ajustada a la necesidad real de datos de partida, teniendo en cuenta que existen tramos donde se desarrollarán diseños constructivos y tramos donde se desarrollarán anteproyectos. Con ello se busca acotar el plazo de ejecución de los diseños.</p>
                 </div>
             </div>
@@ -37,7 +37,7 @@ export default function QuienesSomos() {
                 </div>
                 <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
                     <spam className='text-danger fs-3 fw-bolder'>Responsabilidad Social</spam>
-                    <p>Campaña geotécnica ajustada a la necesidad real de datos de partida, teniendo en cuenta que existen tramos donde se desarrollarán diseños constructivos y tramos donde se desarrollarán anteproyectos. Con ello se busca acotar el plazo de ejecución de los diseños.</p>
+                    <p>Atención temprana y permanente a las poblaciones interesadas en el proyecto; especialmente las afectadas por la accesibilidad desde y hacia la nueva vía.</p>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@ export default function QuienesSomos() {
                 </div>
                 <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
                     <spam className='text-danger fs-3 fw-bolder'>Optimización</spam>
-                    <p>Campaña geotécnica ajustada a la necesidad real de datos de partida, teniendo en cuenta que existen tramos donde se desarrollarán diseños constructivos y tramos donde se desarrollarán anteproyectos. Con ello se busca acotar el plazo de ejecución de los diseños.</p>
+                    <p>Optimización del trazo para minimizar los volúmenes de movimiento de tierras, teniendo en cuenta la orografía de la zona.</p>
                 </div>
             </div>
 
@@ -57,7 +57,7 @@ export default function QuienesSomos() {
                 </div>
                 <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
                     <spam className='text-danger fs-3 fw-bolder'>Constructabilidad</spam>
-                    <p>Campaña geotécnica ajustada a la necesidad real de datos de partida, teniendo en cuenta que existen tramos donde se desarrollarán diseños constructivos y tramos donde se desarrollarán anteproyectos. Con ello se busca acotar el plazo de ejecución de los diseños.</p>
+                    <p>Consideración de las facilidades locales, la accesibilidad y las condiciones climatológicas de la zona para el desarrollo del diseño previendo la constructabilidad de la obra.</p>
                 </div>
             </div>
 
@@ -67,7 +67,7 @@ export default function QuienesSomos() {
                 </div>
                 <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
                     <spam className='text-danger fs-3 fw-bolder'>Monitoreo Arqueológico</spam>
-                    <p>Campaña geotécnica ajustada a la necesidad real de datos de partida, teniendo en cuenta que existen tramos donde se desarrollarán diseños constructivos y tramos donde se desarrollarán anteproyectos. Con ello se busca acotar el plazo de ejecución de los diseños.</p>
+                    <p>Monitoreo arqueológico, social y ambiental permanente, a fin de prevenir conflictos sociales durante todas las fases del proyecto.</p>
                 </div>
             </div>
 
@@ -77,7 +77,7 @@ export default function QuienesSomos() {
                 </div>
                 <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
                     <spam className='text-danger fs-3 fw-bolder'>Prevención</spam>
-                    <p>Campaña geotécnica ajustada a la necesidad real de datos de partida, teniendo en cuenta que existen tramos donde se desarrollarán diseños constructivos y tramos donde se desarrollarán anteproyectos. Con ello se busca acotar el plazo de ejecución de los diseños.</p>
+                    <p>Estudio cuidadoso de la hidrología y la hidrogeología del lugar, a fin de evitar zonas de riesgo por huaicos y/o derrumbes.</p>
                 </div>
             </div>
 
@@ -87,7 +87,7 @@ export default function QuienesSomos() {
                 </div>
                 <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
                     <spam className='text-danger fs-3 fw-bolder'>Materiales</spam>
-                    <p>Campaña geotécnica ajustada a la necesidad real de datos de partida, teniendo en cuenta que existen tramos donde se desarrollarán diseños constructivos y tramos donde se desarrollarán anteproyectos. Con ello se busca acotar el plazo de ejecución de los diseños.</p>
+                    <p>Cuidadoso diseño de mezclas de concreto, hidráulico y asfáltico, teniendo en cuenta las condiciones meteorológicas en las que trabajarán los materiales.</p>
                 </div>
             </div>
         </div>
