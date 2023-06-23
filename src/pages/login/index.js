@@ -1,5 +1,3 @@
-
-import ClipLoader from "react-spinners/ClipLoader";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
