@@ -101,17 +101,17 @@ export default function Home() {
         <section>
           <div className={`${styles.archivos} ${styles.propuesta} d-flex justify-content-center align-items-center text-white border border-white`} >
             <div className='d-flex justify-content-center align-items-center text-white border border-white w-50 h-50 rounded-2'>
-              <a className={`${styles.text} text-decoration-none`} href='/login'>Ofertas</a>
+              <Link className={`${styles.text} text-decoration-none`} href='/login'>Ofertas</Link>
             </div>
           </div>
           <div className={`${styles.archivos} ${styles.ppt} d-flex flex-column flex-sm-row justify-content-center align-items-center text-white border border-white col-sm-12`} >
             <div className='d-flex justify-content-center align-items-center text-white border border-danger w-50 w-sm-50 h-50 rounded-2'>
-              <a className={`${styles.text_1} text-decoration-none`}  target='_blank' href='https://drive.google.com/file/d/1didXatPn3m_8hi2PO7gZMNPUmyuFdTto/view?usp=sharing= 1bxjr0WHMOb6b3CN4B662e4XimRT2Lviu'>Descargar Presentación Typsa-Perú</a>
+              <Link className={`${styles.text_1} text-decoration-none`}  target='_blank' href='https://drive.google.com/file/d/1didXatPn3m_8hi2PO7gZMNPUmyuFdTto/view?usp=sharing= 1bxjr0WHMOb6b3CN4B662e4XimRT2Lviu'>Descargar Presentación Typsa-Perú</Link>
             </div>
           </div>
           <div className={`${styles.archivos} ${styles.propuesta} d-flex justify-content-center align-items-center text-white border border-white`} >
             <div className='d-flex justify-content-center align-items-center text-white border border-white w-50 h-50 rounded-2'>
-              <a className={`${styles.text} text-decoration-none`} target='_blank' href='https://www.typsa.com/'>Site Corporativo</a>
+              <Link className={`${styles.text} text-decoration-none`} target='_blank' href='https://www.typsa.com/'>Site Corporativo</Link>
             </div>
           </div>
           
