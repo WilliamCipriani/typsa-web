@@ -32,12 +32,22 @@
     font-weight: 700;
     margin-bottom: 40px;
     letter-spacing: 10px;
+    border-bottom: 8px solid #f00202;
+    display: inline-block;
+    padding-bottom: 8px;
+    
   }
   
   .espacio {
-    background-color: #E62C1E;
+    background-color: #BF1525;
     height: 100px;
     color: #fff;
+  }
+
+  .barra {
+    border: none;
+    border-top: 2px solid #000;
+    width: 50px;
   }
 
   .head_container {
@@ -53,4 +63,11 @@
     height: 550px; 
   }
 
-  
+  .textJustify {
+    text-align: justify;
+  }
+s
+  .styles.head_img_equipo {
+    width: 540px;
+    height: 350px;
+  }
