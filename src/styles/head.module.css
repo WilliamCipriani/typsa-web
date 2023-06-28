@@ -10,3 +10,8 @@
     transform: translateY(-45px);
     padding: 5px 30px 10px ;
   }
+
+  .navbar {
+    position: relative; /*o position: fixed; o position: sticky; dependiendo de tus necesidades */
+    z-index: 1000;
+  }
