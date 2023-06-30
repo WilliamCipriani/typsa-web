@@ -10,10 +10,10 @@ export default function Chiclayo() {
 
     const items = [
       { id: 1, title: 'Información de Proyecto', image: '/imagen/chiclayo/imagen1.png' },
-      { id: 2, title: 'Avance de los Estudios', image: '/imagen/chiclayo/imagen2.png' },
+      { id: 2, title: 'Avance de los Estudios', image: '/imagen/chiclayo/avance-estudios.jpg' },
       { id: 3, title: 'Gestion Social', image: '/imagen/chiclayo/imagen3.png' },
-      { id: 4, title: 'Innovación y Tecnología', image: '/imagen/chiclayo/imagen4.png' },
-      { id: 5, title: 'Fotos y Videos', image: '/imagen/chiclayo/imagen5.png' },
+      { id: 4, title: 'Innovación y Tecnología', image: '/imagen/chiclayo/innovacion-tecnologica.jpg' },
+      { id: 5, title: 'Fotos y Videos', image: '/imagen/chiclayo/portada2.png' },
     ];
 
     useEffect(() => {
@@ -26,162 +26,91 @@ export default function Chiclayo() {
       <>
         <HeadPage />
 
-        <div className={`${styles.head_title} `}>
-            <img className={`${styles.head_img} `} src="/imagen/chiclayo/portada2.png" alt="background" />
-            <div className={styles.text_container}>
-              
-              
-            </div>
-        </div> 
-        <section>
-        <div className={`${styles.espacio} d-flex flex-column justify-content-center fs-3 fw-bolder`}>
-            <span className='ms-5 fs-1'>Drenaje Pluvial de Chiclayo</span>
-        </div>
-
-        <div className={`${styles.espacio}`} style={{display: 'flex', justifyContent: 'space-around'}}>
+        <div className={`${styles.head_title}`}>
+          <video className={`${styles.head_img}`} autoPlay muted loop>
+            <source src="/video/video_chiclayo.mp4" type="video/mp4" />
+          </video>
+          <div className={styles.text_container}>
           
+          </div>
+        </div>  
 
-          {items.map((item) => (
-            <Link href="/" >
-            <div key={item.id} ref={(el) => divRef.current[item.id - 1] = el}className={`${styles.minContainer}`}>
-              <div className={`${styles.imageContent}`}>
-                <h2 className={`${styles.titleContent}`}>{item.title}</h2>
-                <img src={item.image} alt={`Imagen ${item.id}`} />
-              </div>
+        <section>
+          <div className={`${styles.espacio} d-flex flex-column justify-content-center fs-3 fw-bolder`}>
+              <span className='ms-5 fs-1'>Drenaje Pluvial de Chiclayo</span>
+              <div style={{height: '50px'}}></div>
+
+            <div className={`${styles.container}`}>
+              {items.map((item) => (
+                <Link href="/" >
+                <div key={item.id} ref={(el) => divRef.current[item.id - 1] = el}className={`${styles.minContainer}`}>
+                  <div className={`${styles.imageContent}`}>
+                    <h2 className={`${styles.titleContent}`}>{item.title}</h2>
+                    <img src={item.image} alt={`Imagen ${item.id}`} />
+                  </div>
+                </div>
+                </Link>
+              ))}
             </div>
-            </Link>
-          ))}
-        </div>
-
+          </div>
         </section>
 
-        {/*
-
-        <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
-            <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '80%', height: '80%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <iframe src="https://player.vimeo.com/video/840100397?badge=0" frameBorder="0" allow="autoplay; fullScreen; picture-in-picture" allowfullscreen style={{ width: '100%', height: '100%' }} title="VIDEO TYPSA FINAL" />
+        <div className={`${styles.container_video}`}>
+            <div className={`${styles.video}`} >
+              <iframe className={`${styles.iframe}`} src="https://player.vimeo.com/video/840100397?badge=0" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="VIDEO TYPSA FINAL"></iframe>
             </div>
 
-        </div>
-          
-           
-
-        <section>
-          <div className={`${styles.espacio} d-flex flex-column justify-content-center fs-3 fw-bolder`}>
-            <span className='ms-5 fs-1'>Organigrama</span>
-          </div>
-
-          <div>
-            <div className='d-flex justify-content-center'>
-                <img className='img-fluid' src='/imagen/chiclayo/organigrama-chiclayo.jpg'  height={1154} alt="Fundación-Grupo-TYPSA" />
+            <div className={`${styles.text_video}`} >
+              <p>
+                El proyecto más grande de drenaje urbano del Perú favorecerá a los distritos de Chiclayo, José Leonardo Ortiz, La Victoria y Pimentel frente a posibles inundaciones generadas por lluvias. La Autoridad para la Reconstrucción con Cambios (ARCC) y la empresa consultora Técnica y Proyectos S.A. - TYPSA vienen desarrollando diferentes trabajos técnicos y sociales para el Diseño Integral de Drenaje Pluvial, en el ámbito urbano de cuatro distritos de la provincia de Chiclayo, el cual protegerá a más de 300 mil ciudadanos.
+El proyecto desarrolla la solución integral definitiva a los problemas de inundaciones generados por lluvias, con el objetivo de garantizar la protección de la población con un adecuado acceso a los servicios de drenaje pluvial en el ámbito urbano de los distritos de Chiclayo, José Leonardo Ortiz, La Victoria y Pimentel.
+              </p>
             </div>
           </div>
-    
 
-        </section> 
 
         <section>
-          <div className={`${styles.espacio} d-flex flex-column justify-content-center fs-3 fw-bolder`}>
-            <span className='ms-5 fs-1'>Equipo</span>
+          <div className={`${styles.espacio1} d-flex flex-column justify-content-center fs-3 fw-bolder`}>
+            <span className='ms-5 fs-1'>Equipo en acción</span>
           </div>  
 
-          <div className="container mt-5 mb-5">
-            <div className="row">
-            <div className='container-fluid d-flex flex-column justify-content-center align-items-center text-center col-lg-6'>
-                <img src="/imagen/chiclayo/equipo1.png" width={745}  alt="Equipo-Chiclayo" layout='responsive'/>
-            </div>
-
-            <div className='col-lg-6 '>
-              <p className={`ms-5 mt-3 fs-4 ${styles.textJustify}`}>Contamos con profesionales altamente capacitados y con amplia experiencia en el diseño, planificación y ejecución de sistemas de drenaje pluvial. Trabajamos de la mano con expertos en ingeniería civil, hidrología y gestión ambiental para garantizar soluciones sostenibles y eficientes.</p>
-            </div>
-            </div>
-          </div>
-
-          <div className={`${styles.espacio} d-flex flex-column justify-content-center fs-3 fw-bolder `}>
-            <span className='ms-5 fs-1'>Equipo en acción</span>
-          </div>
-
-          <Carousel
-            className={`${styles.head_container} mt-5`}
-            showThumbs={false}
-            showStatus={false}
-            infiniteLoop={true}
-            autoPlay={true}
-          >
+          <div className='container-fluid d-flex flex-lg-row flex-column align-items-center justify-content-center text-center'>
             
-            <div className={`${styles.head_title_equipo} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-                <img  src="/imagen/chiclayo/equipo5.png" alt="background"   layout='responsive'/>
+            <div className={`col-lg-6 d-flex justify-content-center align-items-center ${styles.narrowWidth}`}>
+              <p className={`ms-lg-5 ${styles.textJustify}`}>TYPSA cuenta con un equipo de profesionales altamente capacitados y con vasta experiencia en el modelamiento, diseño y planificación de proyectos hidráulicos como sistemas de drenaje pluvial. Su expertise se basa en el uso de personal multidisciplinario, integrando la experiencia de diversas áreas de la ingeniería, como la hidrología, hidráulica, geotecnia, topografía, así como la gestión ambiental y paisajística para plantear soluciones sostenibles y resilientes.</p>
             </div>
-            
-            <div className={`${styles.head_title_equipo} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-              <img  src="/imagen/chiclayo/equipo2.png" alt="background"  layout='responsive'/>
-            </div>
-
-            <div className={`${styles.head_title_equipo} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-              <img  src="/imagen/chiclayo/equipo3.png" alt="background"    layout='responsive'/>
-            </div>
-          </Carousel>
-
-        </section>
-
-        
-        <section className="mb-5">
-          <div className={`${styles.espacio} d-flex flex-column justify-content-center fs-3 fw-bolder mt-5`}>
-            <span className='ms-5 fs-1'>Socialización</span>
-          </div>
-
-          <div>
-            <div className="text-danger fs-1 fw-bold mt-4 ms-5">
-              Pobladores
-            </div>
-
-            <Carousel
-              className={`${styles.head_container} mt-5`}
+            <div className='col-lg-6 d-flex justify-content-center align-items-center'>
+              <Carousel
+                className={`${styles.head_container}`}
                 showThumbs={false}
                 showStatus={false}
                 infiniteLoop={true}
                 autoPlay={true}
               >
-              
-              <div className={`${styles.head_title_equipo} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-                  <img className={`${styles.head_img_equipo}`} src="/imagen/chiclayo/poblador2.png" alt="background"  layout='responsive'/>
-              </div>
-              
-              <div className={`${styles.head_title_equipo} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-                <img className={`${styles.head_img_equipo} `} src="/imagen/chiclayo/pobladores.png" alt="background"  layout='responsive'/>
-              </div>
-            
-            </Carousel>
+                <div className={`${styles.head_title_equipo} container-fluid d-flex justify-content-center align-items-center`}>
+                    <img  src="/imagen/chiclayo/equipo5.png" alt="background"   layout='responsive'/>
+                </div>
 
-            
+                <div className={`${styles.head_title_equipo} container-fluid d-flex justify-content-center align-items-center`}>
+                  <img  src="/imagen/chiclayo/equipo2.png" alt="background"  layout='responsive'/>
+                </div>
+
+                <div className={`${styles.head_title_equipo} container-fluid d-flex justify-content-center align-items-center`}>
+                  <img  src="/imagen/chiclayo/equipo3.png" alt="background"    layout='responsive'/>
+                </div>
+              </Carousel>
+            </div>
+
           </div>
 
-          <div>
-            <div className="text-danger fs-1 fw-bold mt-4 ms-5">
-              ARCC
-            </div>
-            <Carousel
-            className={`${styles.head_container} mt-5`}
-            showThumbs={false}
-            showStatus={false}
-            infiniteLoop={true}
-            autoPlay={true}
-            >
-            
-              <div className={`${styles.head_title_equipo} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-                  <img className={`${styles.head_img_equipo}`} src="/imagen/chiclayo/arcc2.png" alt="background" layout='responsive'/>
-              </div>
-              
-              <div className={`${styles.head_title_equipo} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-                <img className={`${styles.head_img_equipo} `} src="/imagen/chiclayo/arcc1.png" alt="background" layout='responsive' />
-              </div>
-            
-            </Carousel>
-
+          <div className={`${styles.espacio1} d-flex flex-column justify-content-center fs-3 fw-bolder `}>
+            <span className='ms-5 fs-1'>Socialización del Proyecto</span>
           </div>
 
         </section>
-          */}
+
+        
+  
       </>
     )
   }

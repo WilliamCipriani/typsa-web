@@ -5,6 +5,15 @@ import HeadPage from '../components/head'
 import styles from '@/styles/index.module.css'
 import { Carousel } from 'react-responsive-carousel'
 
+const images = [
+  { src: "/imagen/inicio/240a6dcdcaa61371fb590740c0dc3091.jpg", alt: "background" },
+  { src: "/imagen/inicio/fbd654a85f0a25819ab004b2fd994bbe.jpg", alt: "background" },
+  { src: "/imagen/inicio/313f13fc26f55358c4713a1c8a0722be.png", alt: "background" },
+  { src: "/imagen/capacidades-digitales/ab948dcdaa5a84786c2a5beb86496d42.jpg", alt: "background" },
+  { src: "/imagen/consorcio/2fa4c3162f975f01cea118c34dbea563.jpg", alt: "background" },
+  { src: "/imagen/consorcio/25dd93d8e12b4a37db5bfc826d95396d.jpg", alt: "background" },
+  { src: "/imagen/0e653d0cbb622a06ee097a6475413dbc.jpg", alt: "background" },
+];
 
 export default function Home() {
  
@@ -18,30 +27,15 @@ export default function Home() {
       infiniteLoop={true}
       autoPlay={true}
     >
-      <div className={`${styles.head_title} `}>
-        <img className={`${styles.head_img} d-block w-100`} src="/imagen/inicio/240a6dcdcaa61371fb590740c0dc3091.jpg" alt="background" />
-        <div className={styles.text_container}>
-          <h1 className={`${styles.title} mb-1`}>TYPSA - PERÚ</h1>
-
-          <span className={`${styles.spam} mb-1 fs-4`}>Te damos la bienvenida al portal de TYPSA-PERÚ</span>
-        </div>
+      {images.map((image, index) => (
+    <div key={index} className={`${styles.head_title} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
+      <img className={`${styles.head_img} d-block w-100`} src={image.src} alt={image.alt} width={450} height={550} />
+      <div className={styles.text_container}>
+        <h1 className={`${styles.title} mb-1`}>TYPSA - PERÚ</h1>
+        <span className={`${styles.spam} mb-1 fs-4`}>Te damos la bienvenida al portal de TYPSA-PERÚ</span>
       </div>
-      <div className={`${styles.head_title} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-        <img className={`${styles.head_img} d-block w-100`} src="/imagen/inicio/fbd654a85f0a25819ab004b2fd994bbe.jpg" alt="background" width={450} height={550} />
-        <div className={styles.text_container}>
-          <h1 className={`${styles.title} mb-1`}>TYPSA - PERÚ</h1>
-
-          <span className={`${styles.spam} mb-1 fs-4`}>Te damos la bienvenida al portal de TYPSA-PERÚ</span>
-        </div>
-      </div>
-      <div className={`${styles.head_title} container-fluid d-flex flex-column justify-content-center align-items-center text-center`}>
-        <img className={`${styles.head_img} d-block w-100`} src="/imagen/inicio/313f13fc26f55358c4713a1c8a0722be.png" alt="background"  width={450} height={550}/>
-        <div className={styles.text_container}>
-          <h1 className={`${styles.title} mb-1`}>TYPSA - PERÚ</h1>
-
-          <span className={`${styles.spam} mb-1 fs-4`}>Te damos la bienvenida al portal de TYPSA-PERÚ</span>
-        </div>
-      </div>
+    </div>
+  ))}
     </Carousel>
 
 

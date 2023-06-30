@@ -3,53 +3,73 @@ import Link from 'next/link';
 import { Nav, Navbar , Container, NavDropdown  } from 'react-bootstrap';
 import styles from '@/styles/head.module.css'
 
+const navItems = [
+  { href: '/quienes-somos', label: 'Quiénes somos' },
+  { href: '/confiar-typsa', label: 'Confiar en TYPSA' },
+  { href: '/typsa-peru', label: 'Typsa-Perú' },
+  { href: '/typsa-mundo', label: 'Typsa en el Mundo' },
+  { href: '/capacidad', label: 'Capacidades Digitales' },
+];
 
+const navItems2 = [
+  { href: '/chiclayo', label: 'Chiclayo' },
+]
 
 export default function HeadPage() {
-  
-  
+    
     return (
       <>
-       <nav className={`${styles.navbar} navbar navbar-expand-lg navbar-light bg-light`}>
+       <nav className={`${styles.navbar} navbar navbar-expand-lg`}>
           <div className="container-fluid d-flex justify-content-between">
-            <a href="/" className="navbar-brand">
-              <img src="/imagen/logo-grupo-Typsa-1.png" width={50} height={50} alt="Logo-Typsa" />
-            </a>
+            <Link href="/" className="navbar-brand"> 
+              <Image src="/imagen/logo-grupo-Typsa-1.png" width={50} height={50} alt="Logo-Typsa" />
+            </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul className="navbar-nav me-auto d-flex">
-                <li className="nav-item mx-2">
-                  <a href="/" className="nav-link">Inicio</a>
+                <li className="nav-item mx-2 d-flex ">
+                  <Link href="/" className={`${styles.nav_link}  nav-link`}>
+                    Inicio
+                  </Link>
+                  <NavDropdown title="" id="basic-nav-dropdown" className={`${styles.nav_menu}`}>
+                    {navItems.map((item, index) => (
+                      <NavDropdown.Item key={index}>
+                        <Link href={item.href} className={`${styles.nav_menu_item} ${styles.nav_link} nav-link`}>
+                            {item.label}
+                        </Link>
+                      </NavDropdown.Item>
+                    ))}
+                  </NavDropdown>
                 </li>
-                <li className="nav-item mx-2">
-                  <a href="/quienes-somos" className="nav-link">Quiénes somos</a>
+                <li className="nav-item mx-2 d-flex ">
+                  <Link href="/" className={`${styles.nav_link}  nav-link`}>
+                    Proyecto
+                  </Link>
+                  <NavDropdown title="" id="basic-nav-dropdown" className={`${styles.nav_menu}`}>
+                    {navItems2.map((item, index) => (
+                      <NavDropdown.Item key={index}>
+                        <Link href={item.href} className={`${styles.nav_menu_item} ${styles.nav_link} nav-link`}>
+                            {item.label}
+                        </Link>
+                      </NavDropdown.Item>
+                    ))}
+                  </NavDropdown>
                 </li>
-                <li className="nav-item mx-2">
-                  <a href="/confiar-typsa" className="nav-link">Confiar en TYPSA</a>
+                <li className="nav-item mx-2 d-flex ">
+                  <Link href="/contacto" className={`${styles.nav_link}  nav-link`}>
+                    Contacto
+                  </Link>
+                  
                 </li>
-                <li className="nav-item mx-2">
-                  <a href="/typsa-peru" className="nav-link">TYPSA - PERÚ</a>
+                <li className="nav-item mx-2 d-flex ">
+                  <Link href="https://typsa-noticias-peru.blogspot.com" target="_blank" className={`${styles.nav_link}  nav-link`}>
+                    Noticias Typsa
+                  </Link>
+                  
                 </li>
-                <li className="nav-item mx-2">
-                  <a href="/typsa-mundo" className="nav-link">TYPSA en el mundo</a>
-                </li>
-                <li className="nav-item mx-2">
-                  <a href="/capacidad" className="nav-link">Capacidades Digitales</a>
-                </li>
-                <li className="nav-item mx-2">
-                  <a href="/chiclayo" className="nav-link">Proyecto</a>
-                </li>
-                <li className="nav-item mx-2">
-                  <a href="/chiclayo" className="nav-link">Chiclayo</a>
-                </li>
-                <li className="nav-item mx-2">
-                  <a href="/contacto" className="nav-link">Contacto</a>
-                </li>
-                <li className="nav-item mx-2">
-                  <a href="/login" className="nav-link">Oferta</a>
-                </li>
+                {/* Aquí puedes agregar los demás elementos del menú principal */}
               </ul>
             </div>
           </div>
