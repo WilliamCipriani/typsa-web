@@ -23,7 +23,7 @@
     text-align: center;
 }
   
-  .title {
+.title {
     color: #fff;
     font-size: 120px;
     font-family: Roboto, sans-serif;
@@ -34,27 +34,28 @@
     display: inline-block;
     padding-bottom: 8px;
     
-  }
+}
 
-  .head_title::after {
+.head_title::after {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.1); /* Ajusta la opacidad a tu gusto */
-  }
+    background: rgba(0, 0, 0, 0.3); /* Ajusta la opacidad a tu gusto */
+}
   
-  .espacio {
-    color: #ffff;
-    background: linear-gradient(to bottom, #BF1525 50%, white 50%);
-  }
+.espacio {
+    color: #C01525;
+    background: linear-gradient(to bottom,white 50%, #BF1525 50%);
+    height: 350px;
+}
 
   .espacio1 {
     color: #ffff;
     background: #BF1525;
-    height: 80px;
+    height: 100px;
   }
 
   .barra {
@@ -126,7 +127,7 @@ s
     left: 0;
     width: 100%;
     height: 100%;
-    background: white;
+    background: black;
     opacity: 0.4;
     transition: opacity 0.3s ease;
   }
@@ -183,11 +184,51 @@ s
     
   }
 
-  .text_video p {
-    margin: 0;
-    text-align: justify; /* Remove default margin */
-  }
+.text_video p {
+  margin: 0;
+  text-align: justify; /* Remove default margin */
+}
 
-  .narrowWidth {
-    max-width: 500px;
-  }
+.narrowWidth {
+  max-width: 500px;
+ }
+
+.imageRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Ajusta el espaciado entre las imágenes */
+  padding-top: 30px;
+}
+
+.imageCard {
+  flex-basis: calc(33.33% - 10px); /* Ajusta el ancho de cada imagen según el espacio disponible */
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imageWrapper {
+  
+  position: relative;
+  width: 75%; /* Relación de aspecto 4:3 */
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageCard p {
+  width: 70%;
+  margin-top: 10px;
+}
+
+.paragraph {
+  font-size: 19px; /* Ajusta el tamaño de las letras según tus necesidades */
+  line-height: 2; /* Ajusta el espaciado entre líneas según tus necesidades */
+  margin-top: 10px;
+}
