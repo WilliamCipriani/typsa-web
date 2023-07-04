@@ -1,0 +1,99 @@
+.head_title {
+    position: relative;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+  
+.head_img {
+    max-width: 100%;  /* limita el ancho al 100% del contenedor padre */
+    height: auto;     /* ajusta la altura proporcionalmente para evitar la distorsión */
+    object-fit: contain;
+    opacity: 0.7;
+    transition: transform 0.5s ease;
+    object-fit: contain;
+}
+
+.espacio {
+    display: flex;         
+    align-items: center;
+    background-color: #E62C1E;
+    height: 100px;
+    color: #fff;
+    font-size: 44px; 
+    font-weight: 500;
+    
+}
+
+.titleContainer {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    z-index: 999999;
+    margin-left: 30px;
+    color: black;
+}
+  
+.titleContainer h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.narrowWidth {
+    max-width: 500px;
+   }
+  
+  .imageRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Ajusta el espaciado entre las imágenes */
+    padding-top: 30px;
+  }
+  
+  .imageCard {
+    flex-basis: calc(33.33% - 10px); /* Ajusta el ancho de cada imagen según el espacio disponible */
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .imageWrapper { 
+    position: relative;
+    width: 75%; /* Relación de aspecto 4:3 */
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+.imageCard p {
+    width: 70%;
+    margin-top: 10px;
+}
+
+
+.imageContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 40px;
+}
+
+.myImage {
+    width: 750px;  
+    height: auto;
+}
+
+.myImage1 {
+    width: 450px;  
+    height: auto;
+    margin: 0 60px;
+}
+  

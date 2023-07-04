@@ -11,7 +11,7 @@ export default function Chiclayo() {
     const items = [
       { id: 1,src:'proyecto', title: 'Información de proyecto', image: '/imagen/chiclayo/info-proyecto.png' },
       { id: 2,src:'avance-estudios', title: 'Avance de los Estudios', image: '/imagen/chiclayo/avance-estudios.jpg' },
-      { id: 3,src:'gestion-social', title: 'Gestion Social', image: '/imagen/chiclayo/imagen3.png' },
+      { id: 3,src:'gestion-social', title: 'Gestion Social', image: '/imagen/chiclayo/social/social1.png' },
       { id: 4,src:'innovacion-tecnologica', title: 'Innovación y Tecnología', image: '/imagen/chiclayo/innovacion-tecnologica.jpg' },
       { id: 5,src:'fotos-videos', title: 'Fotos y Videos', image: '/imagen/chiclayo/portada2.png' },
     ];
