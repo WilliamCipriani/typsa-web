@@ -73,32 +73,64 @@ const InnovacionTecnologia = () => {
           <div className={styles.rightSide}>
             <div className={styles.box}>
               <div>
-                <h3 className={styles.title}>ALMACENAMIENTO Y REGULACIÓN</h3>
+                <h3 className={styles.title}>Almacenamiento y Regulación</h3>
               </div>
-              <div className={styles.imageTextContainer}>
-              <div className={styles.imageContainer}>
-                <img className={styles.smallImage} src='/imagen/chiclayo/innova-tecno/imagen13.png'/>
-              </div>
-              <div  className={styles.textContainer}>
-                <ul>
-                    <li>66 tanques de retención</li>
-                    <li>5397 km bermas filtrantes</li>
-                    <li>66 parques filtrantes</li>  
-                </ul>
-              </div>
-              </div>
-            </div>
-            <div className={styles.box}>
-              <div>
-                <h3 className={styles.title}>SISTEMAS URBANOS DE DRENAJE SOSTENIBLE</h3>
-              </div>
-              <div className={styles.imageTextContainer}>
-                <div className={styles.imageContainer}>
-                  <img className={styles.smallImage} src='/imagen/chiclayo/innova-tecno/imagen14.png'/>
+              <div className={styles.contentContainer} >
+                <div  className={styles.textContainer}>
+                  <ul>
+                      <li>66 tanques de retención</li>
+                      <li>5 mil metros de bermas filtrantes</li>
+                      <li>66 parques filtrantes</li>  
+                  </ul>
+                </div>
+                <div className={styles.imageTextContainer }>
+                    <div className={`${styles.imageContainer} ${styles.spaceBetween}`}>
+                      <img className={styles.smallImage} src='/imagen/chiclayo/innova-tecno/imagen13.png'/>
+                      <img className={styles.smallImage} src='/imagen/chiclayo/innova-tecno/imagen12.png'/>
+                    </div>
                 </div>
                 
               </div>
             </div>
+            <div className={styles.box}>
+              <div>
+                <h3 className={styles.title}>Estructuras de recolección y control:</h3>
+              </div>
+              <div className={styles.contentContainer} >
+                <div  className={styles.textContainer}>
+                  <ul>
+                      <li>154.56 km de colectores principales</li>
+                      <li>135.04 km de subcolectores pluviales</li>
+                      <li>2245 buzones</li>
+                      <li>Mejoramiento de drenes agrícolas 3000, 3100, 3110, 3200, 3400, 4000, 4300, 400</li>
+                      <li>Construcción de 07 estaciones de bombeo</li>  
+                  </ul>
+                </div>
+                <div className={styles.imageTextContainer }>
+                    <div className={`${styles.imageContainer} ${styles.spaceBetween}`}>
+                      <img className={styles.smallImage} src='/imagen/chiclayo/innova-tecno/imagen26.png'/>
+                      <img className={styles.smallImage} src='/imagen/chiclayo/innova-tecno/imagen25.png'/>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.box}>
+              <div>
+                <h3 className={styles.title}>Trabajos Complementarios - VUELO LIDAR</h3>
+              </div>
+              <div className={styles.contentContainer} >
+                <div className={styles.imageTextContainer }>
+                    <div className={`${styles.imageContainer} ${styles.spaceBetween}`}>
+                      <img className={styles.smallImage} src='/imagen/chiclayo/innova-tecno/imagen28.png'/>
+                      <img className={styles.smallImage} src='/imagen/chiclayo/innova-tecno/imagen29.png'/>
+                      <img className={styles.smallImage} src='/imagen/chiclayo/innova-tecno/imagen30.png'/>
+                      <img className={styles.smallImage} src='/imagen/chiclayo/innova-tecno/imagen31.png'/>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
 
             <div className={styles.box}>
               <div>

@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    margin-top: 20px;
   }
 
 .head_title {
@@ -48,8 +49,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    padding: 20px;
-    border-right: 1px solid #999;
+    background-color: #fcfcfc;
     overflow: auto; /* Esto añade un relleno alrededor del contenido */
     /* Añade tus propios estilos aquí */
   }
@@ -62,62 +62,79 @@
   }
   
   .rightSide {
-    width: 65%; /* Representa el 60% del ancho total */
+    width: 70%; /* Representa el 60% del ancho total */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px ; 
+    padding: 20px ;
+    margin-top: 42px; 
+    margin-right: 20px;
+    background-color: #f81819;
+    
     /* Añade tus propios estilos aquí */
   }
   
   .box {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column; 
-    align-items: flex-start;
+    align-items: space-between;
     padding: 20px;
+    color: #fcfcfc;
+  }
+
+  .contentContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px; /* Ajusta el espacio entre los elementos según tus necesidades */
+  }
+  .spaceBetween {
+    justify-content: center;
   }
 
   .imageTextContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .imageContainer {
-    width: 50%;
-    margin-right: 20px; 
-    margin: 10px 10px;
+    display: flex;
   }
   
   
   .smallImage {
-    width: 100%; /* Cambia este valor a tu gusto */
-    height: auto; /* Esto mantiene las proporciones de la imagen */
-    margin-bottom: 20px;
+    width: 250px; /* Cambia este valor según tus necesidades */
+    height: 200px; /* Ajusta la altura automáticamente para mantener la proporción */
+    margin: 5px;
+    border: 5px solid #ffff;
   }
 
   .smallImage1 {
-    width: 100%; 
+    width: 350px; 
     margin-top: 10px;
   }
 
   .textContainer{
-    width: auto;
-    margin: 70px 20px;
-    font-size: 25px;
+    width: 100%;
+    margin: 60px 10px;
+    font-size: 20px;
+    display: inline-flex;
+  }
+
+  .textContainer ul{
+    width: 100%;
   }
 
   .textContainer1 {
+    margin-top: 8px;
     font-size: 18px;
   }
   
   .title {
-    color: #333; /* Cambia el color del texto */
+    color: #fcfcfc;; /* Cambia el color del texto */
     font-size: 24px; /* Cambia el tamaño del texto */
     font-weight: 700; /* Añade un margen inferior */
-    /* Añade tus propios estilos aquí */
-    margin-bottom: 20px;
   }
 
   .backButton {

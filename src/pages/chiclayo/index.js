@@ -27,8 +27,8 @@ export default function Chiclayo() {
 
     const ImageRow = () => (
       <div className={styles.imageRow}>
-          <ImageCard src="/imagen/chiclayo/social/social3.png" alt="Descripción de imagen 1" text="Socialización del Proyecto de Drenaje Pluvial a dirigentes del PPJ Villa Hermosa – I Sector" />
-          <ImageCard src="/imagen/chiclayo/social/social6.png" alt="Descripción de imagen 2" text="Socialización del Proyecto de Drenaje Pluvial a dirigentes del PPJ Las Flores de la Pradera" />
+          <ImageCard src="/imagen/chiclayo/social/social3.png" alt="Descripción de imagen 1" text="Socialización del Proyecto de Drenaje Pluvial a dirigentes del Pueblo Joven Villa Hermosa – I Sector" />
+          <ImageCard src="/imagen/chiclayo/social/social6.png" alt="Descripción de imagen 2" text="Socialización del Proyecto de Drenaje Pluvial a dirigentes del Pueblo Joven Las Flores de la Pradera" />
           <ImageCard src="/imagen/chiclayo/social/social4.png" alt="Descripción de imagen 3" text="Coordinación con la Pte. de la Federación de Pueblos Jóvenes de José Leonardo Ortiz " />
           <ImageCard src="/imagen/chiclayo/social/social2.png" alt="Descripción de imagen 1" text="Socialización de las actividades de Geotecnia a vecinos del parque San Charvel en 9 de Octubre" />
           <ImageCard src="/imagen/chiclayo/social/social5.png" alt="Descripción de imagen 2" text="Reunión con dirigentes del tercer sector de La Victoria y representante del Frente de Defensa de la Victoria" />
