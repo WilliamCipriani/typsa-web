@@ -1,0 +1,71 @@
+.head_title {
+    position: relative;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+  
+.head_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1; 
+    opacity: 0.7;
+    transition: transform 0.5s ease;
+}
+
+.titleContainer {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  z-index: 999999;
+  margin-left: 30px;
+  color: black;
+}
+
+.titleContainer h1{
+  font-size: 70px;
+  font-weight: 700;
+}
+
+  .head_title {
+    letter-spacing: 2px;
+  }
+
+.imageRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .imageCard {
+    flex: 0 0 calc(33.33% - 10px);
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 50px; /* Agrega un margen superior de 20px */
+  }
+  
+  .imageWrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 85%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .imageCard p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }

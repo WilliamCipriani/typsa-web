@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from '@/styles/av_estudio.module.css'
 import { useEffect, useRef } from "react";
-import HeadPage from '@/components/head';
+import Link from 'next/link';
+
 
 const AvanceEstudios = () => {
 
@@ -46,8 +47,6 @@ const AvanceEstudios = () => {
   return (
 
     <>
-      <HeadPage />
-
       <div className={`${styles.head_title} `}>
         <img
           ref={imgRef}
@@ -60,45 +59,83 @@ const AvanceEstudios = () => {
         </div>
       </div>
 
-      <div className={`${styles.espacio}`} ></div>
+      <div className={styles.container}>
+        
+          <div className={styles.leftSide}>
+            <div className={styles.leftContainer}>
+              <h4 className='fw-bolder mt-5 ms-2'>Cliente:</h4>
+              <p className=' mt-3 ms-3 fst-italic'>Autoridad Para La Reconstrucción Con Cambios - ARCC</p>
 
+              <h4 className='fw-bolder mt-5 ms-2'>CUI:</h4>
+              <p  className=' mt-3 ms-3 fst-italic'>2545188</p>
 
-      <div className={styles.imageContainer}>
-          <img className={styles.myImage} src='/imagen/chiclayo/estudios/imagen4.png'/>
+              <h4 className='fw-bolder mt-5 ms-2'>Contrato:</h4>
+              <p className=' mt-3 ms-3 fst-italic'>NEC 03 Opción A</p>
+
+              <h4 className='fw-bolder mt-5 ms-2'>Modalidad:</h4>
+              <p className=' mt-3 ms-3 fst-italic'>Contrato A Suma Alzada Con Listado De Actividades</p>
+
+              <h4 className='fw-bolder mt-5 ms-2'>Plazo de Ejecución:</h4>
+              <p className=' mt-3 ms-3 fst-italic'>24 meses</p>
+
+              <h4 className='fw-bolder mt-5 ms-2'>Fin de Contrato:</h4>
+              <p className=' mt-3 ms-3 fst-italic'>29 de diciembre de 2024</p>
+
+              <h4 className='fw-bolder mt-5 ms-2'>Presupuesto de las obras:</h4>
+              <p className=' mt-3 ms-3 fst-italic'>Según perfil unos 921,000.000.00 de soles</p>
+
+              <h4 className='fw-bolder mt-5 ms-2'>Mantenimiento y operación:</h4>
+              <p className=' mt-3 ms-3 fst-italic'>Según perfil unos 2,900,000.00 de soles de forma anual</p>
+
+              <button className={styles.backButton}>
+                <Link href="/chiclayo" className={styles.link}>
+                  Volver atrás
+                </Link>
+              </button>
+            </div>
+            
+          </div>
+        
+          <div className={styles.rightSide}>
+            <div className={styles.box}>
+
+              <div className={styles.imageContainer}>
+                <img className={styles.smallImage} src='/imagen/chiclayo/estudios/imagen4.png'/>
+              </div>
+            </div>
+            <div className={styles.box}>
+              <div>
+                <h3 className={styles.title}>TOPOGRAFÍA</h3>
+              </div>
+              <ImageRow />
+            </div>
+            <div className={styles.box}>
+              <div>
+                <h3 className={styles.title}>HIDROLOGIA E HIDRAULICA</h3>
+              </div>
+              <div className={styles.imageContainer}>
+                <img className={styles.smallImage} src='/imagen/chiclayo/estudios/imagen9.png'/>
+              </div>
+            </div>
+{/** 
+            <div className={styles.box}>
+              <div>
+                <h3 className={styles.title}>PAISAJISMO</h3>
+              </div>
+              <div className={styles.imageContainer}> 
+                <div>
+                  <img className={styles.smallImage1} src='/imagen/chiclayo/estudios/imagen10.png'/>
+                </div>
+                  <img className={styles.smallImage1} src='/imagen/chiclayo/estudios/imagen11.png'/>  
+                <div>
+                </div> 
+              </div>
+            </div>
+            
+  */}           
+          </div>
+        
       </div>
-
-      <div className={`${styles.espacio}`} >
-        <h2 className='m-5 fw-bolder fs-1'>Topografía</h2>
-      </div>
-
-      <ImageRow />
-
-      <div className={`${styles.espacio}`} >
-        <h2 className='m-5 fw-bolder fs-1'>Hidrologia e Hidraulica</h2>
-      </div>
-      <div className={styles.imageContainer}>
-        <img className={styles.myImage} src='/imagen/chiclayo/estudios/imagen9.png'/>
-      </div>
-
-      <div className={`${styles.espacio}`} >
-        <h2 className='m-5 fw-bolder fs-1'>Paisajismo</h2>      
-      </div>
-
-      <div className={styles.imageContainer}> 
-        <div>
-          <img className={styles.myImage1} src='/imagen/chiclayo/estudios/imagen10.png'/>
-        </div>
-          <img className={styles.myImage1} src='/imagen/chiclayo/estudios/imagen11.png'/>  
-        <div>
-        </div> 
-      </div>
-
-      
-
-
-
-
-      
 
     </>
   );

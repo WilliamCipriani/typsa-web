@@ -1,3 +1,7 @@
+.container {
+    display: flex;
+  }
+
 .head_title {
     position: relative;
     height: 550px;
@@ -16,23 +20,12 @@
     object-fit: contain;
 }
 
-.espacio {
-    display: flex;         
-    align-items: center;
-    background-color: #E62C1E;
-    height: 100px;
-    color: #fff;
-    font-size: 44px; 
-    font-weight: 500;
-    
-}
-
 .titleContainer {
     position: absolute;
     bottom: 20px;
     left: 0;
     z-index: 999999;
-    margin-left: 30px;
+    margin-left: 20px;
     color: rgb(0, 0, 0);
 }
   
@@ -45,14 +38,14 @@
     max-width: 500px;
    }
   
-  .imageRow {
+.imageRow {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Ajusta el espaciado entre las imágenes */
-    padding-top: 30px;
-  }
+    padding-top: 10px;
+}
   
-  .imageCard {
+.imageCard {
     flex-basis: calc(33.33% - 10px); /* Ajusta el ancho de cada imagen según el espacio disponible */
     text-align: center;
     margin-bottom: 20px;
@@ -97,3 +90,100 @@
     margin: 0 60px;
 }
   
+
+.leftSide {
+    width: 30%; /* Representa el 40% del ancho total */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+    border-right: 1px solid #999;
+    overflow: auto; /* Esto añade un relleno alrededor del contenido */
+    /* Añade tus propios estilos aquí */
+  }
+  
+  .leftContainer {
+    background-color: #cccc;
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 20px;
+  }
+  
+  .rightSide {
+    width: 70%; /* Representa el 60% del ancho total */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* Añade tus propios estilos aquí */
+  }
+  
+  .box {
+    width: 80%;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+
+  .imageTextContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .imageContainer {
+    width: 80%;
+  }
+  
+  
+  .smallImage {
+    width: 100%; /* Cambia este valor a tu gusto */
+    height: auto; /* Esto mantiene las proporciones de la imagen */
+    margin-bottom: 20px;
+  }
+
+  .smallImage1 {
+    width: 50%;  
+    margin-bottom: 10px;
+  }
+
+  .textContainer{
+    width: auto;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  
+  .title {
+    color: #333; /* Cambia el color del texto */
+    font-size: 24px; /* Cambia el tamaño del texto */
+    margin-bottom: 20px;
+    font-weight: 700; /* Añade un margen inferior */
+    /* Añade tus propios estilos aquí */
+  }
+
+  .backButton {
+    display:flex;
+    padding: 10px 20px;
+    margin: 30px 20px;
+    font-size: 16px;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .backButton:hover {
+    background-color: #a00202;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .link:hover {
+    color: #fff;
+  }
