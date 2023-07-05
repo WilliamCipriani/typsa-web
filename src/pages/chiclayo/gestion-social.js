@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import styles from '@/styles/social.module.css'
+import Link from 'next/link';
+
 
 export default function GestionSocial() {
   const divRef = useRef([]);
@@ -86,7 +88,38 @@ export default function GestionSocial() {
         </div>
       </div>
 
-      <ImageRow />
+      <div className={styles.container}>
+        
+        <div className={styles.leftSide}>
+          <div className={styles.leftContainer}>
+            <h4 className='fw-bolder mt-5 ms-2'>Cliente:</h4>
+            <p className=' mt-3 ms-3 fst-italic'>Autoridad Para La Reconstrucción Con Cambios - ARCC</p>
+
+            <h4 className='fw-bolder mt-5 ms-2'>Modalidad:</h4>
+            <p className=' mt-3 ms-3 fst-italic'>Contrato A Suma Alzada Con Listado De Actividades</p>
+
+            <h4 className='fw-bolder mt-5 ms-2'>Plazo de Ejecución::</h4>
+            <p className=' mt-3 ms-3 fst-italic'>24 meses</p>
+
+            <h4 className='fw-bolder mt-5 ms-2'>Fin de Contrato:</h4>
+            <p className=' mt-3 ms-3 fst-italic'>29 de diciembre de 2024</p>
+
+            <button className={styles.backButton}>
+              <Link href="/chiclayo" className={styles.link}>
+                Volver atrás
+              </Link>
+            </button>
+          </div>
+          
+        </div>
+      
+        <div className={styles.rightSide}>
+          <div className={styles.box}>
+          <ImageRow />
+          </div>
+        </div>
+    </div>
+      
     </>
   );
 }

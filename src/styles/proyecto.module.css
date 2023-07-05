@@ -38,9 +38,9 @@
   font-weight: 700;
 }
 
-  .head_title {
-    letter-spacing: 2px;
-  }
+.head_title {
+  letter-spacing: 2px;
+}
   
   .leftSide {
     width: 30%; /* Representa el 40% del ancho total */

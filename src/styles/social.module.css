@@ -1,3 +1,7 @@
+.container {
+  display: flex;
+}
+
 .head_title {
     position: relative;
     height: 550px;
@@ -34,14 +38,14 @@
   font-weight: 700;
 }
 
-  .head_title {
+.head_title {
     letter-spacing: 2px;
-  }
+}
 
 .imageRow {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
   }
   
   .imageCard {
@@ -59,7 +63,7 @@
   }
   
   .image {
-    width: 85%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
@@ -68,4 +72,66 @@
     margin-top: 10px;
     font-size: 14px;
     color: #333;
+  }
+
+  .leftSide {
+    width: 30%; /* Representa el 40% del ancho total */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+    border-right: 1px solid #999;
+    overflow: auto; /* Esto añade un relleno alrededor del contenido */
+    /* Añade tus propios estilos aquí */
+  }
+  
+  .leftContainer {
+    background-color: #cccc;
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 20px;
+  }
+  
+  .rightSide {
+    width: 70%; /* Representa el 60% del ancho total */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .box {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .backButton {
+    display:flex;
+    padding: 10px 20px;
+    margin: 30px 20px;
+    font-size: 16px;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .backButton:hover {
+    background-color: #a00202;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .link:hover {
+    color: #fff;
   }
