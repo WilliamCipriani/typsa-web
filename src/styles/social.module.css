@@ -53,6 +53,7 @@
     margin-bottom: 20px;
     text-align: center;
     margin-top: 50px; /* Agrega un margen superior de 20px */
+    border: 1px solid rgb(0, 0, 0);
   }
   
   .imageWrapper {
@@ -135,3 +136,10 @@
   .link:hover {
     color: #fff;
   }
+
+  .justifiedText {
+    width: 90%;
+    text-align: justify;
+    margin: 15px;
+  }
+

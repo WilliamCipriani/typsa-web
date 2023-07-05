@@ -59,7 +59,8 @@ const FotosVideos = () => {
           <div className={styles.rightSide}>
             <div className={styles.box}>
             <div>
-              <h3 className={styles.title}>DRONE</h3>
+              <h3 className={styles.title}>GALERIA FOTOGRÁFICA</h3>
+              <p className='fs-4 text-danger fw-bolder'>Trabajos de Topografía en el centro histório de Chiclayo</p>
             </div>
             <div className={styles.gridContainer}>
             {images.map((image, index) => {

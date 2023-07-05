@@ -15,7 +15,7 @@ export default function GestionSocial() {
     { id: 5, src: 'fotos-videos', title: 'Fotos y Videos', image: '/imagen/chiclayo/portada2.png' },
   ];
 
-  const ImageCard = ({ src, alt, text }) => {
+  const ImageCard = ({ src, alt, text, text2 }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleMouseEnter = () => {
@@ -39,18 +39,21 @@ export default function GestionSocial() {
         <div className={styles.imageWrapper}>
           <img src={src} alt={alt} className={styles.image} style={imageStyle} />
         </div>
-        <p>{text}</p>
+        
+        <p className='fw-bolder'>{text}</p>
+        <p className={` ${styles.justifiedText}`}>{text2}</p>
+        
       </div>
     );
   };
 
   const ImageRow = () => (
     <div className={styles.imageRow}>
-      <ImageCard src="/imagen/chiclayo/social/social9.png" alt="Descripción de imagen 1" text="COLEGIO DE INGENIEROS DE LAMBAYEQUE" />
-      <ImageCard src="/imagen/chiclayo/social/social7.png" alt="Descripción de imagen 2" text="MUNICIPALIDAD DE PIMENTEL" />
-      <ImageCard src="/imagen/chiclayo/social/social8.png" alt="Descripción de imagen 3" text="MUNICIPALIDAD DE JOSE LEONARDO ORTIZ" />
-      <ImageCard src="/imagen/chiclayo/social/social10.png" alt="Descripción de imagen 1" text="MUNICIPALIDAD DE LA VICTORIA" />
-      <ImageCard src="/imagen/chiclayo/social/social11.png" alt="Descripción de imagen 2" text="MUNICIPALIDAD PROVINCIAL DE CHICLAYO" />
+      <ImageCard src="/imagen/chiclayo/social/social9.png" alt="Descripción de imagen 1" text="COLEGIO DE INGENIEROS DE LAMBAYEQUE" text2 ="Lanzamiento del proyecto en la municipalidad de Chiclayo, en la gráfica la alcaldesa de Chiclayo, Janeth Cubas Carranza, su equipo técnico, funcionarios de ARCC y TYPSA" />
+      <ImageCard src="/imagen/chiclayo/social/social7.png" alt="Descripción de imagen 2" text="MUNICIPALIDAD DE PIMENTEL" text2 = "Presentación de avances del diseño del proyecto al alcalde distrital de Pimentel, Enrique Navarro Cacho Sousa y su equipo técnico donde conocimos sus expectativas  y  recogimos mayor información. " />
+      <ImageCard src="/imagen/chiclayo/social/social8.png" alt="Descripción de imagen 3" text="MUNICIPALIDAD DE JOSE LEONARDO ORTIZ" text2 = "Presentación de avances del proyecto al alcalde distrital de José Leonardo Ortiz, Elber Requejo Sánchez, su equipo técnico, funcionarios y  representantes de  la sociedad civil del distrito, recogimos sus expectativas" />
+      <ImageCard src="/imagen/chiclayo/social/social10.png" alt="Descripción de imagen 1" text="MUNICIPALIDAD DE LA VICTORIA" text2 = "Reunión con el alcalde del distrito de La Victoria, Edwin Vásquez Sánchez y sus  funcionarios,  dimos a conocer los avances  del diseño del proyecto." />
+      <ImageCard src="/imagen/chiclayo/social/social11.png" alt="Descripción de imagen 2" text="MUNICIPALIDAD PROVINCIAL DE CHICLAYO" text2 = "Lanzamiento del proyecto en la municipalidad de Chiclayo, en la gráfica la alcaldesa de Chiclayo, Janeth Cubas Carranza, su equipo técnico, funcionarios de ARCC y TYPSA" />
     </div>
   );
 
