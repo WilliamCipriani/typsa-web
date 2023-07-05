@@ -49,7 +49,7 @@ export default function GestionSocial() {
 
   const ImageRow = () => (
     <div className={styles.imageRow}>
-      <ImageCard src="/imagen/chiclayo/social/social9.png" alt="Descripción de imagen 1" text="COLEGIO DE INGENIEROS DE LAMBAYEQUE" text2 ="Lanzamiento del proyecto en la municipalidad de Chiclayo, en la gráfica la alcaldesa de Chiclayo, Janeth Cubas Carranza, su equipo técnico, funcionarios de ARCC y TYPSA" />
+      <ImageCard src="/imagen/chiclayo/social/social9.png" alt="Descripción de imagen 1" text="COLEGIO DE INGENIEROS DE LAMBAYEQUE" text2 ="Reunión con el Ing. Carlos Burgos Montenegro, Decano del Colegio de Ingenieros de Lambayeque." />
       <ImageCard src="/imagen/chiclayo/social/social7.png" alt="Descripción de imagen 2" text="MUNICIPALIDAD DE PIMENTEL" text2 = "Presentación de avances del diseño del proyecto al alcalde distrital de Pimentel, Enrique Navarro Cacho Sousa y su equipo técnico donde conocimos sus expectativas  y  recogimos mayor información. " />
       <ImageCard src="/imagen/chiclayo/social/social8.png" alt="Descripción de imagen 3" text="MUNICIPALIDAD DE JOSE LEONARDO ORTIZ" text2 = "Presentación de avances del proyecto al alcalde distrital de José Leonardo Ortiz, Elber Requejo Sánchez, su equipo técnico, funcionarios y  representantes de  la sociedad civil del distrito, recogimos sus expectativas" />
       <ImageCard src="/imagen/chiclayo/social/social10.png" alt="Descripción de imagen 1" text="MUNICIPALIDAD DE LA VICTORIA" text2 = "Reunión con el alcalde del distrito de La Victoria, Edwin Vásquez Sánchez y sus  funcionarios,  dimos a conocer los avances  del diseño del proyecto." />
