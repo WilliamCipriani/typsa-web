@@ -143,7 +143,7 @@
 }
 
 .linkStyle:hover {
-  color: blue; /* Cambia esto al color que desees cuando se pasa el mouse */
+  color: rgb(145, 3, 3); /* Cambia esto al color que desees cuando se pasa el mouse */
   transform: scale(1.1); /* Esto agranda el texto en un 10% */
 }
 
