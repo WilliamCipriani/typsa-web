@@ -68,7 +68,7 @@ export default function HeadPage() {
                 </li>
                 <li className="nav-item mx-2 d-flex ">
                   <Link href="https://typsa-noticias-peru.blogspot.com" target="_blank" className={`${styles.nav_link}  nav-link`}>
-                    Noticias Typsa
+                    Artículos
                   </Link>
                   
                 </li>

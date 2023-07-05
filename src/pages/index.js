@@ -46,19 +46,19 @@ export default function Home() {
         <section className='d-flex flex-column flex-md-row justify-content-center mt-5 mb-5'>
           <div className='text-center m-2'>
             <div  className='mb-3'>
-              <Link href='/quienes-somos' className='text-danger fs-5 fw-bolder' >QUIÉNES SOMOS</Link>
+              <Link href='/quienes-somos' className={`text-danger fs-5 fw-bolder ${styles.linkStyle}`} >QUIÉNES SOMOS</Link>
             </div>
             <div className='mx-5'>
-              <Image className='img-fluid' src='/imagen/inicio/b55613c3e5af182be01144a3b8947284.jpg' width={450} height={450} alt='quienes-somos-typsa'/>
+              <Image className='img-fluid' src='/imagen/inicio/b55613c3e5af182be01144a3b8947284.jpg' width={350} height={350} alt='quienes-somos-typsa'/>
             </div>
             
           </div>
           <div className='text-center m-2'>
             <div className='mb-3'>
-              <Link href='/confiar-typsa' className='text-danger fs-5 fw-bolder'>POR QUÉ CONFIAR EN TYPSA</Link>
+              <Link href='/confiar-typsa' className={`text-danger fs-5 fw-bolder ${styles.linkStyle}`}>¿POR QUÉ CONFIAR EN TYPSA?</Link>
             </div>
             <div className='mx-5'>
-              <Image className='img-fluid' src='/imagen/inicio/cb188900f4c3dc4ce82382fca8d419b0.jpg' width={450} height={450} alt='quienes-somos-typsa'/>
+              <Image className='img-fluid' src='/imagen/inicio/cb188900f4c3dc4ce82382fca8d419b0.jpg' width={350} height={350} alt='quienes-somos-typsa'/>
             </div>
           </div>
         </section>
@@ -74,21 +74,21 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='d-flex flex-column flex-md-row justify-content-center mt-5 mb-5'>
+        <section className='d-flex flex-column flex-md-row justify-content-center mt-5 '>
           <div className='text-center m-2'>
             <div className='mb-3'>
-              <Link href='/typsa-peru' className='text-danger fs-5 fw-bolder'>TYPSA - PERÚ</Link>
+              <Link href='/typsa-peru' className={`text-danger fs-5 fw-bolder ${styles.linkStyle}`}>TYPSA - PERÚ</Link>
             </div>
             <div className='mx-5'>
-              <Image className='img-fluid' src='/imagen/inicio/bd0e3ddf483986064f9d89ea4b8161f1.jpg' width={600} height={405} alt='typsa.-Perú'/>
+              <Image className='img-fluid' src='/imagen/inicio/bd0e3ddf483986064f9d89ea4b8161f1.jpg' width={350} height={350} alt='typsa-Perú'/>
             </div>
           </div>
           <div className='text-center m-2'>
-            <div className='m-3'>
-              <Link href='/typsa-mundo' className='text-danger fs-5 fw-bolder'>PRESENCIA MUNDIAL Y CIFRAS CLAVES</Link>
+            <div>
+              <Link href='/typsa-mundo' className={`text-danger fs-5 fw-bolder ${styles.linkStyle}`}>PRESENCIA MUNDIAL Y CIFRAS CLAVES</Link>
             </div>
-            <div className='mx-5'> 
-              <Image className='img-fluid' src='/imagen/inicio/943e3cbcf56a30a2cf33cd711bcb0a60.jpg' width={600} height={495} alt='persencia-mundual'/>
+            <div className='m-3'> 
+              <Image className='img-fluid' src='/imagen/inicio/943e3cbcf56a30a2cf33cd711bcb0a60.jpg' width={350} height={350} alt='persencia-mundual'/>
             </div>
           </div>
         </section>

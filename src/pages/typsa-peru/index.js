@@ -19,7 +19,7 @@ export default function TypsaPeru() {
           <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Organigrama</h3>
         </div>
         <div className='d-flex justify-content-center text-center mt-5'>
-          <img className="Image-fluid" src='/imagen/TYPSA-PERU/organigrama_PERU.png' width={1168} height={450} alt="organigrama-typsa" />
+          <img className="Image-fluid" src='/imagen/TYPSA-PERU/organigrama_PERU.png' width={1000} alt="organigrama-typsa" />
         </div>
         <div className="text-center text-danger fw-bolder fs-3 mt-3 mb-5">
           96% Planilla Peruana

@@ -102,7 +102,7 @@ const InformacionProyectos = () => {
             </div>
             <div className={styles.box}>
               <div>
-                <h3 className={styles.title}>PRINCIPALES TIPOS DE ESTRUCTURAS Y METASO</h3>
+                <h3 className={styles.title}>PRINCIPALES TIPOS DE ESTRUCTURAS Y METAS</h3>
               </div>
               <div className={styles.txtContainer}>
                 <ol>

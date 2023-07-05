@@ -71,8 +71,7 @@
 .video_container {
   position: relative;
   overflow: hidden;
-  width: 958px;
-  width: 556;
+  width: 80%;
   padding-top: 35.55%; /* Relación de aspecto 16:9 */
   margin: auto;
 }
@@ -136,6 +135,16 @@
 .passwordToggle:focus svg,
 .passwordToggle:hover svg {
   fill: #333;
+}
+
+.linkStyle {
+  text-decoration: none;
+  transition: color 0.5s, transform 0.5s;
+}
+
+.linkStyle:hover {
+  color: blue; /* Cambia esto al color que desees cuando se pasa el mouse */
+  transform: scale(1.1); /* Esto agranda el texto en un 10% */
 }
 
 .modal-90w {
