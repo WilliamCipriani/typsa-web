@@ -24,7 +24,7 @@ export default function LoginForm() {
       console.log(username, password);
   
   
-      const response = await fetch("https://typsaapi.azurewebsites.net/auth", {
+      const response = await fetch("http://64.227.22.187/auth", {
 
         method: "POST",
         headers: {
