@@ -1,68 +1,196 @@
-.navbar {
-  background-color: #ffff;
-  position: relative; /*o position: fixed; o position: sticky; dependiendo de tus necesidades */
-  z-index: 1000;
-  
+.mainNav {
+
+  height: 60px;
+
 }
 
-.nav_brand {
-  
-}
 
-.nav_links {
+
+
+.mainNavMenu {
+
   display: flex;
+
+  justify-content: flex-end;
+
+  margin-right: 30px;
+
 }
 
-.nav_link {
+
+
+
+.mainNavMenu ul {
+
+  display: flex;
+
+  list-style: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  z-index: 9999999;
+
+}
+
+
+
+
+.mainNavMenu li {
+
   position: relative;
-  font-size: 18px;
-  font-weight: 700;
-  transition: all 0.3s ease-in-out;
-  color: black;
-  text-decoration: none;
-  margin-right: 10px; 
+
+  margin-right: 20px;
+
 }
 
-.nav_link::after {
-  content: '';
+
+
+
+.mainNavDropdown ul {
+
+  display: none;
+
   position: absolute;
-  width: 0;
-  height: 5px;
-  background: #C01525;
-  bottom: 0;
+
+  top: 100%;
+
   left: 0;
-  transition: width 0.5s ease;
+
+  background-color: #fff;
+
+  padding: 10px;
+
+  min-width: 200px;
+
 }
 
-.nav_link:hover {
-  color: #C01525;
+
+
+
+.mainNavDropdown li {
+
+  margin: 10px 0;
+
 }
 
-.nav_link:hover::after {
+
+
+
+.mainNavDropdown li a {
+
+  display: block;
+
+  position: relative;
+
+  color: #000;
+
+  padding: 15px;
+
+  text-decoration: none;
+
+}
+
+
+
+
+.mainNavDropdown li a:hover {
+
+  background-color: #f5f5f5;
+
+}
+
+
+
+
+.mainNavDropdown li ul {
+
+  display: none;
+
+  position: absolute;
+
+  top: 100%;
+
+  left: 0;
+
+  background-color: #fff;
+
+  border: 1px solid #ddd;
+
+  padding: 0;
+
+}
+
+
+
+
+ul.mainNavDropdown li:hover > ul {
+
+  display: block;
+
+}
+
+
+
+
+ul.mainNavDropdown li ul li {
+
   width: 100%;
+
 }
 
-.nav_menu {
-    width: 20px;
-    left: -18px;
-    bottom: -5px;
-  }
 
-.nav_menu_item {
-    padding: 5px 30px 10px ;
-  }
 
-  .logo_container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* Ajusta la alineación vertical según tus necesidades */
-  }
 
-  .logo {
-    display: flex;
-    align-items: center;
-    width: 120px;
-    height: auto;
-    position: absolute;
-    margin-top: 2px; /* Ajusta el margen superior según tus necesidades */
-  }
+ul.mainNavDropdown li ul li a {
+
+  padding: 10px 15px;
+
+}
+
+
+
+
+.menuTriggerContainer {
+
+  flex: 0;
+
+}
+
+
+
+
+.menuTrigger {
+
+  cursor: pointer;
+
+}
+
+
+
+
+.logo_container {
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+
+
+
+.logo {
+
+  align-items: start;
+
+  position: absolute;
+
+  width: 120px;
+
+  height: auto;
+
+  z-index: 9999999;/* Ajusta el margen superior según tus necesidades */
+
+}
