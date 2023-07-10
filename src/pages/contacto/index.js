@@ -115,16 +115,16 @@ export default function Contacto() {
                 <h3 className="text-danger fw-bolder">VISÍTANOS</h3>
                 <p>Av. 28 de Julio 1044, Miraflores 15047</p>
             </div>
-            <div className={`${styles.divisor}`}>
+            <div >
                 <h3 className="text-danger fw-bolder">LLÁMANOS</h3>
                 <p>(01) 7192645</p>
-                <p>(51) 9999999</p>
             </div>
-              
+              {/* 
             <div >
                 <h3 className="text-danger fw-bolder">ESCRÍBENOS</h3>
-                <p>contacto@typsa.es</p>
+                
             </div>
+            */}
         </div>      
         </div>
 

@@ -21,18 +21,17 @@ export default function Chiclayo() {
         <div className={styles.imageWrapper}>
             <img src={src} alt={alt} className={styles.image}/>
         </div>
-            <p>{text}</p>
-        </div>
+            <p className={styles.imageText}>{text}</p>
+      </div>
     );
 
     const ImageRow = () => (
       <div className={styles.imageRow}>
-          <ImageCard src="/imagen/chiclayo/social/social3.png" alt="Descripción de imagen 1" text="Socialización del Proyecto de Drenaje Pluvial a dirigentes del Pueblo Joven Villa Hermosa – I Sector" />
-          <ImageCard src="/imagen/chiclayo/social/social6.png" alt="Descripción de imagen 2" text="Socialización del Proyecto de Drenaje Pluvial a dirigentes del Pueblo Joven Las Flores de la Pradera" />
-          <ImageCard src="/imagen/chiclayo/social/social4.png" alt="Descripción de imagen 3" text="Coordinación con la Pte. de la Federación de Pueblos Jóvenes de José Leonardo Ortiz " />
-          <ImageCard src="/imagen/chiclayo/social/social2.png" alt="Descripción de imagen 1" text="Socialización de las actividades de Geotecnia a vecinos del parque San Charvel en 9 de Octubre" />
-          <ImageCard src="/imagen/chiclayo/social/social5.png" alt="Descripción de imagen 2" text="Reunión con dirigentes del tercer sector de La Victoria y representante del Frente de Defensa de la Victoria" />
-          <ImageCard src="/imagen/chiclayo/social/social1.png" alt="Descripción de imagen 3" text="Reunión con representantes de la Junta Vecinal del sector de Patazca – Chiclayo." />
+          <ImageCard src="/imagen/chiclayo/equipo1.png" alt="Descripción de imagen 1" text="Socialización del Proyecto de Drenaje Pluvial a dirigentes del Pueblo Joven Villa Hermosa – I Sector" />
+          <ImageCard src="/imagen/chiclayo/equipo2.png" alt="Descripción de imagen 2" text="El ing. Miguel Angel Gago, Coordinador Técnico de Gestióm" />
+          <ImageCard src="/imagen/chiclayo/equipo3.png" alt="Descripción de imagen 3" text="Coordinación con la Pte. de la Federación de Pueblos Jóvenes de José Leonardo Ortiz " />
+          <ImageCard src="/imagen/chiclayo/equipo5.png" alt="Descripción de imagen 2" text="El Gerente de Proyecto del  Diseño Integral de Drenaje Pluvial de Chiclayo, Ing. Jorge Velásquez Guevara participó de un  taller informativo dirigido a los periodistas y comunicadores de la región Lambayeque, en la mesa lo acompañan, el gerente de proyecto de Drenaje por  ARCC,  Ing. Juan Maldonado y los  funcionarioa de TYPSA, Ing, Germán Torres  y el Ing. Miguel Angel Gago." />
+          
       </div>
     );
 
@@ -105,9 +104,12 @@ export default function Chiclayo() {
                 showStatus={false}
                 infiniteLoop={true}
                 autoPlay={true}
-              >
+              >  
                 <div className={`${styles.head_title_equipo} container-fluid d-flex justify-content-center align-items-center`}>
                     <img  src="/imagen/chiclayo/equipo5.png" alt="background"   layout='responsive'/>
+                </div>
+                <div className={`${styles.head_title_equipo} container-fluid d-flex justify-content-center align-items-center`}>
+                    <img  src="/imagen/chiclayo/equipo1.png" alt="background"   layout='responsive'/>
                 </div>
 
                 <div className={`${styles.head_title_equipo} container-fluid d-flex justify-content-center align-items-center`}>
@@ -119,13 +121,7 @@ export default function Chiclayo() {
                 </div>
               </Carousel>
             </div>
-
           </div>
-
-          <div className={`${styles.espacio1} d-flex flex-column justify-content-center fs-3 fw-bolder `}>
-            <span className='ms-5 fs-1'>Socialización del Proyecto</span>
-          </div>
-          
           <ImageRow />
         </section>
 
