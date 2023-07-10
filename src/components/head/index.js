@@ -1,88 +1,62 @@
-import Image from 'next/image'
+import { useState } from 'react';
 import Link from 'next/link';
-import { Nav, Navbar , Container, NavDropdown  } from 'react-bootstrap';
 import styles from '@/styles/head.module.css'
 
 
 export default function HeadPage() {
-    
-    return (
-      <>
-      <nav className={`${styles.mainNav} navbar navbar-expand-lg`}>
 
-<div className={`container-fluid d-flex justify-content-between ${styles.row}`}>
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-      <div className={styles.logo_container}>
+  const handleMenuClick = () => {
+    setIsMenuOpen(!isMenuOpen);
+  }
 
-        <Link href="/" className={`navbar-brand ${styles.logo_link}`}>
+  return (
+    <>
+      <nav className={`${styles.mainNav} navbar navbar-expand-lg`} >
+        <div className={`container-fluid d-flex justify-content-between ${styles.row}`}>
+          <div className={styles.logo_container}>
+            <Link href="/" className={`navbar-brand ${styles.logo_link}`}>
+              <img src="/imagen/logo-grupo-Typsa-1.png" alt="Logo-Typsa" className={styles.logo} />
+            </Link>
+          </div>
 
-          <img src="/imagen/logo-grupo-Typsa-1.png" alt="Logo-Typsa" className={styles.logo} />
-
-        </Link>
-
-      </div>
-
-     <div className={styles.mainNavMenu}>
-
-        <ul className={`${styles.standardDropdown} ${styles.mainNavDropdown}`}>
-
-          <li className={styles.hassubs}>
-
-            <Link href="/" className={styles.a}>Inicio<i className="fas fa-chevron-down"></i></Link>
-
-            <ul>
-
-              <li>
-
-                <Link href="/quienes-somos" className={styles.a}>Quiénes Somos<i className="fas fa-chevron-down"></i></Link>
-
+          <div onClick={handleMenuClick} className={styles.menuIcon}>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>        
+          <div className={`${styles.mainNavMenu} ${isMenuOpen ? styles.openMenu : ''}`} >
+            <ul className={`${styles.standardDropdown} ${styles.mainNavDropdown}`}>
+              <li className={styles.hassubs}>
+                <Link href="/" className={styles.a}>Inicio<i className="fas fa-chevron-down"></i></Link>
+                <ul>
+                  <li>
+                    <Link href="/quienes-somos" className={styles.a}>Quiénes Somos<i className="fas fa-chevron-down"></i></Link>
+                  </li>
+                  <li><Link href="/confiar-typsa" className={styles.a}>Confiar en TYPSA<i className="fas fa-chevron-down"></i></Link></li>
+                  <li><Link href="/typsa-peru" className={styles.a}>TYPSA-PERÚ<i className="fas fa-chevron-down"></i></Link></li>
+                  <li><Link href="/typsa-mundo" className={styles.a}>TYPSA en el mundo<i className="fas fa-chevron-down"></i></Link></li>
+                  <li><Link href="/capacidad" className={styles.a}>Capacidades Digitales<i className="fas fa-chevron-down"></i></Link></li>
+                </ul>
               </li>
-
-              <li><Link href="/confiar-typsa" className={styles.a}>Confiar en TYPSA<i className="fas fa-chevron-down"></i></Link></li>
-
-              <li><Link href="/typsa-peru" className={styles.a}>TYPSA-PERÚ<i className="fas fa-chevron-down"></i></Link></li>
-
-              <li><Link href="/typsa-mundo" className={styles.a}>TYPSA en el mundo<i className="fas fa-chevron-down"></i></Link></li>
-
-              <li><Link href="/capacidad" className={styles.a}>Capacidades Digitales<i className="fas fa-chevron-down"></i></Link></li>
-
-            </ul>
-
-          </li>
-
-          <li className={styles.hassubs}>
-
-            <Link href="#" className={styles.a}>Proyectos<i className="fas fa-chevron-down"></i></Link>
-
-            <ul>
-
-              <li>
-
-                <Link href="/chiclayo" className={styles.a}>Chiclayo<i className="fas fa-chevron-down"></i></Link>
-
+              <li className={styles.hassubs}>
+                <Link href="#" className={styles.a}>Proyectos<i className="fas fa-chevron-down"></i></Link>
+                <ul>
+                  <li>
+                    <Link href="/chiclayo" className={styles.a}>Chiclayo<i className="fas fa-chevron-down"></i></Link>
+                  </li>
+                </ul>
               </li>
+              <li><Link href="/contacto" className={styles.a}>Contacto<i className="fas fa-chevron-down"></i></Link></li>
 
+              <li><Link href="https://typsa-noticias-peru.blogspot.com/" target='_blank' className={styles.a}>Articulo<i className="fas fa-chevron-down"></i></Link></li>
             </ul>
+          </div>
+        </div>
+      </nav>
 
-          </li>
-
-          <li><Link href="/contacto" className={styles.a}>Contacto<i className="fas fa-chevron-down"></i></Link></li>
-
-          <li><Link href="https://typsa-noticias-peru.blogspot.com/" target='_blank' className={styles.a}>Articulo<i className="fas fa-chevron-down"></i></Link></li>
-
-        </ul>
-
-      </div>
-
-   
-
- 
-
-</div>
-
-</nav>
-            
-      </>
-    );
+    </>
+  );
 
 }
