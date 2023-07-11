@@ -43,8 +43,10 @@
   color: #fff;
 }
 
+
+
 .container_img {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: center;
   
@@ -54,6 +56,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: 1.8rem;
+  text-align: justify !important;
 } 
 
 
@@ -72,4 +76,48 @@
     .title {
       font-size: 3rem;
     }
+  }
+
+  @media (max-width: 576px) {
+    .subtitle {
+      font-size: 1rem; /* Tamaño de fuente aún más pequeño para pantallas pequeñas */
+    }
+    .title {
+      font-size: 3rem;
+    }
+
+    .head_title {
+      height: 450px;
+    }
+
+    .container_img {
+      width: 100%;
+      
+    }
+
+    .responsive_img {
+      max-width: 100%;
+    }
+
+    .espacio {
+      height: 60px;
+    }
+
+    .espacio_text {
+      display: flex;
+      text-align: start;
+      font-size: 21px !important;
+      font-weight: 700 !important; /* Establece el tamaño de fuente deseado aquí */
+    }
+
+    .img_fluid {
+      width: 280px;
+      margin-left: 45px;
+      top: 0 ;
+    }
+
+    .container_text {
+      font-size: 1rem;
+    }
+
   }

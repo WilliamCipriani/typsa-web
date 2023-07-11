@@ -72,7 +72,7 @@
   position: relative;
   overflow: hidden;
   width: 80%;
-  padding-top: 35.55%; /* Relación de aspecto 16:9 */
+  padding-top: 38.55%; /* Relación de aspecto 16:9 */
   margin: auto;
 }
 
@@ -159,4 +159,18 @@
     .title {
       font-size: 3rem;
     }
+
+    .head_title {
+      height: 450px;
+    }
+
+    .text {
+      font-size: 18px;
+    }
+
+    .text_1 {
+      font-size: 17px;
+    }
   }
+
+  

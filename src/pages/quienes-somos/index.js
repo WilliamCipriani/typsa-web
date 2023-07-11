@@ -17,13 +17,13 @@ export default function QuienesSomos() {
         </div>
 
         
-        <div className='container-fluid m-5 '>
+        <div className='container-fluid '>
           <section>
             <div className="d-flex justify-content-center flex-column flex-lg-row">
               <div className={styles.container_img}>
                 <img className={styles.responsive_img} src='/imagen/quienes-somos/c4717a095416967f741cb9cfd5afe877.jpg' alt="Fundación-Grupo-TYPSA"/>
               </div>
-              <div className={`text-start ms-lg-5 mt-5 ${styles.container_text}`} style={{maxWidth: '561px'}}>
+              <div className="text-start ms-lg-5 " style={{maxWidth: '561px'}}>
                 <h3 className="text-danger fs-2 fw-bolder ">Fundación Grupo TYPSA</h3>
                 <p>Desde 1966, apoyando a clientes institucionales, públicos y privados en el desarrollo de proyectos de transporte, agua, edificación, energías renovables y desarrollo rural, desde su concepción hasta su puesta en servicio y operación.</p>
                 <p>Actualmente somos la primera empresa de ingeniería civil en España y la Nº 46 en el mundo (ENR 22) por volumen de exportación.</p>
@@ -41,7 +41,7 @@ export default function QuienesSomos() {
               </div>
             </div>
 
-            <div className="d-flex justify-content-center flex-column flex-lg-row">
+            <div className="d-flex justify-content-center flex-column flex-lg-row mb-4">
               <div className={styles.container_img}>
                 <img className={styles.responsive_img} src='/imagen/quienes-somos/c0d1aee73c3d1e0235a8fd78c93f842c.jpg'  alt="Fundación-Grupo-TYPSA"/>
               </div>
@@ -58,7 +58,7 @@ export default function QuienesSomos() {
 
           <section>
             <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
-              <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Áreas de Negocio</h3>
+              <h3 className={`${styles.espacio_text} d-flex flex-start fw-bolder ms-3 fs-1`}>Áreas de Negocio</h3>
             </div>
 
             <div className="container mt-5 mb-5 flex-column flex-lg-row">
@@ -219,7 +219,7 @@ export default function QuienesSomos() {
             </div>
 
             <div className="d-flex flex-column justify-content-center align-items-center mt-5">
-              <img lang="img-fluid" src='/imagen/quienes-somos/d3501788a42370c41fd6765ea8626324.jpg'  alt="gota"/>
+              <img className="img-fluid" src='/imagen/quienes-somos/d3501788a42370c41fd6765ea8626324.jpg'  alt="gota"/>
               <div className="text-danger fw-bolder fs-3 mt-3">
                 Ayuda al desarrollo
               </div>
@@ -232,7 +232,7 @@ export default function QuienesSomos() {
 
           <section>
             <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
-              <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">TYPSA en el ranking mundial</h3>
+              <h3 className={`${styles.espacio_text} d-flex flex-start fw-bolder ms-3 fs-1`}>TYPSA en el ranking mundial</h3>
             </div>
             
             <div className="d-flex flex-column justify-content-center align-items-center mt-5">
@@ -274,7 +274,7 @@ export default function QuienesSomos() {
 
           <section>
             <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
-              <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Certificaciones</h3>
+              <h3 className={`${styles.espacio_text} d-flex flex-start fw-bolder ms-5 fs-1`}>Certificaciones</h3>
             </div>
             
             <div className="d-flex justify-content-center mb-5 mt-5 flex-column flex-lg-row">
@@ -288,12 +288,12 @@ export default function QuienesSomos() {
           
           <section>
             <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
-              <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">I+D+i</h3>
+              <h3 className={`${styles.espacio_text} d-flex flex-start fw-bolder ms-5 fs-1`}>I+D+i</h3>
             </div>
             
             <div className="d-flex justify-content-center flex-column flex-lg-row">
-              <img  src='/imagen/quienes-somos/2302fe4d566cd235dc7055737a30ff5d.jpg'  alt="gota"/>
-              <div className="text-center ms-5 mt-5" style={{maxWidth: '661px'}}>
+              <img className="img-fluid"  src='/imagen/quienes-somos/2302fe4d566cd235dc7055737a30ff5d.jpg'  alt="gota"/>
+              <div className="text-center" style={{maxWidth: '661px'}}>
                 <p className="text-danger fs-2 fw-bolder mt-5">I+D+i</p>
                 <p>Investigación + Desarrollo + Innovación</p>
                 <p className="text-secondary fst-italic">Datos correspondientes al año 2022</p>
@@ -304,7 +304,7 @@ export default function QuienesSomos() {
 
           <section>
             <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
-              <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Responsabilidad social corporativa</h3>
+              <h3 className={`${styles.espacio_text} d-flex flex-start fw-bolder ms-3 fs-1`}>Responsabilidad social corporativa</h3>
             </div>
             
             <div>
@@ -522,7 +522,7 @@ export default function QuienesSomos() {
 
           <section>
             <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
-              <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Premios y Reconocmientos</h3>
+              <h3 className={`${styles.espacio_text} d-flex flex-start fw-bolder ms-3 fs-1`}>Premios y Reconocmientos</h3>
             </div>
             <div className="container">
             <div className="row" >
@@ -616,14 +616,14 @@ export default function QuienesSomos() {
 
           <section>
             <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
-              <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Trabajadores</h3>
+              <h3 className={`${styles.espacio_text} d-flex flex-start fw-bolder ms-3 fs-1`}>Trabajadores</h3>
             </div>
 
             <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
               <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
-                <img className="img-fluid" src='/imagen/quienes-somos/ca83ceb86ccb0737658c43be57fb77e9.jpg'  alt="gota"/>
+                <img className={styles.img_fluid} src='/imagen/quienes-somos/ca83ceb86ccb0737658c43be57fb77e9.jpg' style={{maxWidth: '1000px'}}  alt="gota"/>
               </div>
-              <div className="text-center fs-4 ms-5 mt-3" style={{maxWidth: '450px', overflowY: 'auto'}}>
+              <div className={`text-start ms-lg-5 ${styles.container_text}`}  style={{maxWidth: '650px'}}>
                 <p>
                   3.347 profesionales repartidos en 50 oficinas permanente situadas en 25 países.
                 </p>
@@ -636,15 +636,15 @@ export default function QuienesSomos() {
 
 
           <section>
-          <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
-              <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Fidelización</h3>
+            <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
+              <h3 className={`${styles.espacio_text} d-flex flex-start fw-bolder ms-3 fs-1`}>Fidelización</h3>
             </div>
 
             <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
               <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
-                <img className="img-fluid" src='/imagen/quienes-somos/384831295f44a88d5efe29a3738427fd.jpg'  alt="gota"/>
+                <img className={styles.img_fluid} src='/imagen/quienes-somos/384831295f44a88d5efe29a3738427fd.jpg' style={{maxWidth: '1000px'}}  alt="gota"/>
               </div>
-              <div className="text-center fs-4  ms-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
+              <div className={`text-start ms-lg-5 ${styles.container_text}`}  style={{maxWidth: '650px'}}>
                 <p className="mt-4">
                 TYPSA cree en sus equipos e invierte en el desarrollo de su potencial profesional y humano. Ello nos permite garantizar el máximo nivel de implicación  y compromiso con el proyecto, incluso una vez finalizado.
                 </p>
@@ -657,15 +657,15 @@ export default function QuienesSomos() {
 
 
           <section>
-          <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
-              <h3 className="d-flex flex-start fw-bolder ms-5 fs-1">Áreas temáticas y sostenibilidad</h3>
+            <div className={`${styles.espacio} d-flex flex-column justify-content-center text-center `}>
+              <h3 className={`${styles.espacio_text} d-flex flex-start fw-bolder ms-5 fs-1`}>Áreas temáticas y sostenibilidad</h3>
             </div>
 
             <div className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row">
                 <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
-                  <img className="img-fluid" src='/imagen/quienes-somos/872dd646bb6e6c634d5e082eb7e8fc87.jpg' alt="gota"/>
+                  <img className={styles.img_fluid} src='/imagen/quienes-somos/872dd646bb6e6c634d5e082eb7e8fc87.jpg' style={{maxWidth: '1000px'}} alt="gota"/>
                 </div>
-                <div className="text-center ms-5 fs-4" style={{maxWidth: '450px', overflowY: 'auto'}}>
+                <div className={`text-start ms-lg-5 ${styles.container_text}`}  style={{maxWidth: '650px'}}>
                   <p className="mt-4">
                     TYPSA, es consciente de la importancia de diseñar infraestructuras sostenibles, por lo que en sus diseños prioriza la incorporación, siempre que sea técnica y económicamente viable, de soluciones constructivas y prácticas sostenibles que aumentan la eficacia y el rendimiento de la infraestructura, de forma que le confieran una mayor resiliencia y adaptabilidad.
                   </p>
@@ -676,16 +676,16 @@ export default function QuienesSomos() {
             </div>
             <div className="container-fluid">
               <div className="row">
-                <div className="col-lg-6 text-center">
-                  <img className="img-fluid" src='/imagen/quienes-somos/d95c947b189d457678d08f80c53984f0.jpg' alt="gota"/>
-                  <div className="ms-5" style={{width: '562px'}}>
+                <div className="col-lg-6 d-flex flex-column align-items-center text-center">
+                  <img className="img-fluid" src='/imagen/quienes-somos/d95c947b189d457678d08f80c53984f0.jpg' style={{maxWidth: '500px'}} alt="gota"/>
+                  <div className="text-center fs-4" style={{maxWidth: '450px', overflowY: 'auto'}}>
                     <h4 className="text-danger fw-bolder">A Nivel Corporativo</h4>
-                    <p className="ms-5" >Compromiso con los Objetivos de Desarrollo Sostenible de Naciones Unidas​ Memoria Anual de Sostenibilidad.​ Cálculo y Registro de la Huella de Carbono Corporativa. Sello “calcula y reduce” en los últimos años. España​ fundación TYPSA: acciones de cooperación al desarrollo en el ámbito de la enseñanza superior (África)</p>
+                    <p>Compromiso con los Objetivos de Desarrollo Sostenible de Naciones Unidas​ Memoria Anual de Sostenibilidad.​ Cálculo y Registro de la Huella de Carbono Corporativa. Sello “calcula y reduce” en los últimos años. España​ fundación TYPSA: acciones de cooperación al desarrollo en el ámbito de la enseñanza superior (África)</p>
                   </div>
                 </div>
-                <div className="col-lg-6 text-center">
-                  <img className="img-fluid" src='/imagen/quienes-somos/c22f14bd7eb1db00a2658fa07e1b1a8f.jpg' alt="gota"/>
-                  <div className="ms-5" style={{width: '562px'}}>
+                <div className="col-lg-6 d-flex flex-column align-items-center text-center">
+                  <img className="img-fluid" src='/imagen/quienes-somos/c22f14bd7eb1db00a2658fa07e1b1a8f.jpg' style={{maxWidth: '500px'}} alt="gota"/>
+                  <div className="text-center fs-4" style={{maxWidth: '450px', overflowY: 'auto'}}>
                     <h4 className="text-danger fw-bolder">A Nivel del Proyecto</h4>
                     <p className="ms-5" >Incorporación de criterios para garantizar la sostenibilidad de nuestros diseños:​</p>
                     <p>TYPSA cuenta con Divisiones y Departamentos específicos para el desarrollo de soluciones sostenibles en relación con el ciclo del agua, la energía sostenible, la economía circular y la gestión del medio ambiente, entre otros.​</p>

@@ -44,23 +44,22 @@ export default function Chiclayo() {
       <>
         <HeadPage />
 
-      
         <div className={`${styles.head_title}`}>
           <video className={`${styles.head_img}`} autoPlay muted loop>
             <source src="/video/video_chiclayo.mp4" type="video/mp4" />
           </video>
-          
         </div>  
 
        <div className='container-fluid p-0 m-0'>
+
           <div className={`${styles.espacio} d-flex flex-column justify-content-center fs-3 fw-bolder`}>
-                <span className='ms-5 mt-3 fs-1'>Diseño Integral del Drenaje Pluvial de Chiclayo</span>
+                <span className={`${styles.espacio_title} ms-4 mt-3 fs-1`}>Diseño Integral del Drenaje Pluvial de Chiclayo</span>
                 <div style={{height: '50px'}}></div>
 
-              <div className={`${styles.container}`}>
+              <div className={`${styles.container} ${styles.gridContainer}`}>
               {items.map((item) => (
                   <Link href={`/chiclayo/${item.src.toLowerCase().replace(/\s+/g, '-')}`} key={item.id}>
-                    <div ref={(el) => divRef.current[item.id - 1] = el} className={`${styles.minContainer}`}>
+                    <div ref={(el) => divRef.current[item.id - 1] = el} className={`${styles.minContainer} ${styles.gridItem}`}>
                       <div className={`${styles.imageContent}`}>
                         <h2 className={`${styles.titleContent}`}>{item.title}</h2>
                         <img src={item.image} alt={`Imagen ${item.id}`} />
@@ -72,13 +71,13 @@ export default function Chiclayo() {
           </div>
         
 
-          <div className={`${styles.container_video}`}>
-              <div className={`${styles.video}`} >
+          <div className={`${styles.container_video} ${styles.grid}`}>
+              <div className={`${styles.video} `} >
                 <iframe className={`${styles.iframe}`} src="https://player.vimeo.com/video/840100397?badge=0" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="VIDEO TYPSA FINAL"></iframe>
               </div>
 
-              <div className={`${styles.text_video}`} >
-                <p className={`${styles.paragraph}`}>
+              <div className={`${styles.narrowWidth}`} >
+                <p className={`${styles.textJustify} ${styles.paragraph}`}>
                   El proyecto más grande de drenaje urbano del Perú favorecerá a los distritos de <span className="fw-bolder"> Chiclayo, José Leonardo Ortiz, La Victoria y Pimentel </span> frente a posibles inundaciones generadas por lluvias. La Autoridad para la Reconstrucción con Cambios (ARCC) y la empresa consultora <span className="fw-bolder">Técnica y Proyectos S.A. - TYPSA</span> vienen desarrollando diferentes trabajos técnicos y sociales para el Diseño Integral de Drenaje Pluvial, el cual protegerá a más de <span className="fw-bolder">300 mil ciudadanos</span> directamente.
                 </p>
               </div>
@@ -91,7 +90,7 @@ export default function Chiclayo() {
                 <span className='ms-5 fs-1'>Equipo en acción</span>
               </div>  
 
-              <div className={styles.container_video}>
+              <div className={`${styles.container_video} ${styles.grid}`}>
                   
                   <div className={`${styles.narrowWidth}`}>
                     <p className={` ${styles.textJustify} ${styles.paragraph}`}>TYPSA cuenta con un equipo de profesionales altamente capacitados y con vasta experiencia en el modelamiento, diseño y planificación de proyectos hidráulicos como sistemas de drenaje pluvial. Su expertise se basa en el uso de personal multidisciplinario, integrando la experiencia de diversas áreas de la ingeniería, como la <span className="fw-bolder">hidrología, hidráulica, geotecnia, topografía</span>, así como la gestión ambiental y paisajística para plantear soluciones sostenibles y resilientes.</p>

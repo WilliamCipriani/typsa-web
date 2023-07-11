@@ -199,6 +199,7 @@ ul.mainNavDropdown li ul li a {
     display: flex;
   }
 
+
   .mainNavMenu.openMenu {
     display: block;
     flex-direction: column;
@@ -209,4 +210,15 @@ ul.mainNavDropdown li ul li a {
     flex-direction: column;
   }
  
+}
+
+@media screen and (max-width: 500px){
+  .logo {
+    width: 50px;
+  }
+
+  .mainNavMenu {
+    width: 170px;
+  }
+  
 }

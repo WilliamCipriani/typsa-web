@@ -50,7 +50,7 @@ export default function HeadPage() {
               </li>
               <li><Link href="/contacto" className={styles.a}>Contacto<i className="fas fa-chevron-down"></i></Link></li>
 
-              <li><Link href="https://typsa-noticias-peru.blogspot.com/" target='_blank' className={styles.a}>Articulo<i className="fas fa-chevron-down"></i></Link></li>
+              {/*<li><Link href="https://typsa-noticias-peru.blogspot.com/" target='_blank' className={styles.a}>Articulo<i className="fas fa-chevron-down"></i></Link></li>*/}
             </ul>
           </div>
         </div>

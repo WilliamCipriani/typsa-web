@@ -157,14 +157,16 @@ s
     transform: scale(1.2); /* Ajusta este valor para cambiar cuánto se agranda el título */
   }
 
-  .container_video {
+  .container_video { 
     display: flex;
     justify-content: center;
     align-items: center; /* vertically center the content */
-    height: 60vh;
-    margin: 3rem;
-    padding: 3rem;
+    position: relative;
+    z-index: 1;
+
   }
+
+  
   
   .video {
     width: 45%;
@@ -188,6 +190,7 @@ s
 
 .text_video p {
   margin: 0;
+  width: 100%;
   text-align: justify; /* Remove default margin */
 }
 
@@ -241,7 +244,6 @@ s
 }
 
 
-
 @media screen and (max-width: 598px) {
   
   .container_chiclayo {
@@ -250,6 +252,79 @@ s
 
   .minContainer {
     width: 45%;  /* 2 tarjetas por fila */
+  }
+
+  .head_title {
+    height: 190px;
+  }
+
+  .espacio {
+    color: #C01525;
+    background: linear-gradient(to bottom,white 20%, #BF1525 60%);
+    height: 300px;
+  }
+
+  .espacio_title {
+    font-size: 18px !important;
+    font-weight: 800;
+  }
+
+  .paragraph {
+    font-size: 10px; /* Ajusta el tamaño de las letras según tus necesidades */
+    line-height: 1; /* Ajusta el espaciado entre líneas según tus necesidades */
+    
+  }
+  .imageWrapper {
+    width: 220px;
+    height: auto;
+  }
+
+  .image {
+    width: 220px;
+    height: auto;
+  }
+  
+  .imageCard p {
+    width: 220px;
+    font-size: 10px;
+  }
+
+  .head_title_equipo {
+    height: 180px;
+  }
+  
+  .narrowWidth {
+    width: 80%;
+    
+  }
+
+  .video {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .titleContent {
+    font-size: 6px;
+
+  }
+  
+  .container_video.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ajusta el tamaño de las columnas automáticamente */
+    grid-gap: 1px; /* Espacio entre los elementos de la cuadrícula */
+  }
+   
+  .gridItem {
+    /* Ajusta el ancho de los elementos */
+    width: 88%; /* Ajusta el ancho máximo según tus necesidades */
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
