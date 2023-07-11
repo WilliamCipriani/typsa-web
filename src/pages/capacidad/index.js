@@ -15,49 +15,49 @@ export default function CapacidadDigital() {
         </div>
     
       
-        <section >
-          <div className="d-flex justify-content-center align-items-center text-danger fw-bolder pt-5 pb-5" >
+        <div  className='mt-5'>
+          <div className="d-flex justify-content-center align-items-center text-danger fw-bolder " >
             <h3 className='fs-1'>Servicios Digitales</h3>
           </div>
-          <div className='pb-5' style={{ display: 'flex', justifyContent: 'center' }}>
-           <div className=' w-100 pb-5 d-flex justify-content-center'>
-            <iframe width="958" height="559" src="https://www.youtube.com/embed/yNdAWd2gbrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+          <div className='' style={{ display: 'flex', justifyContent: 'center' }}>
+           <div className={styles.video_container}>
+            <iframe  src="https://www.youtube.com/embed/yNdAWd2gbrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
             </div>
           </div>
-        </section>
+        </div>
 
-        <section >
-          <div className="d-flex justify-content-center align-items-center text-danger  fw-bolder pt-5 pb-5" >
+        <div >
+          <div className="d-flex justify-content-center align-items-center text-danger  fw-bolder  " >
             <h3 className='fs-1'>Realidad Aumentada</h3>
           </div>
-          <div className='pb-5' style={{ display: 'flex', justifyContent: 'center' }}>
-            <div className=' w-100 pb-5 d-flex justify-content-center'>
+          <div className='' style={{ display: 'flex', justifyContent: 'center' }}>
+            <div className={styles.video_container}>
             <iframe width="958" height="559" src="https://www.youtube.com/embed/XRN6NOCEFvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
-        </section>
+        </div>
 
-        <section >
-          <div className="d-flex justify-content-center align-items-center text-danger pt-5 pb-5" >
+        <div >
+          <div className="d-flex justify-content-center align-items-center text-danger " >
             <h3 className='fs-1'>Power BI</h3>
           </div>
-          <div className='pb-5' style={{ display: 'flex', justifyContent: 'center' }}>
-           <div className=' w-100 pb-5 d-flex justify-content-center'>
+          <div className='' style={{ display: 'flex', justifyContent: 'center' }}>
+           <div className={styles.video_container}>
           <iframe width="958" height="559" src="https://www.youtube.com/embed/Te6SBsljmno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
           </div>
           </div>
-        </section>
+        </div>
 
-        <section > 
-          <div className="d-flex justify-content-center align-items-center text-danger fw-bolder pt-5 pb-5" >
+        <div > 
+          <div className="d-flex justify-content-center align-items-center text-danger fw-bolder " >
             <h3 className='fs-1'>Big Data</h3>
           </div>
-          <div className='pb-5' style={{ display: 'flex', justifyContent: 'center' }}>
-            <div className=' w-100 pb-5 d-flex justify-content-center'>
+          <div className='' style={{ display: 'flex', justifyContent: 'center' }}>
+            <div className={styles.video_container}>
           <iframe width="958" height="559" src="https://www.youtube.com/embed/vu1oRMe285s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>
           </div>
           </div>
-        </section>
+        </div>
 
         
       

@@ -17,35 +17,35 @@ export default function QuienesSomos() {
         </div>
 
         
-        <div className='container-fluid p-0 m-0'>
+        <div className='container-fluid m-5 '>
           <section>
-            <div className="d-flex justify-content-center text-center mt-5 mb-4 flex-column flex-lg-row">
-              <div className="d-flex justify-content-center  mb-3">
-                <Image className="img-fluid" src='/imagen/quienes-somos/c4717a095416967f741cb9cfd5afe877.jpg' width={464} height={360} alt="Fundación-Grupo-TYPSA"/>
+            <div className="d-flex justify-content-center flex-column flex-lg-row">
+              <div className={styles.container_img}>
+                <img className={styles.responsive_img} src='/imagen/quienes-somos/c4717a095416967f741cb9cfd5afe877.jpg' alt="Fundación-Grupo-TYPSA"/>
               </div>
-              <div className="text-start ms-5 mb-5" style={{maxWidth: '661px'}}>
-                <h3 className="text-danger fs-2 fw-bolder">Fundación Grupo TYPSA</h3>
+              <div className={`text-start ms-lg-5 mt-5 ${styles.container_text}`} style={{maxWidth: '561px'}}>
+                <h3 className="text-danger fs-2 fw-bolder ">Fundación Grupo TYPSA</h3>
                 <p>Desde 1966, apoyando a clientes institucionales, públicos y privados en el desarrollo de proyectos de transporte, agua, edificación, energías renovables y desarrollo rural, desde su concepción hasta su puesta en servicio y operación.</p>
                 <p>Actualmente somos la primera empresa de ingeniería civil en España y la Nº 46 en el mundo (ENR 22) por volumen de exportación.</p>
               </div>
             </div>
 
             <div className="d-flex justify-content-center flex-column flex-lg-row">
-              <div className="d-flex justify-content-center text-center mb-3 me-5">
-                <Image className="img-fluid" src='/imagen/quienes-somos/912d548511c9138863da8388252266c5.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA"/>
+              <div className={styles.container_img}>
+                <img className={styles.responsive_img} src='/imagen/quienes-somos/912d548511c9138863da8388252266c5.jpg' alt="Fundación-Grupo-TYPSA"/>
               </div>
-              <div className="ms-5 mb-3 text-start" style={{maxWidth: '661px'}}>
-                <h3 className="text-danger fs-2 fw-bolder">TYPSA en el Perú</h3>
+              <div className="text-start ms-lg-5 " style={{maxWidth: '561px'}}>
+                <h3 className="text-danger fs-2 fw-bolder mt-5 ">TYPSA en el Perú</h3>
                 <p>Typsa abrió su sucursal en Perú en 2001, apostando por la cercanía al cliente y al territorio como la mejor estrategia para comprender sus necesidades y proveer los mejores servicios de ingeniería.</p>
                 <p>Contamos con 1.950 m2 de oficinas en el distrito de Miraflores. Adicionalmente disponemos de un laboratorio de calidad de aguas con 1.000 m2, 125 clientes activos y 30.000 ensayos anuales.</p>             
               </div>
             </div>
 
-            <div className="d-flex justify-content-center flex-column flex-lg-row mt-4 mb-5">
-              <div className="d-flex justify-content-center text-center mt-5 mb-3">
-                <Image  src='/imagen/quienes-somos/c0d1aee73c3d1e0235a8fd78c93f842c.jpg' width={482} height={260} alt="Fundación-Grupo-TYPSA"/>
+            <div className="d-flex justify-content-center flex-column flex-lg-row">
+              <div className={styles.container_img}>
+                <img className={styles.responsive_img} src='/imagen/quienes-somos/c0d1aee73c3d1e0235a8fd78c93f842c.jpg'  alt="Fundación-Grupo-TYPSA"/>
               </div>
-              <div className="text-start ms-5" style={{maxWidth: '661px'}}>
+              <div className="text-start ms-lg-5 mt-5" style={{maxWidth: '561px'}}>
                 <h3 className="text-danger fs-2 fw-bolder">Visión</h3>
                 <p>Uno de los pilares de nuestra estrategia empresarial es estar cerca de nuestros clientes y conectados al conocimiento global. Esto nos permite aportar soluciones de ingeniería de consultoría de vanguardia y adaptarlas a las capacidades, recursos y prioridades de nuestros clientes.</p>
                 <p><spam className="text-danger fw-bolder">1. Presencia local</spam> Comprender los retos y las capacidades de nuestros clientes y orientarles sobre la mejor manera de realizar sus inversiones.</p>
@@ -65,7 +65,7 @@ export default function QuienesSomos() {
               <div className="row">
                 <div className="col-md-6 d-flex d-flex  align-items-center">
                   <div >
-                    <Image className="img-fluid" src='/imagen/quienes-somos/824d7ddaf110c78e137d8753d860094c.jpg' width={167} height={167} alt="gota"/>
+                    <img className="img-fluid" src='/imagen/quienes-somos/824d7ddaf110c78e137d8753d860094c.jpg'  alt="gota"/>
                   </div>
                   <div style={{maxWidth: '250px'}}>
                       <div>
@@ -81,7 +81,7 @@ export default function QuienesSomos() {
               
                 <div className="col-md-6 d-flex align-items-center">
                   <div >
-                    <Image className="img-fluid" src='/imagen/quienes-somos/c6f04050a7124028d0b3483b55b90d2b.jpg' width={167} height={167} alt="gota"/>
+                    <img className="img-fluid" src='/imagen/quienes-somos/c6f04050a7124028d0b3483b55b90d2b.jpg'  alt="gota"/>
                   </div>
                   <div style={{maxWidth: '250px'}}>
                       <div>
@@ -96,7 +96,7 @@ export default function QuienesSomos() {
 
                 <div className="col-md-6 d-flex align-items-center">
                   <div >
-                    <Image className="img-fluid" src='/imagen/quienes-somos/60cc16189a707cd43bc21178b4ac1ef8.jpg' width={167} height={167} alt="gota"/>
+                    <img className="img-fluid" src='/imagen/quienes-somos/60cc16189a707cd43bc21178b4ac1ef8.jpg'  alt="gota"/>
                   </div>
                   <div style={{maxWidth: '250px'}}>
                       <div>
@@ -113,7 +113,7 @@ export default function QuienesSomos() {
               
                 <div className="col-md-6 d-flex align-items-center">
                   <div >
-                    <Image className="img-fluid" src='/imagen/quienes-somos/a53c3a8ac5c1a4a5886f2d62291b330d.jpg' width={167} height={167} alt="gota"/>
+                    <img className="img-fluid" src='/imagen/quienes-somos/a53c3a8ac5c1a4a5886f2d62291b330d.jpg'  alt="gota"/>
                   </div>
                   <div style={{maxWidth: '250px'}}>
                       <div>
@@ -132,7 +132,7 @@ export default function QuienesSomos() {
 
             <div  className="d-flex flex-column justify-content-center align-items-center mt-5">
               <div>
-                <Image className="img-fluid" src='/imagen/quienes-somos/b4a92a1dc0368485a459e0fbf3f7c6f9.jpg' width={1154} height={176} alt="gota"/>
+                <img className="img-fluid" src='/imagen/quienes-somos/b4a92a1dc0368485a459e0fbf3f7c6f9.jpg'  alt="gota"/>
               </div>
 
               <div className="text-danger fw-bolder fs-3 mt-3">
@@ -154,7 +154,7 @@ export default function QuienesSomos() {
             
               <div className="d-flex flex-column justify-content-center align-items-center mt-5">
               <div>
-                <Image className="img-fluid" src='/imagen/quienes-somos/f97f4b873e612f9451b478d4145eb76f.jpg' width={1100} height={176} alt="gota"/>
+                <img className="img-fluid" src='/imagen/quienes-somos/f97f4b873e612f9451b478d4145eb76f.jpg' alt="gota"/>
               </div>
 
               <div className="text-danger fw-bolder fs-3 mt-3">
@@ -173,7 +173,7 @@ export default function QuienesSomos() {
             
             <div className="d-flex flex-column justify-content-center align-items-center mt-5">
               <div>
-                <Image className="img-fluid" src='/imagen/quienes-somos/9b352355fd07fd9fb13f67e4e7e88659.jpg' width={1100} height={181} alt="gota"/>
+                <img className="img-fluid" src='/imagen/quienes-somos/9b352355fd07fd9fb13f67e4e7e88659.jpg'  alt="gota"/>
               </div>
 
               <div className="text-danger fw-bolder fs-3 mt-3">
@@ -199,7 +199,7 @@ export default function QuienesSomos() {
             </div>
             
             <div className="d-flex flex-column justify-content-center align-items-center mt-5">
-              <Image className="img-fluid" src='/imagen/quienes-somos/63db7b1425f9ab68b0a053255a65ab52.jpg' width={1100} height={181} alt="gota"/>
+              <img className="img-fluid" src='/imagen/quienes-somos/63db7b1425f9ab68b0a053255a65ab52.jpg' alt="gota"/>
               <div className="text-danger fw-bolder fs-3 mt-3">
                 Energías renovables
               </div>
@@ -209,7 +209,7 @@ export default function QuienesSomos() {
             </div>
 
             <div className="d-flex flex-column justify-content-center align-items-center mt-5">
-              <Image className="img-fluid" src='/imagen/quienes-somos/6b9d9004885a5b5b02ce6149937a7061.jpg' width={1100} height={181} alt="gota"/>
+              <img className="img-fluid" src='/imagen/quienes-somos/6b9d9004885a5b5b02ce6149937a7061.jpg'  alt="gota"/>
               <div className="text-danger fw-bolder fs-3 mt-3">
                 Medio ambiente
               </div>
@@ -219,7 +219,7 @@ export default function QuienesSomos() {
             </div>
 
             <div className="d-flex flex-column justify-content-center align-items-center mt-5">
-              <Image lang="img-fluid" src='/imagen/quienes-somos/d3501788a42370c41fd6765ea8626324.jpg' width={1100} height={181} alt="gota"/>
+              <img lang="img-fluid" src='/imagen/quienes-somos/d3501788a42370c41fd6765ea8626324.jpg'  alt="gota"/>
               <div className="text-danger fw-bolder fs-3 mt-3">
                 Ayuda al desarrollo
               </div>
@@ -236,35 +236,35 @@ export default function QuienesSomos() {
             </div>
             
             <div className="d-flex flex-column justify-content-center align-items-center mt-5">
-              <Image className="img-fluid" src='/imagen/quienes-somos/58cf6acc8cb0687fab39c0a5c7de4e42.jpg' width={1150} height={184} alt="gota"/>
+              <img className="img-fluid" src='/imagen/quienes-somos/58cf6acc8cb0687fab39c0a5c7de4e42.jpg'  alt="gota"/>
               <div className="text-danger fw-bolder fs-3 mt-3">
                 Transportes
               </div>
             </div>
 
             <div className="d-flex flex-column justify-content-center align-items-center mt-5">
-              <Image className="img-fluid" src='/imagen/quienes-somos/5a336da307eb60c42055adf5cadc6d4c.jpg' width={1150} height={184} alt="gota"/>
+              <img className="img-fluid" src='/imagen/quienes-somos/5a336da307eb60c42055adf5cadc6d4c.jpg' alt="gota"/>
               <div className="text-danger fw-bolder fs-3 mt-3">
                 Abastecimiento
               </div>
             </div>
 
             <div className="d-flex flex-column justify-content-center align-items-center mt-5">
-              <Image className="img-fluid" src='/imagen/quienes-somos/cfd8b34e1b1ffdac18ddd223df89e2c9.jpg' width={1150} height={184} alt="gota"/>
+              <img className="img-fluid" src='/imagen/quienes-somos/cfd8b34e1b1ffdac18ddd223df89e2c9.jpg'  alt="gota"/>
               <div className="text-danger fw-bolder fs-3 mt-3">
                 Edificación
               </div>
             </div>
 
             <div className="d-flex flex-column justify-content-center align-items-center mt-5">
-              <Image className="img-fluid" src='/imagen/quienes-somos/9abe571083de3050e82051b446a60a9c.jpg' width={1150} height={184} alt="gota"/>
+              <img className="img-fluid" src='/imagen/quienes-somos/9abe571083de3050e82051b446a60a9c.jpg'  alt="gota"/>
               <div className="text-danger fw-bolder fs-3 mt-3">
                 Energía
               </div>
             </div>
 
             <div className="d-flex flex-column justify-content-center align-items-center mt-5 mb-5">
-              <Image className="img-fluid" src='/imagen/quienes-somos/078814c0aa575b347b78aac059c3821f.jpg' width={1150} height={184} alt="gota"/>
+              <img className="img-fluid" src='/imagen/quienes-somos/078814c0aa575b347b78aac059c3821f.jpg'  alt="gota"/>
               <div className="text-danger fw-bolder fs-3 mt-3">
                 Saneamiento
               </div>
@@ -278,7 +278,7 @@ export default function QuienesSomos() {
             </div>
             
             <div className="d-flex justify-content-center mb-5 mt-5 flex-column flex-lg-row">
-              <Image className="img-fluid" src='/imagen/quienes-somos/68ac606d63e4a1b069bc1b4e3c000ec1.jpg' width={464} height={277} alt="gota"/>
+              <img className="img-fluid" src='/imagen/quienes-somos/68ac606d63e4a1b069bc1b4e3c000ec1.jpg'  alt="gota"/>
               <div className="text-start ms-5 mt-5" style={{maxWidth: '661px'}}>
                 <p>Ofrecemos a nuestros clientes servicios de <spam className="fw-bolder">calidad y alto valor añadido</spam> adaptados a los requisitos técnicos, de gestión o de análisis y supervisión específicos.</p>
               </div>
@@ -292,7 +292,7 @@ export default function QuienesSomos() {
             </div>
             
             <div className="d-flex justify-content-center flex-column flex-lg-row">
-              <Image  src='/imagen/quienes-somos/2302fe4d566cd235dc7055737a30ff5d.jpg' width={380} height={380} alt="gota"/>
+              <img  src='/imagen/quienes-somos/2302fe4d566cd235dc7055737a30ff5d.jpg'  alt="gota"/>
               <div className="text-center ms-5 mt-5" style={{maxWidth: '661px'}}>
                 <p className="text-danger fs-2 fw-bolder mt-5">I+D+i</p>
                 <p>Investigación + Desarrollo + Innovación</p>
@@ -316,7 +316,7 @@ export default function QuienesSomos() {
                 <div className="row">
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2"  style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/4a096474ba542f2adfa869611a790aad.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/4a096474ba542f2adfa869611a790aad.jpg' alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                     Apoyo a la Educación Superior en África
@@ -327,7 +327,7 @@ export default function QuienesSomos() {
                 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/4fb9bb9e3f2d9e23dae5779767ef3cb8.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/4fb9bb9e3f2d9e23dae5779767ef3cb8.jpg' alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                       Sistemas de análisis y de alertas de nuestros laboratorios ambientales para mejorar la calidad del agua 
@@ -336,7 +336,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/9b601bfa2439316b91020d2d472ce01f.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/9b601bfa2439316b91020d2d472ce01f.jpg'  alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                       PV GRAD: la tecnología que optimiza el diseño de plantas solares fotovoltaicas
@@ -345,7 +345,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/c57a699269f7c9a18bbd0e32625d5cb0.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/c57a699269f7c9a18bbd0e32625d5cb0.jpg' alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                       Respeto a los derechos humanos e integridad en nuestra red de proveedores
@@ -354,7 +354,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/c57a699269f7c9a18bbd0e32625d5cb0.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/c57a699269f7c9a18bbd0e32625d5cb0.jpg' alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                       Apertura de sucursales y filiales para estar cerca del cliente
@@ -363,7 +363,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/5926df6d00705dcf04902d81e7559544.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/5926df6d00705dcf04902d81e7559544.jpg' alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                       Formación y aceleración digital para fomentar la innovación en nuestros servicios
@@ -372,7 +372,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/5926df6d00705dcf04902d81e7559544.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/5926df6d00705dcf04902d81e7559544.jpg' alt="gota"/>  
                     </div>
                     <div>
                       CIVIL BIM
@@ -381,7 +381,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/af6482860cd1f1efa935e00caa4ddbb2.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/af6482860cd1f1efa935e00caa4ddbb2.jpg'  alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                       Be-access: valoración de la accesibilidad para un diseño inclusivo
@@ -390,7 +390,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/af6482860cd1f1efa935e00caa4ddbb2.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/af6482860cd1f1efa935e00caa4ddbb2.jpg'  alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                       Estrategia de movilidad sostenible para el Consorcio Regional de Transporte de Madrid
@@ -399,7 +399,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/af6482860cd1f1efa935e00caa4ddbb2.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/af6482860cd1f1efa935e00caa4ddbb2.jpg'  alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}> 
                       Despliegue de Sistemas Urbanos de Drenaje Sostenible (SUDS) a través de nuestra filial Green Blue Management
@@ -408,7 +408,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/ee460f537a11b18737bbe1708dd74933.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/ee460f537a11b18737bbe1708dd74933.jpg' alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                       Uso de materiales de construcción menos intensivos en carbono para reducir la huella de los proyectos
@@ -417,7 +417,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div  className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/ee460f537a11b18737bbe1708dd74933.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/ee460f537a11b18737bbe1708dd74933.jpg' alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                     Innovación para el tratamiento de vertidos en la industria agroalimentaria y la reutilización de sus residuos
@@ -426,7 +426,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/ee460f537a11b18737bbe1708dd74933.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/ee460f537a11b18737bbe1708dd74933.jpg'  alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                     Herramientas de control digital para alargar la vida útil de las infraestructuras
@@ -435,7 +435,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/9d9cd88c58c656947d5adc74bbce2dda.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/9d9cd88c58c656947d5adc74bbce2dda.jpg'  alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                     Diseñar infraestructuras menos intensivas en carbono a través de los Gemelos Digitales 
@@ -444,7 +444,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/9d9cd88c58c656947d5adc74bbce2dda.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/9d9cd88c58c656947d5adc74bbce2dda.jpg'  alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                     Metodología para la planificación de infraestructuras resilientes al Cambio Climático
@@ -453,7 +453,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/ca45d31df8830552e6f2c055da6da70b.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/ca45d31df8830552e6f2c055da6da70b.jpg' alt="gota"/>  
                     </div>
                     <div style={{maxWidth: '170px'}}>
                     Certificación del Sistema de Gestión Anti-Soborno
@@ -466,7 +466,7 @@ export default function QuienesSomos() {
 
               <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
                 <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
-                  <Image className="img-fluid" src='/imagen/quienes-somos/b3e06c8f77540dcf459e1ea5b2c29076.jpg' width={511} height={261} alt="gota"/>
+                  <img className="img-fluid" src='/imagen/quienes-somos/b3e06c8f77540dcf459e1ea5b2c29076.jpg'  alt="gota"/>
                 </div>
                 <div className="text-start ms-5 " style={{maxWidth: '450px', overflowY: 'auto'}}>
                   <h4 className="text-danger fs-2 fw-bolder">Presencia en la Sociedad</h4>
@@ -479,7 +479,7 @@ export default function QuienesSomos() {
 
               <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
                 <div className="d-flex justify-content-center align-items-center mb-3 mx-5 ms-1" >
-                  <Image className="img-fluid" src='/imagen/quienes-somos/5a498949ee48fe6ef7d4de22edd42f74.jpg' width={466} height={238} alt="gota"/>
+                  <img className="img-fluid" src='/imagen/quienes-somos/5a498949ee48fe6ef7d4de22edd42f74.jpg'  alt="gota"/>
                 </div>
                 <div className="text-start ms-5 " style={{maxWidth: '450px', overflowY: 'auto'}}>
                   <h4 className="text-danger fs-2 fw-bolder">2022: 416 alumnos</h4>
@@ -499,7 +499,7 @@ export default function QuienesSomos() {
 
               <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
                 <div className="d-flex justify-content-center align-items-center mb-3" >
-                  <Image className="img-fluid" src='/imagen/quienes-somos/0843e69f5493c6c1ca64e277ef7e6dd5.jpg' width={612} height={261} alt="gota"/>
+                  <img className="img-fluid" src='/imagen/quienes-somos/0843e69f5493c6c1ca64e277ef7e6dd5.jpg'  alt="gota"/>
                 </div>
                 <div className="text-start ms-5 " style={{maxWidth: '450px', overflowY: 'auto'}}>
                   <h4 className="text-danger fs-2 fw-bolder">Kenia - Diócesis de Garissa</h4>
@@ -528,7 +528,7 @@ export default function QuienesSomos() {
             <div className="row" >
                 <div className="col-md-4">
                    <div className="d-flex justify-content-center align-items-center">
-                     <Image src='/imagen/quienes-somos/ec254d00cbd9852180358f4ac53e36f4.jpg' width={170} height={170} alt="gota"/>
+                     <img className="img-fluid" src='/imagen/quienes-somos/ec254d00cbd9852180358f4ac53e36f4.jpg'  alt="gota"/>
                    </div>
                    <div className="text-center">
                     <h4 className=" text-danger fw-bolder">
@@ -542,7 +542,7 @@ export default function QuienesSomos() {
             
                 <div  className="col-md-4">
                    <div className="d-flex justify-content-center align-items-center">
-                     <Image src='/imagen/quienes-somos/950406f3dbe46ccff85700da7d94f1f4.jpg' width={170} height={170} alt="gota"/>
+                     <img className="img-fluid" src='/imagen/quienes-somos/950406f3dbe46ccff85700da7d94f1f4.jpg'  alt="gota"/>
                    </div>
                    <div className="text-center">
                     <h4 className=" text-danger fw-bolder">
@@ -555,7 +555,7 @@ export default function QuienesSomos() {
                 
                 <div  className="col-md-4"> 
                    <div className="d-flex justify-content-center align-items-center">
-                     <Image src='/imagen/quienes-somos/831bb079dd9e5223d9af4655c465ed74.jpg' width={170} height={170} alt="gota"/>
+                     <img className="img-fluid" src='/imagen/quienes-somos/831bb079dd9e5223d9af4655c465ed74.jpg' alt="gota"/>
                    </div>
                    <div className="text-center">
                     <h4 className=" text-danger fw-bolder">
@@ -569,7 +569,7 @@ export default function QuienesSomos() {
                 
                 <div  className="col-md-4">
                    <div className="d-flex justify-content-center align-items-center">
-                     <Image src='/imagen/quienes-somos/9dfa9a26af56276f17906be1edd3350f.jpg' width={170} height={170} alt="gota"/>
+                     <img className="img-fluid" src='/imagen/quienes-somos/9dfa9a26af56276f17906be1edd3350f.jpg'  alt="gota"/>
                    </div>
                    <div className="text-center">
                     <h4 className=" text-danger fw-bolder">
@@ -583,7 +583,7 @@ export default function QuienesSomos() {
                 
                 <div  className="col-md-4">
                    <div className="d-flex justify-content-center align-items-center">
-                     <Image src='/imagen/quienes-somos/529b99babfec7e7d908433177e32e0e2.jpg' width={170} height={170} alt="gota"/>
+                     <img className="img-fluid" src='/imagen/quienes-somos/529b99babfec7e7d908433177e32e0e2.jpg'  alt="gota"/>
                    </div>
                    <div className="text-center">
                     <h4 className=" text-danger fw-bolder">
@@ -597,7 +597,7 @@ export default function QuienesSomos() {
                 
                 <div  className="col-md-4">
                    <div className="d-flex justify-content-center align-items-center">
-                     <Image src='/imagen/quienes-somos/63878b61ea4489decef1a9924fc1a872.jpg' width={170} height={170} alt="gota"/>
+                     <img className="img-fluid" src='/imagen/quienes-somos/63878b61ea4489decef1a9924fc1a872.jpg'  alt="gota"/>
                    </div>
                    <div className="text-center">
                     <h4 className=" text-danger fw-bolder">
@@ -621,7 +621,7 @@ export default function QuienesSomos() {
 
             <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
               <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
-                <Image src='/imagen/quienes-somos/ca83ceb86ccb0737658c43be57fb77e9.jpg' width={481} height={270} alt="gota"/>
+                <img className="img-fluid" src='/imagen/quienes-somos/ca83ceb86ccb0737658c43be57fb77e9.jpg'  alt="gota"/>
               </div>
               <div className="text-center fs-4 ms-5 mt-3" style={{maxWidth: '450px', overflowY: 'auto'}}>
                 <p>
@@ -642,7 +642,7 @@ export default function QuienesSomos() {
 
             <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
               <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
-                <Image src='/imagen/quienes-somos/384831295f44a88d5efe29a3738427fd.jpg' width={481} height={270} alt="gota"/>
+                <img className="img-fluid" src='/imagen/quienes-somos/384831295f44a88d5efe29a3738427fd.jpg'  alt="gota"/>
               </div>
               <div className="text-center fs-4  ms-5" style={{maxWidth: '450px', overflowY: 'auto'}}>
                 <p className="mt-4">
@@ -663,7 +663,7 @@ export default function QuienesSomos() {
 
             <div className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row">
                 <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
-                  <Image src='/imagen/quienes-somos/872dd646bb6e6c634d5e082eb7e8fc87.jpg' width={481} height={270} alt="gota"/>
+                  <img className="img-fluid" src='/imagen/quienes-somos/872dd646bb6e6c634d5e082eb7e8fc87.jpg' alt="gota"/>
                 </div>
                 <div className="text-center ms-5 fs-4" style={{maxWidth: '450px', overflowY: 'auto'}}>
                   <p className="mt-4">
@@ -677,14 +677,14 @@ export default function QuienesSomos() {
             <div className="container-fluid">
               <div className="row">
                 <div className="col-lg-6 text-center">
-                  <Image src='/imagen/quienes-somos/d95c947b189d457678d08f80c53984f0.jpg' width={562} height={550} alt="gota"/>
+                  <img className="img-fluid" src='/imagen/quienes-somos/d95c947b189d457678d08f80c53984f0.jpg' alt="gota"/>
                   <div className="ms-5" style={{width: '562px'}}>
                     <h4 className="text-danger fw-bolder">A Nivel Corporativo</h4>
                     <p className="ms-5" >Compromiso con los Objetivos de Desarrollo Sostenible de Naciones Unidas​ Memoria Anual de Sostenibilidad.​ Cálculo y Registro de la Huella de Carbono Corporativa. Sello “calcula y reduce” en los últimos años. España​ fundación TYPSA: acciones de cooperación al desarrollo en el ámbito de la enseñanza superior (África)</p>
                   </div>
                 </div>
                 <div className="col-lg-6 text-center">
-                  <Image src='/imagen/quienes-somos/c22f14bd7eb1db00a2658fa07e1b1a8f.jpg' width={562} height={562} alt="gota"/>
+                  <img className="img-fluid" src='/imagen/quienes-somos/c22f14bd7eb1db00a2658fa07e1b1a8f.jpg' alt="gota"/>
                   <div className="ms-5" style={{width: '562px'}}>
                     <h4 className="text-danger fw-bolder">A Nivel del Proyecto</h4>
                     <p className="ms-5" >Incorporación de criterios para garantizar la sostenibilidad de nuestros diseños:​</p>
@@ -699,7 +699,7 @@ export default function QuienesSomos() {
                 <div className="row">
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2"  style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/7db185e5251262e7f5ef810c4b9b0470.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/7db185e5251262e7f5ef810c4b9b0470.jpg' alt="gota"/>  
                     </div>
                     <div className="text-center" style={{maxWidth: '170px'}}>
                       <h4 className="text-danger fw-bold ">Cambio climático y descarbonización​</h4>
@@ -711,7 +711,7 @@ export default function QuienesSomos() {
                 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/f73b552bd7b38fc7fb22010c7e7bbefe.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/f73b552bd7b38fc7fb22010c7e7bbefe.jpg'  alt="gota"/>  
                     </div>
                     <div className="text-center" style={{maxWidth: '170px'}}>
                       <h4 className="text-danger fw-bold ">Economía Circular​</h4>
@@ -721,7 +721,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/2f3d76fd191153b28f6126e48c720de7.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/2f3d76fd191153b28f6126e48c720de7.jpg'  alt="gota"/>  
                     </div>
                     <div className="text-center" style={{maxWidth: '170px'}}>
                       <h4 className="text-danger fw-bold ">Diseño incorporando la biodiversidad y el desarrollo social y económico​</h4>
@@ -731,7 +731,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/6ff224aabc95c54b75cf14029296ca69.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/6ff224aabc95c54b75cf14029296ca69.jpg'  alt="gota"/>  
                     </div>
                     <div className="text-center" style={{maxWidth: '170px'}}>
                       <h4 className="text-danger fw-bold ">Digitalización</h4>
@@ -741,7 +741,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div  className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/67ddcfd97c695a474545e4dc032ccd2e.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/67ddcfd97c695a474545e4dc032ccd2e.jpg' alt="gota"/>  
                     </div>
                     <div className="text-center" style={{maxWidth: '170px'}}>
                       <h4 className="text-danger fw-bold ">Energía y Agua​</h4>
@@ -751,7 +751,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/8912ade817040f6bf17b6f6d3278d6ce.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/8912ade817040f6bf17b6f6d3278d6ce.jpg'  alt="gota"/>  
                     </div>
                     <div className="text-center" style={{maxWidth: '170px'}}>
                       <h4 className="text-danger fw-bold ">Infraestructuras, ciudades y edificios sostenibles​</h4>
@@ -761,7 +761,7 @@ export default function QuienesSomos() {
 
                   <div className="col-md-3 d-flex d-flex flex-column align-items-center">
                     <div  className="col-sm-6 col-lg-3 my-2" style={{width: '170px', height: '170px'}}>
-                      <Image className="img-fluid" src='/imagen/quienes-somos/522b8b7fb28d6f4863829d3f7fe91b02.jpg' width={170} height={170} alt="gota"/>  
+                      <img className="img-fluid" src='/imagen/quienes-somos/522b8b7fb28d6f4863829d3f7fe91b02.jpg' alt="gota"/>  
                     </div>
                     <div className="text-center"> 
                       <h4 className="text-danger fw-bold ">Certificaciones​</h4>

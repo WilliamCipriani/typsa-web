@@ -30,20 +30,37 @@
   z-index: 1; /* Asegúrate de que el texto esté por encima de la imagen de fondo */
 }
 
-
 .title {
   color: #212121;
   font-size: 70px;
   font-family: Roboto, sans-serif;
   font-weight: 700;
-  
 }
-
 
 .espacio {
   background-color: #BF1525;
   height: 100px;
   color: #fff;
+}
+
+.container_img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.container_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+
+
+.responsive_img {
+  max-width: 70%;
+  height: fit-content;
+  margin-top: 3rem;
 }
 
    /* Cuando la pantalla tiene 576px de ancho o menos */

@@ -34,8 +34,10 @@
 
 
    /* Cuando la pantalla tiene 576px de ancho o menos */
-   @media (max-width: 576px) {
+  @media (max-width: 576px) {
     .subtitle {
       font-size: 1rem; /* Tamaño de fuente aún más pequeño para pantallas pequeñas */
     }
   }
+  
+
