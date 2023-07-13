@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import styles from '@/styles/head.module.css'
 
@@ -11,13 +11,14 @@ export default function HeadPage() {
     setIsMenuOpen(!isMenuOpen);
   }
 
+  
   return (
     <>
       <nav className={`${styles.mainNav} navbar navbar-expand-lg`} >
         <div className={`container-fluid d-flex justify-content-between ${styles.row}`}>
           <div className={styles.logo_container}>
             <Link href="/" className={`navbar-brand ${styles.logo_link}`}>
-              <img src="/imagen/logo-grupo-Typsa-1.png" alt="Logo-Typsa" className={styles.logo} />
+              <img src="/imagen/logo-grupo-Typsa-1.png" alt="Logo-Typsa" id="logo"  className={`${styles.logo}`} />
             </Link>
           </div>
 
@@ -50,7 +51,20 @@ export default function HeadPage() {
               </li>
               <li><Link href="/contacto" className={styles.a}>Contacto<i className="fas fa-chevron-down"></i></Link></li>
 
-              {/*<li><Link href="https://typsa-noticias-peru.blogspot.com/" target='_blank' className={styles.a}>Articulo<i className="fas fa-chevron-down"></i></Link></li>*/}
+              <li>
+                <Link href="#"  className={styles.a}>
+                  Comunicación<i className="fas fa-chevron-down"></i>
+                </Link>
+                <ul>
+                  <li>
+                    <Link href="https://typsa-noticias-peru.blogspot.com/" target='_blank' className={styles.a}>Noticias<i className="fas fa-chevron-down"></i></Link>
+                  </li>
+                  <li>
+                    <Link href="https://articulos-typsa.blogspot.com/" target='_blank' className={styles.a}>Articulos<i className="fas fa-chevron-down"></i></Link>
+                  </li>
+                  
+                </ul>
+              </li>
             </ul>
           </div>
         </div>

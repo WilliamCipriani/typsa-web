@@ -1,0 +1,136 @@
+.container {
+
+    max-width: 1300px;
+
+    margin: 0 auto;
+
+    padding: 0.5rem;
+
+}
+
+
+
+
+.container h1 {
+
+  color: #e62d1f;
+
+  font-weight: 700;
+
+  text-align: center;
+
+  margin: 3rem;
+
+}
+
+
+
+
+.grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-gap: 3rem;
+
+    justify-content: center;
+
+}
+
+ 
+
+  .card {
+
+    padding: 1rem;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+  }
+
+ 
+
+  .card iframe {
+
+    max-width: 100%;
+
+    height: auto;
+
+  }
+
+
+
+
+  .button {
+
+    background-color: #e62d1f;
+
+    color: white;
+
+    font-weight: 600;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+    -webkit-border-radius: 0 0 5px 5px;
+
+    -moz-border-radius: 0 0 5px 5px;
+
+    -ms-border-radius: 0 0 5px 5px;
+
+    -o-border-radius: 0 0 5px 5px;
+
+}
+
+
+
+
+
+  @media (min-width: 1200px) {
+
+    .grid {
+
+      grid-template-columns: repeat(4, 1fr);
+
+    }
+
+  }
+
+ 
+
+  @media (min-width: 900px) and (max-width: 1199px) {
+
+    .grid {
+
+      grid-template-columns: repeat(3, 1fr);
+
+    }
+
+  }
+
+ 
+
+  @media (min-width: 600px) and (max-width: 899px) {
+
+    .grid {
+
+      grid-template-columns: repeat(2, 1fr);
+
+    }
+
+  }
+
+ 
+
+  @media (max-width: 599px) {
+
+    .grid {
+
+      grid-template-columns: 1fr;
+
+    }
+
+  }

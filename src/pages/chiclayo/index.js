@@ -13,7 +13,7 @@ export default function Chiclayo() {
       { id: 2,src:'avance-estudios', title: 'Avance de los Estudios', image: '/imagen/chiclayo/avance-estudios.jpg' },
       { id: 3,src:'gestion-social', title: 'Gestion Social', image: '/imagen/chiclayo/social/social1.png' },
       { id: 4,src:'innovacion-tecnologica', title: 'Innovación y Tecnología', image: '/imagen/chiclayo/innovacion-tecnologica.jpg' },
-      { id: 5,src:'fotos-videos', title: 'Fotos y Videos', image: '/imagen/chiclayo/portada2.png' },
+      /*{ id: 5,src:'fotos-videos', title: 'Fotos y Videos', image: '/imagen/chiclayo/portada2.png' },*/
     ];
 
     const ImageCard = ({ src, alt, text }) => (
@@ -48,27 +48,31 @@ export default function Chiclayo() {
           <video className={`${styles.head_img}`} autoPlay muted loop>
             <source src="/video/video_chiclayo.mp4" type="video/mp4" />
           </video>
-        </div>  
+        </div> 
+
 
        <div className='container-fluid p-0 m-0'>
 
-          <div className={`${styles.espacio} d-flex flex-column justify-content-center fs-3 fw-bolder`}>
+        <div className={`${styles.espacio} d-flex flex-column justify-content-center fs-3 fw-bolder`}>
                 <span className={`${styles.espacio_title} ms-4 mt-3 fs-1`}>Diseño Integral del Drenaje Pluvial de Chiclayo</span>
                 <div style={{height: '50px'}}></div>
 
-              <div className={`${styles.container} ${styles.gridContainer}`}>
+            <div className={`${styles.container} ${styles.gridContainer}`}>
               {items.map((item) => (
-                  <Link href={`/chiclayo/${item.src.toLowerCase().replace(/\s+/g, '-')}`} key={item.id}>
-                    <div ref={(el) => divRef.current[item.id - 1] = el} className={`${styles.minContainer} ${styles.gridItem}`}>
-                      <div className={`${styles.imageContent}`}>
-                        <h2 className={`${styles.titleContent}`}>{item.title}</h2>
-                        <img src={item.image} alt={`Imagen ${item.id}`} />
-                      </div>
+                <Link href={`/chiclayo/${item.src.toLowerCase().replace(/\s+/g, '-')}`} key={item.id}>
+                  <div
+                    ref={(el) => (divRef.current[item.id - 1] = el)}
+                    className={`${styles.minContainer} ${styles.gridItem}`}
+                  >
+                    <div className={`${styles.imageContent}`}>
+                      <h2 className={`${styles.titleContent}`}>{item.title}</h2>
+                      <img className={styles.flud_img} src={item.image} alt={`Imagen ${item.id}`} />
                     </div>
-                  </Link>
-                ))}
-              </div>
-          </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+        </div>
         
 
           <div className={`${styles.container_video} ${styles.grid}`}>

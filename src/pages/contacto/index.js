@@ -110,7 +110,7 @@ export default function Contacto() {
       <>
       <HeadPage />
       <div className={`d-flex justify-content-center mt-5`}>
-        <div className="d-flex flex-row justify-content-around text-center flex-nowrap mt-5 mb-5 w-50">
+        <div className={styles.container}>
             <div className={`${styles.divisor}`}>
                 <h3 className="text-danger fw-bolder">VISÍTANOS</h3>
                 <p>Av. 28 de Julio 1044, Miraflores 15047</p>
@@ -128,22 +128,22 @@ export default function Contacto() {
         </div>      
         </div>
 
-        <Container className="mt-5 mb-5 w-50">
+        <Container className="mt-2 mb-5 w-100">
             
-            <Form className="mt-5" onSubmit={handleSubmit}>
+            <Form className={styles.form_limited_width} onSubmit={handleSubmit}>
                 <Row>
-                    <Form.Group as={Col} className="mb-3 mt-5">
+                    <Form.Group as={Col} xs={12} className="mb-3 mt-2">
                     <Form.Control type="text" placeholder="Nombre y Apellido" name="name" onChange={handleInputChange} value={formData.name}/>
                     </Form.Group>
-                    <Form.Group as={Col} className="mb-3 mt-5">
+                    <Form.Group as={Col} xs={12} className="mb-3 mt-2">
                     <Form.Control type="email" placeholder="Correo Electrónico" name="email" onChange={handleInputChange} value={formData.email}/>
                     </Form.Group>
                 </Row>
                 <Row>
-                    <Form.Group as={Col} className="mb-3 mt-5">
+                    <Form.Group as={Col} xs={12} className="mb-3 mt-2">
                     <Form.Control type="tel" placeholder="Teléfono" name="phone"  onChange={handleInputChange} value={formData.phone}/>
                     </Form.Group>
-                    <Form.Group as={Col} className="mb-3 mt-5">
+                    <Form.Group as={Col} xs={12} className="mb-3 mt-2">
                     <Form.Control type="text" placeholder="Empresa" name="company"  onChange={handleInputChange} value={formData.company}/>
                     </Form.Group>
                 </Row>

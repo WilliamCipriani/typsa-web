@@ -1,8 +1,45 @@
+.container {
+    display: flex; /* Esto equivale a d-flex */
+    flex-direction: row; /* Esto equivale a flex-row */
+    justify-content: space-around; /* Esto equivale a justify-content-around */
+    text-align: center; /* Esto equivale a text-center */
+    flex-wrap: wrap; /* Esto equivale a flex-nowrap */
+    margin-top: 2rem; /* Esto equivale a mt-5 */
+    margin-bottom: 5rem; /* Esto equivale a mb-5 */
+    width: 50%;
+}
+
 .divisor {
     border-right: 1px solid rgba(128, 128, 128, 0.5);;
-    padding-right: 50px; /* Añade un padding para dar algo de espacio entre el borde y el contenido */
+    padding-right: 50px; 
 }
 
 .divisor + div{
     padding-left: 50px;
+}
+
+.form_limited_width {
+    max-width: 800px ; /* Ajusta este valor a tus necesidades */
+    margin: auto;
+}
+
+
+@media (max-width: 568px) {
+    
+    .container {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .divisor {
+        border-right: none;
+        padding-left: 45px;
+        padding-bottom: 40px;
+    }
+
+    .divisor + div{
+        padding-left: 0px;
+    }
+        
 }

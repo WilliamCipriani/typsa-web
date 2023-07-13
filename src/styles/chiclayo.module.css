@@ -206,6 +206,23 @@ s
   padding-top: 30px;
 }
 
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr); /* Inicia con 5 columnas en el grid */
+}
+
+.minContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.minContainer img {
+  width: 100%;
+  object-fit: cover; /* Ajusta la forma en que la imagen se ajusta al contenedor */
+}
+
 .imageCard {
   flex-basis: calc(50% - 10px); /* Ajusta el ancho de cada imagen según el espacio disponible */
   margin-bottom: 20px;
@@ -243,9 +260,28 @@ s
   margin-top: 10px;
 }
 
+@media screen and (max-width: 1020px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 2fr); /* 4 columnas en el grid */
+  }
+  .espacio {
+    color: #C01525;
+    background: linear-gradient(to bottom,white 20%, #BF1525 60%);
+    height: 270px;
+  }
+}
 
-@media screen and (max-width: 598px) {
+
+
+@media screen and (max-width: 798px) {
   
+  .gridContainer {
+    grid-template-columns: repeat(2, 2fr); /* 3 columnas en el grid */
+    margin-left: 40px;
+    gap: 2px;
+  }
+
+ 
   .container_chiclayo {
     width: 100%;
   }
@@ -261,7 +297,7 @@ s
   .espacio {
     color: #C01525;
     background: linear-gradient(to bottom,white 20%, #BF1525 60%);
-    height: 300px;
+    height: 270px;
   }
 
   .espacio_title {
@@ -314,17 +350,10 @@ s
     grid-template-rows: auto auto;
   }
 
-  .gridContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Ajusta el tamaño de las columnas automáticamente */
-    grid-gap: 1px; /* Espacio entre los elementos de la cuadrícula */
-  }
    
-  .gridItem {
-    /* Ajusta el ancho de los elementos */
-    width: 88%; /* Ajusta el ancho máximo según tus necesidades */
-    margin-left: auto;
-    margin-right: auto;
+  .flexItem {
+    flex-basis: calc(33.33% - 20px);  /* ajusta según tu diseño */
+    margin: 10px;
   }
 
 }
