@@ -145,3 +145,36 @@
     margin: 15px;
   }
 
+
+  @media (max-width: 576px) {
+
+    .head_title {
+      height: 450px;
+    }
+
+    .head_img {
+      height: 100%;
+    }
+
+    .titleContainer h1 {
+      font-size: 35px;
+    }
+
+    .rightSide {
+      width: 100%; 
+    }
+
+    .imageCard {
+      flex: 0 0 calc(100% - 10px);
+    }
+  }
+
+  @media (max-width: 306px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .leftSide {
+      width: 100%;
+    }
+  }

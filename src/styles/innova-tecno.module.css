@@ -162,3 +162,70 @@
   .link:hover {
     color: #fff;
   }
+
+  @media (max-width: 576px) {
+
+    .head_title {
+      height: 450px;
+    }
+
+    .head_img {
+      height: 100%;
+    }
+
+    .titleContainer h1 {
+      font-size: 35px;
+    }
+
+    .rightSide {
+      width: 100%; /* Representa el 60% del ancho total */
+      flex-direction: column;
+    }
+
+    .imageContainer {
+      width: 100%;
+      margin-right: 20px; 
+    }
+
+    .smallImage {
+      width: 200px; 
+      height: auto;  
+    }
+
+    .imageTextContainer {
+      flex-direction: column;
+    }
+
+    .title {
+      font-size: 20px; /* Cambia el tamaño del texto */
+      width: 220px;
+    }
+
+    .txtContainer {
+      width: 220px;
+      justify-content: flex-start;
+    }
+  }
+
+  @media (max-width: 306px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .leftSide {
+      width: 100%;
+    }
+
+    .contentContainer {
+      flex-direction: column;
+    }
+
+    .imageContainer {
+      flex-direction: column;
+    }
+
+    .smallImage1 {
+      width: 250px; 
+      margin-top: 10px;
+    }
+  }

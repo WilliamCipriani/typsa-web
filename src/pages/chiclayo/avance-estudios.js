@@ -12,7 +12,7 @@ const AvanceEstudios = () => {
           <img src={src} alt={alt} className={styles.image}/>
       </div>
           <p>{text}</p>
-      </div>
+    </div>
   );
 
   const ImageRow = () => (

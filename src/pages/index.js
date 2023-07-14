@@ -67,7 +67,7 @@ export default function Home() {
 
           <div className={`${styles.video}`}>
             <div className="d-flex justify-content-center align-items-center text-white fw-bolder" >
-              <h3>VIDEO DESTACADO</h3>
+              <h3 className='mt-3'>VIDEO DESTACADO</h3>
             </div>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <div className={`${styles.video_container}`}>

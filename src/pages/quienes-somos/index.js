@@ -17,13 +17,13 @@ export default function QuienesSomos() {
         </div>
 
         
-        <div className='container-fluid '>
+        <div className=' '>
           <section>
             <div className="d-flex justify-content-center flex-column flex-lg-row">
               <div className={styles.container_img}>
                 <img className={styles.responsive_img} src='/imagen/quienes-somos/c4717a095416967f741cb9cfd5afe877.jpg' alt="Fundación-Grupo-TYPSA"/>
               </div>
-              <div className="text-start ms-lg-5 " style={{maxWidth: '561px'}}>
+              <div className="text-start ms-lg-5 mt-5" style={{maxWidth: '561px'}}>
                 <h3 className="text-danger fs-2 fw-bolder ">Fundación Grupo TYPSA</h3>
                 <p>Desde 1966, apoyando a clientes institucionales, públicos y privados en el desarrollo de proyectos de transporte, agua, edificación, energías renovables y desarrollo rural, desde su concepción hasta su puesta en servicio y operación.</p>
                 <p>Actualmente somos la primera empresa de ingeniería civil en España y la Nº 46 en el mundo (ENR 22) por volumen de exportación.</p>
@@ -309,7 +309,7 @@ export default function QuienesSomos() {
             
             <div>
              <div className="d-flex justify-content-center flex-center mt-5 mb-5 fs-4">
-              <p className=" text-center" style={{maxWidth: '1100px'}}>Miembros Signatory del Pacto Mundial de las Naciones Unidas desde 2018. Comprometidos con 9 Principios y con los Objetivos de Desarrollo Sostenible (ODS). Acumulamos <spam className=" fw-bolder">16 Buenas Prácticas</spam> reconocidas</p>
+              <p className={styles.textCenter} style={{maxWidth: '1100px'}}>Miembros Signatory del Pacto Mundial de las Naciones Unidas desde 2018. Comprometidos con 9 Principios y con los Objetivos de Desarrollo Sostenible (ODS). Acumulamos <spam className=" fw-bolder">16 Buenas Prácticas</spam> reconocidas</p>
              </div>
               
               <div className="container">
@@ -469,7 +469,7 @@ export default function QuienesSomos() {
                   <img className="img-fluid" src='/imagen/quienes-somos/b3e06c8f77540dcf459e1ea5b2c29076.jpg'  alt="gota"/>
                 </div>
                 <div className="text-start ms-5 " style={{maxWidth: '450px', overflowY: 'auto'}}>
-                  <h4 className="text-danger fs-2 fw-bolder">Presencia en la Sociedad</h4>
+                  <h4 className="text-danger fs-2 fw-bolder mt-5">Presencia en la Sociedad</h4>
                   <spam >Universidad Lago Alberto (UNILAC)</spam>
                   <p>Visita del Presidente de la Fundación TYPSA, D. Pablo Bueno Sainz a Mahagi para inaugurar oficialmente las instalaciones de UNILAC.</p>
                   <p>Becas a estudiantes para un aumento progresivo de matrículas:</p>
@@ -619,7 +619,7 @@ export default function QuienesSomos() {
               <h3 className={`${styles.espacio_text} d-flex flex-start fw-bolder ms-3 fs-1`}>Trabajadores</h3>
             </div>
 
-            <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
+            <div className="d-flex justify-content-center text-center mt-2 mb-5 flex-column flex-lg-row">
               <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
                 <img className={styles.img_fluid} src='/imagen/quienes-somos/ca83ceb86ccb0737658c43be57fb77e9.jpg' style={{maxWidth: '1000px'}}  alt="gota"/>
               </div>
@@ -640,7 +640,7 @@ export default function QuienesSomos() {
               <h3 className={`${styles.espacio_text} d-flex flex-start fw-bolder ms-3 fs-1`}>Fidelización</h3>
             </div>
 
-            <div className="d-flex justify-content-center text-center mt-5 mb-5 flex-column flex-lg-row">
+            <div className="d-flex justify-content-center text-center mt-2 mb-5 flex-column flex-lg-row">
               <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
                 <img className={styles.img_fluid} src='/imagen/quienes-somos/384831295f44a88d5efe29a3738427fd.jpg' style={{maxWidth: '1000px'}}  alt="gota"/>
               </div>
@@ -662,7 +662,7 @@ export default function QuienesSomos() {
             </div>
 
             <div className="d-flex justify-content-center text-center mt-5 flex-column flex-lg-row">
-                <div className="d-flex justify-content-center align-items-center mt-5 mb-3 mx-5 ms-1">
+                <div className="d-flex justify-content-center align-items-center mt-2 mb-3 mx-5 ms-1">
                   <img className={styles.img_fluid} src='/imagen/quienes-somos/872dd646bb6e6c634d5e082eb7e8fc87.jpg' style={{maxWidth: '1000px'}} alt="gota"/>
                 </div>
                 <div className={`text-start ms-lg-5 ${styles.container_text}`}  style={{maxWidth: '650px'}}>

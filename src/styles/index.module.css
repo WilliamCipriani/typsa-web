@@ -172,6 +172,10 @@
     .text_1 {
       font-size: 17px;
     }
+
+    .video {
+      height: 200px;
+    }
   }
 
   

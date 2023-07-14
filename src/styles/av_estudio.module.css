@@ -187,3 +187,62 @@
   .link:hover {
     color: #fff;
   }
+
+  @media (max-width: 576px) {
+
+    .head_title {
+      height: 200px;
+    }
+
+    .head_img {
+      height: 100%;
+    }
+
+    .titleContainer h1 {
+      font-size: 30px;
+    }
+
+    .rightSide {
+      width: 100%; 
+    }
+
+    .imageContainer {
+      width: 70%;
+      
+    }
+
+    .smallImage {
+      width: 250px; 
+      
+    }
+
+    .imageTextContainer {
+      flex-direction: column;
+    }
+
+    .title {
+      font-size: 20px; /* Cambia el tamaño del texto */
+      width: 220px;
+    }
+
+    .txtContainer {
+      width: 220px;
+      justify-content: flex-start;
+    }
+
+    .imageCard {
+      flex-basis: calc(100% - 10px);
+    }
+
+    
+  }
+
+  @media (max-width: 306px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .leftSide {
+      width: 100%;
+    }
+  }
