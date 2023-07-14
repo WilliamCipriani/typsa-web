@@ -64,23 +64,26 @@ export default function Home() {
         </section>
 
         <div className={`${styles.espacio}`}> </div>
-          <section className={`${styles.video}`}>
-            <div className="d-flex justify-content-center align-items-center text-white pt-3 pb-5" >
+
+          <div className={`${styles.video}`}>
+            <div className="d-flex justify-content-center align-items-center text-white fw-bolder" >
               <h3>VIDEO DESTACADO</h3>
             </div>
-            <div className='pb-5 d-flex justify-content-center'>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
               <div className={`${styles.video_container}`}>
-                <iframe src="https://www.youtube.com/embed/9fjxwX6O9cU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
+                <iframe   src="https://www.youtube.com/embed/9fjxwX6O9cU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
               </div>
             </div>
-          </section>
+          </div>
+
+
         <section className='d-flex flex-column flex-md-row justify-content-center mt-4 '>
           <div className='text-center mb-3'>
             <div className='mb-1'>
               <Link href='/typsa-peru' className={`text-danger fs-5 fw-bolder ${styles.linkStyle}`}>TYPSA - PERÚ</Link>
             </div>
-            <div className='mx-4'>
-              <img className='img-fluid' src='/imagen/inicio/bd0e3ddf483986064f9d89ea4b8161f1.jpg' alt='typsa-Perú'/>
+            <div className='mx-4 mt-5'>
+              <Image className='img-fluid' src='/imagen/inicio/bd0e3ddf483986064f9d89ea4b8161f1.jpg'  width={450} height={450} alt='typsa-Perú'/>
             </div>
           </div>
           <div className='text-center'>
@@ -88,7 +91,7 @@ export default function Home() {
               <Link href='/typsa-mundo' className={`text-danger fs-5 fw-bolder ${styles.linkStyle}`}>PRESENCIA MUNDIAL Y CIFRAS CLAVES</Link>
             </div>
             <div className='mx-4'> 
-              <img className='img-fluid' src='/imagen/inicio/943e3cbcf56a30a2cf33cd711bcb0a60.jpg'  alt='persencia-mundual'/>
+              <Image className='img-fluid' src='/imagen/inicio/943e3cbcf56a30a2cf33cd711bcb0a60.jpg'  width={450} height={450}  alt='persencia-mundual'/>
             </div>
           </div>
         </section>
@@ -99,13 +102,13 @@ export default function Home() {
               <Link className={`${styles.text} text-decoration-none`} href='/login'>Ofertas</Link>
       </div>
       </div>*/}
-          <div className={`${styles.archivos} ${styles.ppt} d-flex flex-column flex-sm-row justify-content-center align-items-center text-white border border-white col-sm-12`} >
-            <div className='d-flex justify-content-center align-items-center text-white border border-danger m-3 w-100 h-50 rounded-2 '>
+          <div className={`${styles.archivos} ${styles.ppt} d-flex flex-column flex-sm-row justify-content-center align-items-center text-white border border-white col-sm-12`}>
+            <div className='d-flex justify-content-center align-items-center text-white border border-danger m-3 w-100 h-50 rounded-2 ' style={{ maxWidth: '500px' }}>
               <Link className={`${styles.text_1} text-decoration-none`}  target='_blank' href='https://drive.google.com/file/d/1didXatPn3m_8hi2PO7gZMNPUmyuFdTto/view?usp=sharing= 1bxjr0WHMOb6b3CN4B662e4XimRT2Lviu'>Descargar Presentación Typsa-Perú</Link>
             </div>
           </div>
           <div className={`${styles.archivos} ${styles.propuesta} d-flex justify-content-center align-items-center text-white border border-white`} >
-            <div className='d-flex justify-content-center align-items-center text-white border border-white m-3 w-100 h-50 rounded-2'>
+            <div className='d-flex justify-content-center align-items-center text-white border border-white m-3 w-100 h-50 rounded-2' style={{ maxWidth: '500px' }}>
               <Link className={`${styles.text} text-decoration-none`} target='_blank' href='https://www.typsa.com/'>Site Corporativo</Link>
             </div>
           </div>
