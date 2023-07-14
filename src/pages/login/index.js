@@ -24,7 +24,7 @@ export default function LoginForm() {
       console.log(username, password);
   
   
-      const response = await fetch("http://67.205.166.40:3031/auth", {
+      const response = await fetch("http://67.205.166.40:3040/auth", {
 
         method: "POST",
         headers: {

@@ -80,7 +80,7 @@ export default function Contacto() {
 
             setFormSubmitted(true);
 
-          await axios.post('http://67.205.166.40:3031/api/contact', formData);
+          await axios.post('http://67.205.166.40:3040/api/contact', formData);
           
           setSuccessMessage('El formulario se envió correctamente');
           setTimeout(() => {
