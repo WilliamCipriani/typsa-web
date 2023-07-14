@@ -14,6 +14,7 @@ export default function HeadPage() {
   
   return (
     <>
+     
       <nav className={`${styles.mainNav} navbar navbar-expand-lg`} >
         <div className={`container-fluid d-flex justify-content-between ${styles.row}`}>
           <div className={styles.logo_container}>

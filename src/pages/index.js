@@ -4,6 +4,7 @@ import Link from 'next/link'
 import HeadPage from '../components/head'
 import styles from '@/styles/index.module.css'
 import { Carousel } from 'react-responsive-carousel'
+import HeadRed from '@/components/head-top'
 
 const images = [
   { src: "/imagen/inicio/240a6dcdcaa61371fb590740c0dc3091.jpg", alt: "background" },
@@ -20,7 +21,10 @@ export default function Home() {
 
   return (
     <>
-    <HeadPage />   
+    <div className={styles.header}> </div>
+    <HeadPage /> 
+    
+      
     <Carousel
       showThumbs={false}
       showStatus={false}
